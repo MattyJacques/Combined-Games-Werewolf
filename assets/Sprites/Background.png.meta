@@ -1,0 +1,1425 @@
+fileFormatVersion: 2
+guid: b4814338990f0454e9ca72278e62c43f
+timeCreated: 1457008813
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PC Computer - MapleStory - Halloween Background_0
+    21300002: PC Computer - MapleStory - Halloween Background_1
+    21300004: PC Computer - MapleStory - Halloween Background_2
+    21300006: PC Computer - MapleStory - Halloween Background_3
+    21300008: PC Computer - MapleStory - Halloween Background_4
+    21300010: PC Computer - MapleStory - Halloween Background_5
+    21300012: PC Computer - MapleStory - Halloween Background_6
+    21300014: PC Computer - MapleStory - Halloween Background_7
+    21300016: PC Computer - MapleStory - Halloween Background_8
+    21300018: PC Computer - MapleStory - Halloween Background_9
+    21300020: PC Computer - MapleStory - Halloween Background_10
+    21300022: PC Computer - MapleStory - Halloween Background_11
+    21300024: PC Computer - MapleStory - Halloween Background_12
+    21300026: PC Computer - MapleStory - Halloween Background_13
+    21300028: PC Computer - MapleStory - Halloween Background_14
+    21300030: PC Computer - MapleStory - Halloween Background_15
+    21300032: PC Computer - MapleStory - Halloween Background_17
+    21300034: PC Computer - MapleStory - Halloween Background_18
+    21300036: PC Computer - MapleStory - Halloween Background_19
+    21300038: PC Computer - MapleStory - Halloween Background_20
+    21300040: PC Computer - MapleStory - Halloween Background_21
+    21300042: PC Computer - MapleStory - Halloween Background_22
+    21300044: PC Computer - MapleStory - Halloween Background_23
+    21300046: PC Computer - MapleStory - Halloween Background_24
+    21300048: PC Computer - MapleStory - Halloween Background_25
+    21300050: PC Computer - MapleStory - Halloween Background_26
+    21300052: PC Computer - MapleStory - Halloween Background_27
+    21300054: PC Computer - MapleStory - Halloween Background_28
+    21300056: PC Computer - MapleStory - Halloween Background_29
+    21300058: PC Computer - MapleStory - Halloween Background_30
+    21300060: PC Computer - MapleStory - Halloween Background_31
+    21300062: PC Computer - MapleStory - Halloween Background_32
+    21300064: PC Computer - MapleStory - Halloween Background_33
+    21300066: PC Computer - MapleStory - Halloween Background_34
+    21300068: PC Computer - MapleStory - Halloween Background_35
+    21300070: PC Computer - MapleStory - Halloween Background_36
+    21300072: PC Computer - MapleStory - Halloween Background_37
+    21300074: PC Computer - MapleStory - Halloween Background_38
+    21300076: PC Computer - MapleStory - Halloween Background_39
+    21300078: PC Computer - MapleStory - Halloween Background_40
+    21300080: PC Computer - MapleStory - Halloween Background_41
+    21300082: PC Computer - MapleStory - Halloween Background_42
+    21300084: PC Computer - MapleStory - Halloween Background_43
+    21300086: PC Computer - MapleStory - Halloween Background_44
+    21300088: PC Computer - MapleStory - Halloween Background_45
+    21300090: PC Computer - MapleStory - Halloween Background_46
+    21300092: PC Computer - MapleStory - Halloween Background_47
+    21300094: PC Computer - MapleStory - Halloween Background_48
+    21300096: PC Computer - MapleStory - Halloween Background_49
+    21300098: PC Computer - MapleStory - Halloween Background_50
+    21300100: PC Computer - MapleStory - Halloween Background_51
+    21300102: PC Computer - MapleStory - Halloween Background_52
+    21300104: PC Computer - MapleStory - Halloween Background_53
+    21300106: PC Computer - MapleStory - Halloween Background_54
+    21300108: PC Computer - MapleStory - Halloween Background_55
+    21300110: PC Computer - MapleStory - Halloween Background_56
+    21300112: PC Computer - MapleStory - Halloween Background_57
+    21300114: PC Computer - MapleStory - Halloween Background_58
+    21300116: PC Computer - MapleStory - Halloween Background_59
+    21300118: PC Computer - MapleStory - Halloween Background_60
+    21300120: PC Computer - MapleStory - Halloween Background_61
+    21300122: PC Computer - MapleStory - Halloween Background_62
+    21300124: PC Computer - MapleStory - Halloween Background_63
+    21300126: PC Computer - MapleStory - Halloween Background_64
+    21300128: PC Computer - MapleStory - Halloween Background_65
+    21300130: PC Computer - MapleStory - Halloween Background_66
+    21300132: PC Computer - MapleStory - Halloween Background_67
+    21300134: PC Computer - MapleStory - Halloween Background_68
+    21300136: PC Computer - MapleStory - Halloween Background_69
+    21300138: PC Computer - MapleStory - Halloween Background_70
+    21300140: PC Computer - MapleStory - Halloween Background_71
+    21300142: PC Computer - MapleStory - Halloween Background_72
+    21300144: PC Computer - MapleStory - Halloween Background_73
+    21300146: PC Computer - MapleStory - Halloween Background_74
+    21300148: PC Computer - MapleStory - Halloween Background_75
+    21300150: PC Computer - MapleStory - Halloween Background_76
+    21300152: PC Computer - MapleStory - Halloween Background_77
+    21300154: PC Computer - MapleStory - Halloween Background_78
+    21300156: PC Computer - MapleStory - Halloween Background_79
+    21300158: PC Computer - MapleStory - Halloween Background_80
+    21300160: PC Computer - MapleStory - Halloween Background_81
+    21300162: PC Computer - MapleStory - Halloween Background_82
+    21300164: PC Computer - MapleStory - Halloween Background_83
+    21300166: PC Computer - MapleStory - Halloween Background_84
+    21300168: PC Computer - MapleStory - Halloween Background_85
+    21300170: PC Computer - MapleStory - Halloween Background_86
+    21300172: PC Computer - MapleStory - Halloween Background_87
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PC Computer - MapleStory - Halloween Background_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2264
+        width: 134
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51.735394, y: 15.616821}
+        - {x: 36.735394, y: 67.61682}
+        - {x: -56.264606, y: 67.61682}
+        - {x: -56.264606, y: -67.38318}
+        - {x: 38.735394, y: -67.38318}
+        - {x: 57.735394, y: -30.383179}
+        - {x: 57.735394, y: 11.616821}
+    - name: PC Computer - MapleStory - Halloween Background_1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 2264
+        width: 134
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.369423, y: 67.61682}
+        - {x: -56.369423, y: -67.38318}
+        - {x: 40.630577, y: -67.38318}
+        - {x: 56.630577, y: -53.38318}
+        - {x: 56.630577, y: 56.61682}
+        - {x: 53.630577, y: 67.61682}
+    - name: PC Computer - MapleStory - Halloween Background_2
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 2264
+        width: 134
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.474228, y: 67.61682}
+        - {x: -56.474228, y: -67.38318}
+        - {x: 38.525772, y: -67.38318}
+        - {x: 57.525772, y: -30.383179}
+        - {x: 57.525772, y: 25.616821}
+        - {x: 36.525772, y: 67.61682}
+    - name: PC Computer - MapleStory - Halloween Background_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 2264
+        width: 134
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.395203, y: 67.61682}
+        - {x: -56.395203, y: -67.38318}
+        - {x: 40.604797, y: -67.38318}
+        - {x: 57.604797, y: -53.38318}
+        - {x: 57.604797, y: 56.61682}
+        - {x: 54.604797, y: 67.61682}
+    - name: PC Computer - MapleStory - Halloween Background_4
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 2264
+        width: 134
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.316162, y: 67.61682}
+        - {x: -56.316162, y: -67.38318}
+        - {x: 47.683838, y: -67.38318}
+        - {x: 57.683838, y: -38.38318}
+        - {x: 57.683838, y: 39.61682}
+        - {x: 36.683838, y: 67.61682}
+    - name: PC Computer - MapleStory - Halloween Background_5
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 2264
+        width: 134
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.711365, y: 68.11682}
+        - {x: -56.711365, y: -67.88318}
+        - {x: 40.288635, y: -67.88318}
+        - {x: 57.288635, y: -52.88318}
+        - {x: 57.288635, y: 64.11682}
+        - {x: 56.288635, y: 68.11682}
+    - name: PC Computer - MapleStory - Halloween Background_6
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 2264
+        width: 134
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52.316162, y: 70.61682}
+        - {x: -56.316162, y: 68.61682}
+        - {x: -56.316162, y: -70.38318}
+        - {x: 39.683838, y: -70.38318}
+        - {x: 57.683838, y: -56.38318}
+        - {x: 57.683838, y: 66.61682}
+        - {x: 56.683838, y: 70.61682}
+    - name: PC Computer - MapleStory - Halloween Background_7
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 2264
+        width: 134
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.762878, y: 71.11682}
+        - {x: -25.237122, y: 71.11682}
+        - {x: -55.23712, y: 66.11682}
+        - {x: -56.23712, y: 65.11682}
+        - {x: -56.23712, y: -70.88318}
+        - {x: 47.76288, y: -70.88318}
+        - {x: 57.76288, y: -41.88318}
+        - {x: 57.76288, y: 38.11682}
+        - {x: 39.76288, y: 65.11682}
+    - name: PC Computer - MapleStory - Halloween Background_8
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 2264
+        width: 134
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.15808, y: 71.11682}
+        - {x: -56.15808, y: -70.88318}
+        - {x: 37.84192, y: -70.88318}
+        - {x: 57.84192, y: -28.883179}
+        - {x: 57.84192, y: 67.11682}
+        - {x: 41.84192, y: 71.11682}
+    - name: PC Computer - MapleStory - Halloween Background_9
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 2264
+        width: 134
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51.9209, y: 15.116821}
+        - {x: 36.9209, y: 68.11682}
+        - {x: -56.0791, y: 68.11682}
+        - {x: -56.0791, y: -67.88318}
+        - {x: 38.9209, y: -67.88318}
+        - {x: 57.9209, y: -30.883179}
+        - {x: 57.9209, y: 11.116821}
+    - name: PC Computer - MapleStory - Halloween Background_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2095
+        width: 108
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.264606, y: 69.33154}
+        - {x: -45.264606, y: -67.66846}
+        - {x: 46.735394, y: -67.66846}
+        - {x: 46.735394, y: 69.33154}
+    - name: PC Computer - MapleStory - Halloween Background_11
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 2095
+        width: 108
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.391754, y: 69.33154}
+        - {x: -45.391754, y: -67.66846}
+        - {x: 46.608246, y: -67.66846}
+        - {x: 46.608246, y: 69.33154}
+    - name: PC Computer - MapleStory - Halloween Background_12
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 2053
+        width: 24
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_13
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 2053
+        width: 24
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_14
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 2053
+        width: 25
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_15
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1652
+        width: 802
+        height: 604
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -337.70447, y: 255.85901}
+        - {x: -337.70447, y: -254.14099}
+        - {x: 337.29553, y: -254.14099}
+        - {x: 338.29553, y: -253.14099}
+        - {x: 338.29553, y: 255.85901}
+    - name: PC Computer - MapleStory - Halloween Background_17
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1905
+        width: 214
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 87.945015, y: -43.134033}
+        - {x: 91.945015, y: -36.134033}
+        - {x: 91.945015, y: 9.865967}
+        - {x: 6.945015, y: 45.865967}
+        - {x: -41.054985, y: 45.865967}
+        - {x: -44.054985, y: 44.865967}
+        - {x: -90.054985, y: -16.134033}
+        - {x: -90.054985, y: -26.134033}
+        - {x: -56.054985, y: -43.134033}
+        - {x: -39.054985, y: -44.134033}
+        - {x: 41.945015, y: -44.134033}
+        - {x: 41.945015, y: -39.134033}
+        - {x: 40.945015, y: -36.134033}
+    - name: PC Computer - MapleStory - Halloween Background_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1774
+        width: 161
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.55842, y: 32.073853}
+        - {x: -67.55842, y: 16.073853}
+        - {x: -67.55842, y: -27.926147}
+        - {x: -51.55842, y: -30.926147}
+        - {x: 56.44158, y: -30.926147}
+        - {x: 69.44158, y: -23.926147}
+        - {x: 69.44158, y: 32.073853}
+    - name: PC Computer - MapleStory - Halloween Background_19
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1645
+        width: 226
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72.13574, y: 37.465576}
+        - {x: -95.13574, y: 21.465576}
+        - {x: -95.13574, y: -35.534424}
+        - {x: 95.86426, y: -35.534424}
+        - {x: 95.86426, y: 3.4655762}
+        - {x: 49.864258, y: 37.465576}
+    - name: PC Computer - MapleStory - Halloween Background_20
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1278
+        width: 803
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 313.23196, y: 126.47937}
+        - {x: 278.23196, y: 98.47937}
+        - {x: 260.23196, y: 101.47937}
+        - {x: 248.23196, y: 93.47937}
+        - {x: 222.23196, y: 98.47937}
+        - {x: 197.23196, y: 105.47937}
+        - {x: 164.23196, y: 105.47937}
+        - {x: 150.23196, y: 95.47937}
+        - {x: 144.23196, y: 80.47937}
+        - {x: 135.23196, y: 84.47937}
+        - {x: 127.231964, y: 84.47937}
+        - {x: 112.231964, y: 73.47937}
+        - {x: 97.231964, y: 73.47937}
+        - {x: 76.231964, y: 61.47937}
+        - {x: 71.231964, y: 51.47937}
+        - {x: 100.231964, y: 44.47937}
+        - {x: 90.231964, y: 25.47937}
+        - {x: 76.231964, y: 29.47937}
+        - {x: 55.231964, y: 27.47937}
+        - {x: 39.231964, y: 30.47937}
+        - {x: 35.231964, y: 28.47937}
+        - {x: 14.231964, y: 8.47937}
+        - {x: 6.231964, y: -0.5206299}
+        - {x: 5.231964, y: -20.52063}
+        - {x: -16.768036, y: -8.52063}
+        - {x: -35.768036, y: -0.5206299}
+        - {x: -44.768036, y: -2.52063}
+        - {x: -49.768036, y: -7.52063}
+        - {x: -50.768036, y: 16.47937}
+        - {x: -56.768036, y: 23.47937}
+        - {x: -70.768036, y: 31.47937}
+        - {x: -79.768036, y: 35.47937}
+        - {x: -74.768036, y: 44.47937}
+        - {x: -95.768036, y: 58.47937}
+        - {x: -125.768036, y: 55.47937}
+        - {x: -160.76804, y: 62.47937}
+        - {x: -180.76804, y: 65.47937}
+        - {x: -187.76804, y: 65.47937}
+        - {x: -177.76804, y: 72.47937}
+        - {x: -173.76804, y: 81.47937}
+        - {x: -187.76804, y: 89.47937}
+        - {x: -198.76804, y: 88.47937}
+        - {x: -217.76804, y: 94.47937}
+        - {x: -232.76804, y: 94.47937}
+        - {x: -243.76804, y: 102.47937}
+        - {x: -283.76804, y: 136.47937}
+        - {x: -313.76804, y: 136.47937}
+        - {x: -316.76804, y: 137.47937}
+        - {x: -336.76804, y: 137.47937}
+        - {x: -337.76804, y: 136.47937}
+        - {x: -337.76804, y: -134.52063}
+        - {x: -336.76804, y: -135.52063}
+        - {x: 337.23196, y: -135.52063}
+        - {x: 339.23196, y: -133.52063}
+        - {x: 339.23196, y: 125.47937}
+        - {x: 338.23196, y: 127.47937}
+    - name: PC Computer - MapleStory - Halloween Background_21
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1457
+        width: 295
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68.1839, y: 56.683838}
+        - {x: -124.1839, y: -3.316162}
+        - {x: -124.1839, y: -34.316162}
+        - {x: -96.1839, y: -55.316162}
+        - {x: 94.8161, y: -55.316162}
+        - {x: 124.8161, y: -19.316162}
+        - {x: 124.8161, y: -1.3161621}
+        - {x: 46.8161, y: 56.683838}
+    - name: PC Computer - MapleStory - Halloween Background_22
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1587
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_23
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1280
+        width: 367
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83.790344, y: 37.663208}
+        - {x: -31.209656, y: 37.663208}
+        - {x: -154.20966, y: -3.336792}
+        - {x: -154.20966, y: -36.336792}
+        - {x: 123.790344, y: -36.336792}
+        - {x: 155.79034, y: -23.336792}
+        - {x: 155.79034, y: 13.663208}
+        - {x: 154.79034, y: 18.663208}
+    - name: PC Computer - MapleStory - Halloween Background_24
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1087
+        width: 325
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 132.39003, y: 47.671814}
+        - {x: 82.39003, y: 64.671814}
+        - {x: -45.60997, y: 64.671814}
+        - {x: -136.60997, y: 4.671814}
+        - {x: -136.60997, y: -55.328186}
+        - {x: -128.60997, y: -64.328186}
+        - {x: 30.39003, y: -64.328186}
+        - {x: 109.39003, y: -56.328186}
+        - {x: 138.39003, y: -12.328186}
+        - {x: 138.39003, y: 32.671814}
+    - name: PC Computer - MapleStory - Halloween Background_25
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1236
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_26
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1101
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.072174, y: 59.95874}
+        - {x: -56.072174, y: 42.95874}
+        - {x: -56.072174, y: -55.04126}
+        - {x: -43.072174, y: -58.04126}
+        - {x: 57.927826, y: -58.04126}
+        - {x: 57.927826, y: 56.95874}
+        - {x: 51.927826, y: 59.95874}
+    - name: PC Computer - MapleStory - Halloween Background_27
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1059
+        width: 429
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 159.40033, y: 10.5979}
+        - {x: 154.40033, y: 5.5979004}
+        - {x: 150.40033, y: 36.5979}
+        - {x: 128.40033, y: 61.5979}
+        - {x: -53.59967, y: 51.5979}
+        - {x: -55.59967, y: 46.5979}
+        - {x: -55.59967, y: 43.5979}
+        - {x: -53.59967, y: 83.5979}
+        - {x: -119.59967, y: 83.5979}
+        - {x: -138.59967, y: 74.5979}
+        - {x: -165.59967, y: 43.5979}
+        - {x: -175.59967, y: 20.5979}
+        - {x: -174.59967, y: 13.5979}
+        - {x: -164.59967, y: 0.5979004}
+        - {x: -171.59967, y: 4.5979004}
+        - {x: -177.59967, y: 6.5979004}
+        - {x: -180.59967, y: 3.5979004}
+        - {x: -180.59967, y: -26.4021}
+        - {x: -154.59967, y: -82.4021}
+        - {x: 141.40033, y: -82.4021}
+        - {x: 182.40033, y: -42.4021}
+        - {x: 182.40033, y: 9.5979}
+        - {x: 176.40033, y: 19.5979}
+    - name: PC Computer - MapleStory - Halloween Background_28
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1061
+        width: 423
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 178.94672, y: 39.78174}
+        - {x: 148.94672, y: 49.78174}
+        - {x: 139.94672, y: 42.78174}
+        - {x: 134.94672, y: 34.78174}
+        - {x: 138.94672, y: 30.781738}
+        - {x: 142.94672, y: 27.781738}
+        - {x: 136.94672, y: 32.78174}
+        - {x: 132.94672, y: 35.78174}
+        - {x: 125.94672, y: 37.78174}
+        - {x: 106.94672, y: 68.78174}
+        - {x: 96.94672, y: 70.78174}
+        - {x: 88.94672, y: 73.78174}
+        - {x: 81.94672, y: 72.78174}
+        - {x: 83.94672, y: 71.78174}
+        - {x: 78.94672, y: 77.78174}
+        - {x: 69.94672, y: 80.78174}
+        - {x: 55.946716, y: 80.78174}
+        - {x: 54.946716, y: 79.78174}
+        - {x: 53.946716, y: 80.78174}
+        - {x: 35.946716, y: 80.78174}
+        - {x: 28.946716, y: 78.78174}
+        - {x: -79.05328, y: 53.78174}
+        - {x: -83.05328, y: 51.78174}
+        - {x: -86.05328, y: 48.78174}
+        - {x: -140.05328, y: 79.78174}
+        - {x: -178.05328, y: 50.78174}
+        - {x: -178.05328, y: -50.21826}
+        - {x: -156.05328, y: -80.21826}
+        - {x: 58.946716, y: -80.21826}
+        - {x: 54.946716, y: -73.21826}
+        - {x: 58.946716, y: -80.21826}
+        - {x: 178.94672, y: -80.21826}
+    - name: PC Computer - MapleStory - Halloween Background_29
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 631
+        width: 402
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -169.13918, y: 159.75427}
+        - {x: -169.13918, y: -159.24573}
+        - {x: 169.86082, y: -159.24573}
+        - {x: 169.86082, y: 159.75427}
+    - name: PC Computer - MapleStory - Halloween Background_30
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 848
+        width: 108
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.13748, y: 69.45184}
+        - {x: -45.13748, y: -67.54816}
+        - {x: 46.86252, y: -67.54816}
+        - {x: 46.86252, y: 69.45184}
+    - name: PC Computer - MapleStory - Halloween Background_31
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 848
+        width: 108
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.790405, y: 69.45184}
+        - {x: -45.790405, y: -67.54816}
+        - {x: 46.209595, y: -67.54816}
+        - {x: 46.209595, y: 69.45184}
+    - name: PC Computer - MapleStory - Halloween Background_32
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 848
+        width: 108
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.285217, y: 69.45184}
+        - {x: -45.285217, y: -67.54816}
+        - {x: 46.714783, y: -67.54816}
+        - {x: 46.714783, y: 69.45184}
+    - name: PC Computer - MapleStory - Halloween Background_33
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 848
+        width: 108
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.78009, y: 69.45184}
+        - {x: -45.78009, y: -67.54816}
+        - {x: 46.21991, y: -67.54816}
+        - {x: 46.21991, y: 69.45184}
+    - name: PC Computer - MapleStory - Halloween Background_34
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 848
+        width: 108
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.274963, y: 69.45184}
+        - {x: -45.274963, y: -67.54816}
+        - {x: 46.725037, y: -67.54816}
+        - {x: 46.725037, y: 69.45184}
+    - name: PC Computer - MapleStory - Halloween Background_35
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 848
+        width: 123
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.585938, y: 69.95184}
+        - {x: -51.585938, y: 5.9518433}
+        - {x: -51.585938, y: -68.04816}
+        - {x: 52.414062, y: -68.04816}
+        - {x: 53.414062, y: -67.04816}
+        - {x: 53.414062, y: 69.95184}
+    - name: PC Computer - MapleStory - Halloween Background_36
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 711
+        width: 274
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -115.32132, y: 52.608215}
+        - {x: -115.32132, y: -51.391785}
+        - {x: 115.67868, y: -51.391785}
+        - {x: 115.67868, y: 52.608215}
+    - name: PC Computer - MapleStory - Halloween Background_37
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 506
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_38
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 495
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_39
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 533
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_40
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 498
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_41
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 528
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_42
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 525
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_43
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 520
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_44
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 523
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_45
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 485
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_46
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 464
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_47
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 477
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_48
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 429
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.790405, y: 0.18554688}
+        - {x: -25.790405, y: -4.814453}
+        - {x: -25.790405, y: -21.814453}
+        - {x: -20.790405, y: -25.814453}
+        - {x: -11.790405, y: -25.814453}
+        - {x: -3.7904053, y: -15.814453}
+        - {x: -3.7904053, y: -10.814453}
+        - {x: -11.790405, y: 0.18554688}
+      - - {x: 22.209595, y: 26.185547}
+        - {x: 21.209595, y: 25.185547}
+        - {x: 22.209595, y: 22.185547}
+        - {x: 25.209595, y: 22.185547}
+        - {x: 26.209595, y: 23.185547}
+        - {x: 26.209595, y: 26.185547}
+    - name: PC Computer - MapleStory - Halloween Background_49
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 451
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_50
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 411
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_51
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 438
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_52
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 415
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_53
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 417
+        width: 4
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_54
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 407
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_55
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 409
+        width: 77
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.766296, y: -25.152924}
+        - {x: 29.766296, y: -28.152924}
+        - {x: 30.766296, y: -29.152924}
+        - {x: 33.766296, y: -29.152924}
+        - {x: 33.766296, y: -25.152924}
+        - {x: 32.766296, y: -24.152924}
+      - - {x: -32.233704, y: 29.847076}
+        - {x: -32.233704, y: 12.847076}
+        - {x: -29.233704, y: 9.847076}
+        - {x: -23.233704, y: 9.847076}
+        - {x: -17.233704, y: 14.847076}
+        - {x: -17.233704, y: 27.847076}
+        - {x: -19.233704, y: 29.847076}
+    - name: PC Computer - MapleStory - Halloween Background_56
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 404
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_57
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 378
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_58
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 370
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_59
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 359
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_60
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 360
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_61
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 351
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_62
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 331
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_63
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 327
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_64
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 322
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_65
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 319
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_66
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 315
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_67
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 307
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_68
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 286
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_69
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 278
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_70
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 257
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_71
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 226
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_72
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 227
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_73
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 223
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_74
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 201
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_75
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 180
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_76
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 189
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_77
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 146
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_78
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 132
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_79
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 110
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_80
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 112
+        width: 77
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.652893, y: -23.704468}
+        - {x: 28.652893, y: -24.704468}
+        - {x: 28.652893, y: -28.704468}
+        - {x: 33.652893, y: -28.704468}
+        - {x: 33.652893, y: -24.704468}
+        - {x: 32.652893, y: -23.704468}
+      - - {x: -29.347107, y: 29.295532}
+        - {x: -32.347107, y: 28.295532}
+        - {x: -32.347107, y: 13.295532}
+        - {x: -29.347107, y: 9.295532}
+        - {x: -22.347107, y: 9.295532}
+        - {x: -17.347107, y: 13.295532}
+        - {x: -17.347107, y: 28.295532}
+        - {x: -19.347107, y: 29.295532}
+    - name: PC Computer - MapleStory - Halloween Background_81
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 107
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_82
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 73
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_83
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 62
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_84
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 54
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_85
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 26
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_86
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 22
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PC Computer - MapleStory - Halloween Background_87
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 10
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

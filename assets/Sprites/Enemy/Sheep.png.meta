@@ -1,0 +1,318 @@
+fileFormatVersion: 2
+guid: 5d59c23c872b5c9459086eb3cd1efc82
+timeCreated: 1461757286
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Sheep_5
+    21300002: Sheep_6
+    21300004: Sheep_7
+    21300006: Sheep_8
+    21300008: Sheep_13
+    21300010: Sheep_14
+    21300012: Sheep_15
+    21300014: Sheep_18
+    21300016: Sheep_77
+    21300018: Sheep_78
+    21300020: Sheep_79
+    21300022: Sheep_80
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Sheep_5
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 318
+        width: 90
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 29.5}
+        - {x: -45, y: 27.5}
+        - {x: -45, y: -21.5}
+        - {x: -37, y: -29.5}
+        - {x: 38, y: -29.5}
+        - {x: 45, y: -28.5}
+        - {x: 45, y: 13.5}
+        - {x: 29, y: 29.5}
+    - name: Sheep_6
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 318
+        width: 89
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 30}
+        - {x: -44.5, y: 27}
+        - {x: -44.5, y: -19}
+        - {x: -33.5, y: -30}
+        - {x: 40.5, y: -30}
+        - {x: 44.5, y: -17}
+        - {x: 44.5, y: 12}
+        - {x: 27.5, y: 30}
+    - name: Sheep_7
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 318
+        width: 91
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: -28}
+        - {x: 37.5, y: -28}
+        - {x: 42.5, y: -25}
+        - {x: 45.5, y: -23}
+        - {x: 45.5, y: 19}
+        - {x: 39.5, y: 28}
+        - {x: -31.5, y: 28}
+        - {x: -45.5, y: 17}
+        - {x: -45.5, y: -24}
+        - {x: -36.5, y: -28}
+        - {x: 17.5, y: -28}
+        - {x: 17.5, y: -25}
+        - {x: 17.5, y: -26}
+    - name: Sheep_8
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 318
+        width: 89
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: 29}
+        - {x: -44.5, y: 22}
+        - {x: -44.5, y: -29}
+        - {x: 44.5, y: -29}
+        - {x: 44.5, y: 21}
+        - {x: 22.5, y: 29}
+      - - {x: 40.5, y: -20}
+        - {x: 37.5, y: -23}
+        - {x: 38.5, y: -26}
+        - {x: 42.5, y: -26}
+        - {x: 44.5, y: -24}
+        - {x: 44.5, y: -22}
+        - {x: 42.5, y: -20}
+    - name: Sheep_13
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 208
+        width: 91
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 30.5}
+        - {x: -45.5, y: 26.5}
+        - {x: -45.5, y: -21.5}
+        - {x: -42.5, y: -28.5}
+        - {x: -33.5, y: -30.5}
+        - {x: 45.5, y: -30.5}
+        - {x: 45.5, y: 12.5}
+        - {x: 21.5, y: 30.5}
+    - name: Sheep_14
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 208
+        width: 91
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.5, y: 18.5}
+        - {x: 14.5, y: 29.5}
+        - {x: -25.5, y: 29.5}
+        - {x: -40.5, y: 21.5}
+        - {x: -45.5, y: 18.5}
+        - {x: -45.5, y: -25.5}
+        - {x: -27.5, y: -29.5}
+        - {x: 12.5, y: -29.5}
+        - {x: 24.5, y: -24.5}
+        - {x: 38.5, y: -17.5}
+        - {x: 45.5, y: -1.5}
+    - name: Sheep_15
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 208
+        width: 91
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 30}
+        - {x: -45.5, y: 23}
+        - {x: -45.5, y: -17}
+        - {x: -32.5, y: -26}
+        - {x: -8.5, y: -30}
+        - {x: 23.5, y: -30}
+        - {x: 45.5, y: -5}
+        - {x: 45.5, y: 8}
+        - {x: 11.5, y: 30}
+    - name: Sheep_18
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 100
+        width: 84
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 32}
+        - {x: -24, y: 32}
+        - {x: -40, y: 25}
+        - {x: -42, y: 20}
+        - {x: -42, y: -13}
+        - {x: -39, y: -22}
+        - {x: -21, y: -32}
+        - {x: 28, y: -32}
+        - {x: 42, y: -16}
+        - {x: 42, y: 10}
+        - {x: 25, y: 29}
+    - name: Sheep_77
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 7
+        width: 92
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45, y: 11.5}
+        - {x: 29, y: 22.5}
+        - {x: 16, y: 27.5}
+        - {x: -31, y: 27.5}
+        - {x: -46, y: 15.5}
+        - {x: -46, y: -21.5}
+        - {x: -37, y: -24.5}
+        - {x: -32, y: -26.5}
+        - {x: -27, y: -27.5}
+        - {x: 32, y: -27.5}
+        - {x: 46, y: -5.5}
+        - {x: 46, y: 9.5}
+    - name: Sheep_78
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 7
+        width: 92
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39, y: 24.5}
+        - {x: -31, y: 24.5}
+        - {x: -40, y: 15.5}
+        - {x: -46, y: 7.5}
+        - {x: -46, y: -24.5}
+        - {x: 33, y: -24.5}
+        - {x: 46, y: -9.5}
+        - {x: 46, y: 16.5}
+    - name: Sheep_79
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 7
+        width: 91
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: 13.5}
+        - {x: 8.5, y: 24.5}
+        - {x: -30.5, y: 24.5}
+        - {x: -45.5, y: 12.5}
+        - {x: -45.5, y: -22.5}
+        - {x: -42.5, y: -24.5}
+        - {x: 35.5, y: -24.5}
+        - {x: 45.5, y: -13.5}
+        - {x: 45.5, y: 3.5}
+    - name: Sheep_80
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 7
+        width: 90
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 24}
+        - {x: -45, y: 24}
+        - {x: -45, y: -24}
+        - {x: 37, y: -24}
+        - {x: 45, y: -15}
+        - {x: 45, y: -1}
+        - {x: 28, y: 12}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
