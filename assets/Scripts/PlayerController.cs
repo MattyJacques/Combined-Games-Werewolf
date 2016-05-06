@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEditor.Animations;
 using System.Collections;
 
 public class PlayerController : MonoBehaviour
@@ -11,6 +12,8 @@ public class PlayerController : MonoBehaviour
   public int health = 200;                 // Current health of player
 
 	private Animator anim;
+  private AnimationClip toHuman;               // Animation from wolf to human
+  private AnimationClip toWolf;                // Animation from human to wolf
   private Rigidbody2D rb;
   public BoxCollider2D trigger;            // Holds the player attack trigger
 
@@ -28,6 +31,22 @@ public class PlayerController : MonoBehaviour
 	{
 		anim = GetComponent<Animator> ();
     rb = GetComponent<Rigidbody2D>();
+
+    foreach (AnimationClip animClip in 
+             anim.runtimeAnimatorController.animationClips)
+    {
+      if (animClip.name == "ToHuman")
+      {
+        toHuman = animClip;
+      }
+      else if (animClip.name == "ToWolf")
+      {
+        toWolf = animClip;
+      }
+    }
+
+    toHuman.wrapMode = WrapMode.Once;
+    toWolf.wrapMode = WrapMode.Once;
 
     trigger.enabled = false;                // Disable attack trigger
 	}
@@ -95,8 +114,9 @@ public class PlayerController : MonoBehaviour
 	{
 		if (other.gameObject.tag == "Moon") {
 			isWolf = true;
-			anim.SetBool ("IsWolf", isWolf);
-      Debug.Log("isWolf: " + isWolf);
+      //anim.SetBool ("IsWolf", isWolf);
+      anim.Play("ToWolf");
+      anim.SetLayerWeight(1, 0f);                   // Change to wolf animation
 		}
 
 	}
@@ -105,8 +125,9 @@ public class PlayerController : MonoBehaviour
 	{
 		if (other.gameObject.tag == "Moon") {
 			isWolf = false;
-			anim.SetBool ("IsWolf", isWolf);
-      Debug.Log("isWolf: " + isWolf);
+      anim.Play("ToHuman");
+      //anim.SetBool ("IsWolf", isWolf);
+      anim.SetLayerWeight(1, 1f);                   // Change to human animation
     }
 	}
 
@@ -118,13 +139,14 @@ public class PlayerController : MonoBehaviour
 
 		Vector3 theScale = transform.localScale;
 		theScale.x *= -1;
-		transform.localScale = theScale;
+    anim.SetLayerWeight(1, 1f);
+    transform.localScale = theScale;
 	}
     
   void Attacking()
   {
-      isAttacking = false;
-      anim.SetBool("IsAttacking", isAttacking);
+    isAttacking = false;
+    anim.SetBool("IsAttacking", isAttacking);
     trigger.enabled = false;                      // Deactive attack trigger
   }
 
