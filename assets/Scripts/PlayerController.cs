@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
   public Sprite humanSprite;
   public Sprite wolfSprite;
 
-	private bool isWolf = false;
+	private bool isWolf = true;
   private bool isWalking = false;
   private bool isAttacking = false;
   private bool isJumping = false;
@@ -32,21 +32,21 @@ public class PlayerController : MonoBehaviour
 		anim = GetComponent<Animator> ();
     rb = GetComponent<Rigidbody2D>();
 
-    foreach (AnimationClip animClip in 
-             anim.runtimeAnimatorController.animationClips)
-    {
-      if (animClip.name == "ToHuman")
-      {
-        toHuman = animClip;
-      }
-      else if (animClip.name == "ToWolf")
-      {
-        toWolf = animClip;
-      }
-    }
+    //foreach (AnimationClip animClip in 
+    //         anim.runtimeAnimatorController.animationClips)
+    //{
+    //  if (animClip.name == "ToHuman")
+    //  {
+    //    toHuman = animClip;
+    //  }
+    //  else if (animClip.name == "ToWolf")
+    //  {
+    //    toWolf = animClip;
+    //  }
+    //}
 
-    toHuman.wrapMode = WrapMode.Once;
-    toWolf.wrapMode = WrapMode.Once;
+    //toHuman.wrapMode = WrapMode.Once;
+    //toWolf.wrapMode = WrapMode.Once;
 
     trigger.enabled = false;                // Disable attack trigger
 	}
@@ -112,11 +112,12 @@ public class PlayerController : MonoBehaviour
 
 	void OnTriggerEnter2D (Collider2D other)
 	{
-		if (other.gameObject.tag == "Moon") {
-			isWolf = true;
+		if (other.gameObject.tag == "Moon" && !isWolf) {
+      anim.Play("Transform");
+      isWolf = true;
       //anim.SetBool ("IsWolf", isWolf);
-      anim.Play("ToWolf");
-      anim.SetLayerWeight(1, 0f);                   // Change to wolf animation
+      //anim.SetLayerWeight(1, 0f);                   // Change to wolf animation
+      StartCoroutine(ChangeLayerWeight(0f));
 		}
 
 	}
@@ -124,12 +125,20 @@ public class PlayerController : MonoBehaviour
 	void OnTriggerExit2D (Collider2D other)
 	{
 		if (other.gameObject.tag == "Moon") {
-			isWolf = false;
-      anim.Play("ToHuman");
+      anim.Play("Transform");
+      isWolf = false;
       //anim.SetBool ("IsWolf", isWolf);
-      anim.SetLayerWeight(1, 1f);                   // Change to human animation
+      //anim.SetLayerWeight(1, 1f);                   // Change to human animation
+      StartCoroutine(ChangeLayerWeight(1f));
     }
 	}
+
+  IEnumerator ChangeLayerWeight(float weight)
+  {
+    yield return new WaitForSeconds(0.5f);
+
+    anim.SetLayerWeight(1, weight);
+  }
 
 	
 	void Flip ()
