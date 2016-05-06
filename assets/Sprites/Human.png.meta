@@ -1,89 +1,62 @@
 fileFormatVersion: 2
-guid: 6516a3177199f80439a5b9987577b02c
-timeCreated: 1462480660
+guid: d7e936b18197c76479964c9811449a8d
+timeCreated: 1462574402
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Human_0
-    21300002: Human_1
-    21300004: Human_2
-    21300006: Human_3
-    21300008: Human_4
-    21300010: Human_5
-    21300012: Human_6
-    21300014: Human_7
-    21300016: Human_8
-    21300018: Human_9
-    21300020: Human_10
-    21300022: Human_11
-    21300024: Human_12
-    21300026: Human_13
-    21300028: Human_14
-    21300030: Human_15
-    21300032: Human_16
-    21300034: Human_17
-    21300036: Human_18
-    21300038: Human_19
-    21300040: Human_20
-    21300042: Human_21
-    21300044: Human_22
-    21300046: Human_23
-    21300048: Human_24
-    21300050: Human_25
-    21300052: Human_26
-    21300054: Human_27
-    21300056: Human_28
-    21300058: Human_29
-    21300060: Human_30
-    21300062: Human_31
-    21300064: Human_32
-    21300066: Human_33
-    21300068: Human_34
-    21300070: Human_35
-    21300072: Human_36
-    21300074: Human_37
-    21300076: Human_38
-    21300078: Human_39
-    21300080: Human_40
-    21300082: Human_41
-    21300084: Human_42
-    21300086: Human_43
-    21300088: Human_44
-    21300090: Human_45
-    21300092: Human_46
-    21300094: Human_47
-    21300096: Human_48
-    21300098: Human_49
-    21300100: Human_51
-    21300102: Human_52
-    21300104: Human_53
-    21300106: Human_54
-    21300108: Human_55
-    21300110: Human_56
-    21300112: Human_57
-    21300114: Human_58
-    21300116: Human_59
-    21300118: Human_60
-    21300120: Human_61
-    21300122: Human_62
-    21300124: Human_63
-    21300126: Human_64
-    21300128: Human_65
-    21300130: Human_67
-    21300132: Human_68
-    21300134: Human_69
-    21300136: Human_70
-    21300138: Human_71
-    21300140: Human_72
-    21300142: Human_73
-    21300144: Human_74
-    21300146: Human_75
-    21300148: Human_76
-    21300150: Human_77
-    21300152: Human_87
-    21300154: Human_89
-    21300156: Human_90
-    21300158: Human_50
+    21300000: drake_maplestory_sheet_by_drakeflame13-d52ro4a_0
+    21300002: drake_maplestory_sheet_by_drakeflame13-d52ro4a_1
+    21300004: drake_maplestory_sheet_by_drakeflame13-d52ro4a_2
+    21300006: drake_maplestory_sheet_by_drakeflame13-d52ro4a_3
+    21300008: drake_maplestory_sheet_by_drakeflame13-d52ro4a_4
+    21300010: drake_maplestory_sheet_by_drakeflame13-d52ro4a_5
+    21300012: drake_maplestory_sheet_by_drakeflame13-d52ro4a_6
+    21300014: drake_maplestory_sheet_by_drakeflame13-d52ro4a_7
+    21300016: drake_maplestory_sheet_by_drakeflame13-d52ro4a_8
+    21300018: drake_maplestory_sheet_by_drakeflame13-d52ro4a_9
+    21300020: drake_maplestory_sheet_by_drakeflame13-d52ro4a_10
+    21300022: drake_maplestory_sheet_by_drakeflame13-d52ro4a_11
+    21300024: drake_maplestory_sheet_by_drakeflame13-d52ro4a_12
+    21300026: drake_maplestory_sheet_by_drakeflame13-d52ro4a_13
+    21300028: drake_maplestory_sheet_by_drakeflame13-d52ro4a_14
+    21300030: drake_maplestory_sheet_by_drakeflame13-d52ro4a_15
+    21300032: drake_maplestory_sheet_by_drakeflame13-d52ro4a_16
+    21300034: drake_maplestory_sheet_by_drakeflame13-d52ro4a_17
+    21300036: drake_maplestory_sheet_by_drakeflame13-d52ro4a_18
+    21300038: drake_maplestory_sheet_by_drakeflame13-d52ro4a_19
+    21300040: drake_maplestory_sheet_by_drakeflame13-d52ro4a_20
+    21300042: drake_maplestory_sheet_by_drakeflame13-d52ro4a_21
+    21300044: drake_maplestory_sheet_by_drakeflame13-d52ro4a_22
+    21300046: drake_maplestory_sheet_by_drakeflame13-d52ro4a_23
+    21300048: drake_maplestory_sheet_by_drakeflame13-d52ro4a_24
+    21300050: drake_maplestory_sheet_by_drakeflame13-d52ro4a_25
+    21300052: drake_maplestory_sheet_by_drakeflame13-d52ro4a_26
+    21300054: drake_maplestory_sheet_by_drakeflame13-d52ro4a_27
+    21300056: drake_maplestory_sheet_by_drakeflame13-d52ro4a_28
+    21300058: drake_maplestory_sheet_by_drakeflame13-d52ro4a_29
+    21300060: drake_maplestory_sheet_by_drakeflame13-d52ro4a_30
+    21300062: drake_maplestory_sheet_by_drakeflame13-d52ro4a_31
+    21300064: drake_maplestory_sheet_by_drakeflame13-d52ro4a_32
+    21300066: drake_maplestory_sheet_by_drakeflame13-d52ro4a_33
+    21300068: drake_maplestory_sheet_by_drakeflame13-d52ro4a_34
+    21300070: drake_maplestory_sheet_by_drakeflame13-d52ro4a_35
+    21300072: drake_maplestory_sheet_by_drakeflame13-d52ro4a_36
+    21300074: drake_maplestory_sheet_by_drakeflame13-d52ro4a_37
+    21300076: drake_maplestory_sheet_by_drakeflame13-d52ro4a_38
+    21300078: drake_maplestory_sheet_by_drakeflame13-d52ro4a_39
+    21300080: drake_maplestory_sheet_by_drakeflame13-d52ro4a_40
+    21300082: drake_maplestory_sheet_by_drakeflame13-d52ro4a_41
+    21300084: drake_maplestory_sheet_by_drakeflame13-d52ro4a_42
+    21300086: drake_maplestory_sheet_by_drakeflame13-d52ro4a_43
+    21300088: drake_maplestory_sheet_by_drakeflame13-d52ro4a_44
+    21300090: drake_maplestory_sheet_by_drakeflame13-d52ro4a_45
+    21300092: drake_maplestory_sheet_by_drakeflame13-d52ro4a_46
+    21300094: drake_maplestory_sheet_by_drakeflame13-d52ro4a_47
+    21300096: drake_maplestory_sheet_by_drakeflame13-d52ro4a_48
+    21300098: drake_maplestory_sheet_by_drakeflame13-d52ro4a_49
+    21300100: drake_maplestory_sheet_by_drakeflame13-d52ro4a_50
+    21300102: drake_maplestory_sheet_by_drakeflame13-d52ro4a_51
+    21300104: drake_maplestory_sheet_by_drakeflame13-d52ro4a_52
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -124,820 +97,1010 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 10
+  spritePixelsToUnits: 15
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Human_0
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 833
-        width: 39
-        height: 66
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 13.5, y: 33}
-        - {x: -17.5, y: 33}
-        - {x: -19.5, y: 31}
-        - {x: -19.5, y: -9}
-        - {x: -15.5, y: -30}
-        - {x: -13.5, y: -33}
-        - {x: 18.5, y: -33}
-        - {x: 19.5, y: -28}
-        - {x: 19.5, y: 31}
-    - name: Human_1
-      rect:
-        serializedVersion: 2
-        x: 61
-        y: 833
-        width: 39
-        height: 66
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 13.5, y: 33}
-        - {x: -17.5, y: 33}
-        - {x: -19.5, y: 31}
-        - {x: -19.5, y: -9}
-        - {x: -15.5, y: -30}
-        - {x: -13.5, y: -33}
-        - {x: 18.5, y: -33}
-        - {x: 19.5, y: -28}
-        - {x: 19.5, y: 31}
-    - name: Human_2
-      rect:
-        serializedVersion: 2
-        x: 109
-        y: 833
-        width: 39
-        height: 66
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 13.5, y: 33}
-        - {x: -17.5, y: 33}
-        - {x: -19.5, y: 31}
-        - {x: -19.5, y: -9}
-        - {x: -15.5, y: -30}
-        - {x: -13.5, y: -33}
-        - {x: 18.5, y: -33}
-        - {x: 19.5, y: -28}
-        - {x: 19.5, y: 31}
-    - name: Human_3
-      rect:
-        serializedVersion: 2
-        x: 155
-        y: 833
-        width: 39
-        height: 67
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16.5, y: 33.5}
-        - {x: -19.5, y: 31.5}
-        - {x: -19.5, y: -33.5}
-        - {x: 11.5, y: -33.5}
-        - {x: 19.5, y: -19.5}
-        - {x: 19.5, y: 33.5}
-    - name: Human_4
-      rect:
-        serializedVersion: 2
-        x: 201
-        y: 833
-        width: 39
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 11.5, y: 32}
-        - {x: -19.5, y: 32}
-        - {x: -19.5, y: -21}
-        - {x: -9.5, y: -32}
-        - {x: 19.5, y: -32}
-        - {x: 19.5, y: 23}
-        - {x: 17.5, y: 29}
-    - name: Human_5
-      rect:
-        serializedVersion: 2
-        x: 250
-        y: 833
-        width: 39
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -19.5, y: 32}
-        - {x: -19.5, y: -21}
-        - {x: -13.5, y: -32}
-        - {x: 18.5, y: -32}
-        - {x: 19.5, y: -30}
-        - {x: 19.5, y: 32}
-    - name: Human_37
-      rect:
-        serializedVersion: 2
-        x: 13
-        y: 754
-        width: 39
-        height: 66
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -19.5, y: 33}
-        - {x: -19.5, y: -18}
-        - {x: -8.5, y: -33}
-        - {x: 19.5, y: -33}
-        - {x: 19.5, y: 33}
-    - name: Human_38
-      rect:
-        serializedVersion: 2
-        x: 61
-        y: 754
-        width: 39
-        height: 65
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 19.5, y: 30.5}
-        - {x: 13.5, y: 32.5}
-        - {x: -17.5, y: 32.5}
-        - {x: -19.5, y: 30.5}
-        - {x: -19.5, y: -23.5}
-        - {x: -17.5, y: -32.5}
-        - {x: 15.5, y: -32.5}
-        - {x: 17.5, y: -31.5}
-        - {x: 19.5, y: -21.5}
-    - name: Human_39
-      rect:
-        serializedVersion: 2
-        x: 109
-        y: 754
-        width: 39
-        height: 66
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -19.5, y: 33}
-        - {x: -19.5, y: -29}
-        - {x: -9.5, y: -33}
-        - {x: 14.5, y: -33}
-        - {x: 19.5, y: -19}
-        - {x: 19.5, y: 33}
-    - name: Human_40
-      rect:
-        serializedVersion: 2
-        x: 155
-        y: 754
-        width: 39
-        height: 65
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 10.5, y: -19.5}
-        - {x: 17.5, y: -25.5}
-        - {x: 19.5, y: -19.5}
-        - {x: 19.5, y: 32.5}
-        - {x: -19.5, y: 32.5}
-        - {x: -19.5, y: -28.5}
-        - {x: -14.5, y: -32.5}
-        - {x: 11.5, y: -32.5}
-        - {x: 15.5, y: -30.5}
-        - {x: 13.5, y: -24.5}
-    - name: Human_41
-      rect:
-        serializedVersion: 2
-        x: 13
-        y: 685
-        width: 39
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -15.5, y: 32}
-        - {x: -19.5, y: 28}
-        - {x: -19.5, y: -31}
-        - {x: -17.5, y: -32}
-        - {x: 19.5, y: -32}
-        - {x: 19.5, y: 32}
-    - name: Human_42
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 613
-        width: 44
-        height: 66
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -22, y: 33}
-        - {x: -22, y: -13}
-        - {x: -16, y: -33}
-        - {x: 17, y: -33}
-        - {x: 22, y: -14}
-        - {x: 22, y: 33}
-      - - {x: 18, y: -3}
-        - {x: 16, y: -9}
-        - {x: 16, y: -20}
-        - {x: 20, y: -24}
-        - {x: 22, y: -24}
-        - {x: 22, y: -3}
-    - name: Human_43
-      rect:
-        serializedVersion: 2
-        x: 52
-        y: 613
-        width: 48
+        x: 21
+        y: 820
+        width: 40
         height: 63
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -21, y: 31.5}
-        - {x: -24, y: 28.5}
-        - {x: -24, y: -28.5}
-        - {x: -22, y: -31.5}
-        - {x: 24, y: -31.5}
-        - {x: 24, y: 31.5}
-    - name: Human_44
+      - - {x: -18, y: 31.5}
+        - {x: -20, y: 26.5}
+        - {x: -20, y: -15.5}
+        - {x: -12, y: -31.5}
+        - {x: 18, y: -31.5}
+        - {x: 20, y: -26.5}
+        - {x: 20, y: 28.5}
+        - {x: 19, y: 31.5}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 821
+        width: 41
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 30}
+        - {x: -20.5, y: 23}
+        - {x: -20.5, y: -10}
+        - {x: -12.5, y: -30}
+        - {x: 15.5, y: -30}
+        - {x: 20.5, y: -21}
+        - {x: 20.5, y: 28}
+        - {x: 19.5, y: 30}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_2
       rect:
         serializedVersion: 2
         x: 122
-        y: 611
-        width: 77
+        y: 821
+        width: 41
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 30}
+        - {x: -20.5, y: 23}
+        - {x: -20.5, y: -10}
+        - {x: -12.5, y: -30}
+        - {x: 15.5, y: -30}
+        - {x: 20.5, y: -21}
+        - {x: 20.5, y: 28}
+        - {x: 19.5, y: 30}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_3
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 820
+        width: 41
         height: 63
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -10.5, y: -31.5}
-        - {x: -10.5, y: -29.5}
-        - {x: -13.5, y: -28.5}
-        - {x: -15.5, y: -31.5}
-      - - {x: -21.5, y: 31.5}
-        - {x: -38.5, y: 11.5}
-        - {x: -38.5, y: -9.5}
-        - {x: -35.5, y: -13.5}
-        - {x: -13.5, y: -31.5}
-        - {x: 36.5, y: -31.5}
-        - {x: 38.5, y: -24.5}
-        - {x: 38.5, y: -0.5}
-        - {x: 15.5, y: 31.5}
-    - name: Human_45
+      - - {x: -20.5, y: 31.5}
+        - {x: -20.5, y: -15.5}
+        - {x: -16.5, y: -31.5}
+        - {x: 12.5, y: -31.5}
+        - {x: 20.5, y: -8.5}
+        - {x: 20.5, y: 31.5}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_4
       rect:
         serializedVersion: 2
-        x: 221
-        y: 610
-        width: 73
+        x: 219
+        y: 820
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 31.5}
+        - {x: -18.5, y: 31.5}
+        - {x: -20.5, y: 30.5}
+        - {x: -20.5, y: -4.5}
+        - {x: -11.5, y: -30.5}
+        - {x: -10.5, y: -31.5}
+        - {x: 14.5, y: -31.5}
+        - {x: 20.5, y: -13.5}
+        - {x: 20.5, y: 27.5}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_5
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 821
+        width: 41
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -21.5, y: -30}
-        - {x: -21.5, y: -32}
-        - {x: -15.5, y: -32}
-        - {x: -14.5, y: -31}
-        - {x: -15.5, y: -28}
-        - {x: -19.5, y: -28}
-      - - {x: -31.5, y: 32}
-        - {x: -36.5, y: 17}
-        - {x: -36.5, y: -19}
-        - {x: -25.5, y: -32}
-        - {x: 36.5, y: -32}
-        - {x: 36.5, y: 16}
-        - {x: 13.5, y: 32}
-    - name: Human_46
-      rect:
-        serializedVersion: 2
-        x: 327
-        y: 613
-        width: 55
-        height: 61
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -27.5, y: 30.5}
-        - {x: -27.5, y: -12.5}
-        - {x: -23.5, y: -30.5}
-        - {x: 21.5, y: -30.5}
-        - {x: 27.5, y: -27.5}
-        - {x: 27.5, y: 25.5}
-        - {x: 17.5, y: 30.5}
-    - name: Human_47
-      rect:
-        serializedVersion: 2
-        x: 415
-        y: 613
-        width: 59
-        height: 61
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 11.5, y: 30.5}
-        - {x: -29.5, y: 30.5}
-        - {x: -29.5, y: -12.5}
-        - {x: -18.5, y: -30.5}
-        - {x: 25.5, y: -30.5}
-        - {x: 29.5, y: -28.5}
-        - {x: 29.5, y: -0.5}
-    - name: Human_48
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 500
-        width: 69
-        height: 107
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -26.5, y: 53.5}
-        - {x: -34.5, y: 45.5}
-        - {x: -34.5, y: -8.5}
-        - {x: -14.5, y: -53.5}
-        - {x: 34.5, y: -53.5}
-        - {x: 34.5, y: 29.5}
-        - {x: 2.5, y: 53.5}
-    - name: Human_49
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 430
-        width: 59
-        height: 67
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -18.5, y: 33.5}
-        - {x: -29.5, y: 27.5}
-        - {x: -29.5, y: -33.5}
-        - {x: -28.5, y: -33.5}
-        - {x: -10.5, y: -30.5}
-        - {x: -7.5, y: -27.5}
-        - {x: -6.5, y: -32.5}
-        - {x: -5.5, y: -33.5}
-        - {x: 12.5, y: -33.5}
-        - {x: 27.5, y: -1.5}
-        - {x: 27.5, y: 12.5}
-        - {x: 17.5, y: 33.5}
-      - - {x: 25.5, y: 21.5}
-        - {x: 20.5, y: 16.5}
-        - {x: 21.5, y: 13.5}
-        - {x: 27.5, y: 13.5}
-        - {x: 29.5, y: 15.5}
-        - {x: 29.5, y: 19.5}
-        - {x: 27.5, y: 21.5}
-      - - {x: -26.5, y: 27.5}
-        - {x: -25.5, y: 23.5}
-        - {x: -21.5, y: 19.5}
-        - {x: -18.5, y: 20.5}
-        - {x: -18.5, y: 27.5}
-        - {x: -21.5, y: 30.5}
-        - {x: -23.5, y: 30.5}
-    - name: Human_64
-      rect:
-        serializedVersion: 2
-        x: 502
-        y: 347
-        width: 89
-        height: 81
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 22.5, y: 40.5}
-        - {x: -28.5, y: 40.5}
-        - {x: -43.5, y: 33.5}
-        - {x: -44.5, y: 27.5}
-        - {x: -44.5, y: -35.5}
-        - {x: -40.5, y: -40.5}
-        - {x: 31.5, y: -40.5}
-        - {x: 44.5, y: -18.5}
-        - {x: 44.5, y: 22.5}
-        - {x: 38.5, y: 36.5}
-    - name: Human_65
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 352
-        width: 59
-        height: 66
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 18.5, y: 33}
-        - {x: -25.5, y: 33}
-        - {x: -29.5, y: 30}
-        - {x: -29.5, y: -31}
-        - {x: -10.5, y: -30}
-        - {x: -7.5, y: -27}
-        - {x: -6.5, y: -32}
-        - {x: -5.5, y: -33}
-        - {x: 12.5, y: -33}
-        - {x: 27.5, y: -2}
-        - {x: 27.5, y: 30}
-      - - {x: 25.5, y: 22}
-        - {x: 20.5, y: 17}
-        - {x: 21.5, y: 14}
-        - {x: 27.5, y: 14}
-        - {x: 29.5, y: 16}
-        - {x: 29.5, y: 20}
-        - {x: 27.5, y: 22}
-      - - {x: -26.5, y: 28}
-        - {x: -25.5, y: 24}
-        - {x: -21.5, y: 20}
-        - {x: -18.5, y: 21}
-        - {x: -18.5, y: 28}
-        - {x: -21.5, y: 31}
-        - {x: -23.5, y: 31}
-    - name: Human_67
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 352
-        width: 49
-        height: 57
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -9.5, y: 28.5}
-        - {x: -19.5, y: 16.5}
-        - {x: -24.5, y: 11.5}
-        - {x: -24.5, y: -7.5}
-        - {x: -15.5, y: -28.5}
-        - {x: 18.5, y: -28.5}
-        - {x: 24.5, y: -19.5}
-        - {x: 24.5, y: 21.5}
-        - {x: 20.5, y: 28.5}
-    - name: Human_68
-      rect:
-        serializedVersion: 2
-        x: 118
-        y: 352
-        width: 49
-        height: 59
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 21.5, y: 29.5}
-        - {x: -10.5, y: 29.5}
-        - {x: -16.5, y: 23.5}
-        - {x: -24.5, y: 6.5}
-        - {x: -24.5, y: -6.5}
-        - {x: -20.5, y: -9.5}
-        - {x: -12.5, y: -29.5}
-        - {x: 19.5, y: -29.5}
-        - {x: 24.5, y: -9.5}
-        - {x: 24.5, y: 28.5}
-    - name: Human_69
-      rect:
-        serializedVersion: 2
-        x: 170
-        y: 352
-        width: 49
-        height: 54
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -15.5, y: 27}
-        - {x: -20.5, y: 24}
-        - {x: -24.5, y: 11}
-        - {x: -24.5, y: -15}
-        - {x: -13.5, y: -27}
-        - {x: 24.5, y: -27}
-        - {x: 24.5, y: 26}
+      - - {x: -15.5, y: 32}
+        - {x: -20.5, y: 25}
+        - {x: -20.5, y: -15}
+        - {x: -17.5, y: -21}
+        - {x: -11.5, y: -32}
+        - {x: 11.5, y: -32}
+        - {x: 20.5, y: -12}
         - {x: 20.5, y: 27}
-    - name: Human_70
+        - {x: 17.5, y: 32}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_6
       rect:
         serializedVersion: 2
-        x: 224
-        y: 352
-        width: 49
+        x: 315
+        y: 822
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 32}
+        - {x: -20.5, y: 30}
+        - {x: -20.5, y: -4}
+        - {x: -11.5, y: -32}
+        - {x: 12.5, y: -32}
+        - {x: 20.5, y: -2}
+        - {x: 20.5, y: 28}
+        - {x: 15.5, y: 32}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_7
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 821
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 32}
+        - {x: -20.5, y: 27}
+        - {x: -20.5, y: 0}
+        - {x: -12.5, y: -32}
+        - {x: 15.5, y: -32}
+        - {x: 20.5, y: -4}
+        - {x: 20.5, y: 28}
+        - {x: 14.5, y: 32}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_8
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 822
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 32}
+        - {x: -20.5, y: 27}
+        - {x: -20.5, y: 8}
+        - {x: -17.5, y: 1}
+        - {x: -15.5, y: -32}
+        - {x: 16.5, y: -32}
+        - {x: 20.5, y: -19}
+        - {x: 20.5, y: 32}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_9
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 823
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 32}
+        - {x: -15.5, y: 32}
+        - {x: -20.5, y: 30}
+        - {x: -20.5, y: -19}
+        - {x: -16.5, y: -32}
+        - {x: 11.5, y: -32}
+        - {x: 12.5, y: -31}
+        - {x: 20.5, y: -1}
+        - {x: 20.5, y: 29}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_10
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 823
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 32}
+        - {x: -20.5, y: 26}
+        - {x: -20.5, y: -15}
+        - {x: -14.5, y: -32}
+        - {x: 17.5, y: -32}
+        - {x: 20.5, y: -16}
+        - {x: 20.5, y: 29}
+        - {x: 15.5, y: 32}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_11
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 751
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 30.5}
+        - {x: -20, y: 27.5}
+        - {x: -20, y: -13.5}
+        - {x: -13, y: -30.5}
+        - {x: 16, y: -30.5}
+        - {x: 20, y: -17.5}
+        - {x: 20, y: 30.5}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_12
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 749
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 31}
+        - {x: -20.5, y: 28}
+        - {x: -20.5, y: -3}
+        - {x: -13.5, y: -31}
+        - {x: 18.5, y: -31}
+        - {x: 20.5, y: -23}
+        - {x: 20.5, y: 29}
+        - {x: 15.5, y: 31}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_13
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 750
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 30.5}
+        - {x: -20.5, y: 26.5}
+        - {x: -20.5, y: -21.5}
+        - {x: -17.5, y: -30.5}
+        - {x: 13.5, y: -30.5}
+        - {x: 20.5, y: -12.5}
+        - {x: 20.5, y: 24.5}
+        - {x: 16.5, y: 30.5}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_14
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 750
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 30.5}
+        - {x: -20.5, y: 28.5}
+        - {x: -20.5, y: -4.5}
+        - {x: -14.5, y: -30.5}
+        - {x: 18.5, y: -30.5}
+        - {x: 20.5, y: -21.5}
+        - {x: 20.5, y: 28.5}
+        - {x: 15.5, y: 30.5}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_15
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 750
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 32}
+        - {x: -20.5, y: 27}
+        - {x: -20.5, y: -23}
+        - {x: -12.5, y: -32}
+        - {x: 15.5, y: -32}
+        - {x: 20.5, y: -25}
+        - {x: 20.5, y: 32}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_16
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 755
+        width: 52
         height: 54
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -10.5, y: 27}
-        - {x: -20.5, y: 15}
-        - {x: -24.5, y: 3}
-        - {x: -24.5, y: -14}
-        - {x: -13.5, y: -27}
-        - {x: 24.5, y: -27}
-        - {x: 24.5, y: 26}
-        - {x: 21.5, y: 27}
-    - name: Human_71
+      - - {x: -25, y: 27}
+        - {x: -26, y: 25}
+        - {x: -26, y: -13}
+        - {x: -6, y: -27}
+        - {x: 26, y: -27}
+        - {x: 26, y: 3}
+        - {x: 12, y: 27}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_17
       rect:
         serializedVersion: 2
-        x: 276
-        y: 352
-        width: 49
-        height: 52
+        x: 334
+        y: 751
+        width: 41
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -10.5, y: 26}
-        - {x: -16.5, y: 20}
-        - {x: -24.5, y: 8}
-        - {x: -24.5, y: -12}
-        - {x: -23.5, y: -15}
-        - {x: -9.5, y: -26}
-        - {x: 22.5, y: -26}
-        - {x: 24.5, y: -25}
-        - {x: 24.5, y: 26}
-    - name: Human_72
-      rect:
-        serializedVersion: 2
-        x: 329
-        y: 352
-        width: 49
-        height: 53
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -6.5, y: 26.5}
-        - {x: -15.5, y: 19.5}
-        - {x: -20.5, y: 14.5}
-        - {x: -24.5, y: 2.5}
-        - {x: -24.5, y: -10.5}
-        - {x: -20.5, y: -12.5}
-        - {x: -10.5, y: -26.5}
-        - {x: 24.5, y: -26.5}
-        - {x: 24.5, y: 18.5}
-        - {x: 17.5, y: 26.5}
-    - name: Human_73
-      rect:
-        serializedVersion: 2
-        x: 382
-        y: 352
-        width: 49
-        height: 52
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -10.5, y: 26}
-        - {x: -16.5, y: 20}
-        - {x: -24.5, y: 8}
-        - {x: -24.5, y: -12}
-        - {x: -23.5, y: -15}
-        - {x: -9.5, y: -26}
-        - {x: 22.5, y: -26}
-        - {x: 24.5, y: -25}
-        - {x: 24.5, y: 26}
-    - name: Human_74
-      rect:
-        serializedVersion: 2
-        x: 433
-        y: 352
-        width: 59
-        height: 53
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -14.5, y: 26.5}
-        - {x: -29.5, y: 12.5}
-        - {x: -29.5, y: -16.5}
-        - {x: -13.5, y: -26.5}
-        - {x: 25.5, y: -26.5}
-        - {x: 29.5, y: -11.5}
-        - {x: 29.5, y: 14.5}
-        - {x: 19.5, y: 26.5}
-    - name: Human_75
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 211
-        width: 111
-        height: 110
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -53.5, y: 55}
-        - {x: -55.5, y: 51}
-        - {x: -55.5, y: -51}
-        - {x: -49.5, y: -55}
-        - {x: 43.5, y: -55}
-        - {x: 55.5, y: -45}
-        - {x: 55.5, y: 27}
-        - {x: 40.5, y: 55}
-    - name: Human_76
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 192
-        width: 161
-        height: 155
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -69.5, y: 77.5}
-        - {x: -71.5, y: 72.5}
-        - {x: -80.5, y: 36.5}
-        - {x: -80.5, y: -40.5}
-        - {x: -60.5, y: -62.5}
-        - {x: -43.5, y: -77.5}
-        - {x: 53.5, y: -77.5}
-        - {x: 80.5, y: -74.5}
-        - {x: 80.5, y: 70.5}
-        - {x: 68.5, y: 77.5}
-    - name: Human_77
-      rect:
-        serializedVersion: 2
-        x: 286
-        y: 191
-        width: 157
-        height: 151
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 15.5, y: -75.5}
-        - {x: 78.5, y: -75.5}
-        - {x: 78.5, y: 75.5}
-        - {x: -67.5, y: 75.5}
-        - {x: -78.5, y: 50.5}
-        - {x: -78.5, y: 3.5}
-        - {x: -73.5, y: 0.5}
-        - {x: -68.5, y: -0.5}
-        - {x: -71.5, y: -0.5}
-        - {x: -78.5, y: -10.5}
-        - {x: -78.5, y: -45.5}
-        - {x: -41.5, y: -75.5}
-        - {x: 6.5, y: -75.5}
-        - {x: 8.5, y: -70.5}
-        - {x: 6.5, y: -44.5}
-        - {x: 11.5, y: -68.5}
-    - name: Human_87
-      rect:
-        serializedVersion: 2
-        x: 183
-        y: 12
-        width: 181
-        height: 173
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -87.5, y: -10.5}
-        - {x: -90.5, y: -15.5}
-        - {x: -90.5, y: -67.5}
-        - {x: -51.5, y: -86.5}
-        - {x: -5.5, y: -86.5}
-        - {x: -5.5, y: -48.5}
-        - {x: -63.5, y: -10.5}
-      - - {x: 58.5, y: 10.5}
-        - {x: 51.5, y: 6.5}
-        - {x: 21.5, y: -42.5}
-        - {x: 21.5, y: -85.5}
-        - {x: 52.5, y: -85.5}
-        - {x: 78.5, y: -78.5}
-        - {x: 90.5, y: -61.5}
-        - {x: 90.5, y: 10.5}
-      - - {x: -40.5, y: 21.5}
-        - {x: -56.5, y: 16.5}
-        - {x: -56.5, y: -30.5}
-        - {x: -53.5, y: -33.5}
-        - {x: 8.5, y: -33.5}
-        - {x: 17.5, y: -19.5}
-        - {x: 17.5, y: 4.5}
-        - {x: 0.5, y: 21.5}
-      - - {x: -59.5, y: 80.5}
-        - {x: -90.5, y: 52.5}
-        - {x: -90.5, y: 12.5}
-        - {x: -56.5, y: 12.5}
-        - {x: -33.5, y: 56.5}
-        - {x: -33.5, y: 75.5}
-        - {x: -39.5, y: 80.5}
-      - - {x: 27.5, y: 84.5}
-        - {x: 27.5, y: 55.5}
-        - {x: 44.5, y: 27.5}
-        - {x: 79.5, y: 27.5}
-        - {x: 84.5, y: 29.5}
-        - {x: 84.5, y: 71.5}
-        - {x: 54.5, y: 84.5}
-      - - {x: -9.5, y: 86.5}
-        - {x: -17.5, y: 80.5}
-        - {x: -17.5, y: 66.5}
-        - {x: -14.5, y: 61.5}
-        - {x: 18.5, y: 61.5}
-        - {x: 21.5, y: 67.5}
-        - {x: 21.5, y: 76.5}
-        - {x: 15.5, y: 86.5}
-    - name: Human_89
+      - - {x: -16.5, y: 32}
+        - {x: -20.5, y: 26}
+        - {x: -20.5, y: -24}
+        - {x: -17.5, y: -32}
+        - {x: 11.5, y: -32}
+        - {x: 20.5, y: -14}
+        - {x: 20.5, y: 26}
+        - {x: 18.5, y: 32}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_18
       rect:
         serializedVersion: 2
         x: 385
-        y: 68
-        width: 70
-        height: 51
+        y: 749
+        width: 41
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32, y: 25.5}
-        - {x: -35, y: 19.5}
-        - {x: -35, y: -24.5}
-        - {x: -34, y: -25.5}
-        - {x: 26, y: -25.5}
-        - {x: 35, y: -12.5}
-        - {x: 35, y: 16.5}
-        - {x: 22, y: 25.5}
-    - name: Human_90
+      - - {x: 20.5, y: 30}
+        - {x: 19.5, y: 32}
+        - {x: -18.5, y: 32}
+        - {x: -20.5, y: 29}
+        - {x: -20.5, y: -13}
+        - {x: -19.5, y: -22}
+        - {x: -12.5, y: -32}
+        - {x: 12.5, y: -32}
+        - {x: 17.5, y: -20}
+        - {x: 15.5, y: -14}
+        - {x: 20.5, y: -3}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_19
       rect:
         serializedVersion: 2
-        x: 490
-        y: 93
-        width: 70
-        height: 51
+        x: 435
+        y: 750
+        width: 41
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -32, y: 25.5}
-        - {x: -35, y: 19.5}
-        - {x: -35, y: -24.5}
-        - {x: -34, y: -25.5}
-        - {x: 26, y: -25.5}
-        - {x: 35, y: -12.5}
-        - {x: 35, y: 16.5}
-        - {x: 22, y: 25.5}
-    - name: Human_50
+      - - {x: 12.5, y: 32}
+        - {x: -12.5, y: 32}
+        - {x: -20.5, y: 24}
+        - {x: -20.5, y: 6}
+        - {x: -12.5, y: -32}
+        - {x: 14.5, y: -32}
+        - {x: 18.5, y: -21}
+        - {x: 20.5, y: -8}
+        - {x: 20.5, y: 27}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_20
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 752
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 32}
+        - {x: -20, y: -32}
+        - {x: 14, y: -32}
+        - {x: 20, y: -16}
+        - {x: 20, y: 30}
+        - {x: 16, y: 32}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_21
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 753
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 32}
+        - {x: -20.5, y: 24}
+        - {x: -20.5, y: -15}
+        - {x: -14.5, y: -32}
+        - {x: 14.5, y: -32}
+        - {x: 20.5, y: -21}
+        - {x: 20.5, y: 26}
+        - {x: 17.5, y: 32}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_22
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 669
+        width: 41
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 33.5}
+        - {x: -20.5, y: -4.5}
+        - {x: -1.5, y: -33.5}
+        - {x: 20.5, y: -33.5}
+        - {x: 20.5, y: 31.5}
+        - {x: 15.5, y: 33.5}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_23
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 671
+        width: 41
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 34}
+        - {x: -20.5, y: 32}
+        - {x: -20.5, y: -3}
+        - {x: -1.5, y: -34}
+        - {x: 13.5, y: -34}
+        - {x: 20.5, y: -28}
+        - {x: 20.5, y: 32}
+        - {x: 15.5, y: 34}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 593
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 30.5}
+        - {x: -19, y: 17.5}
+        - {x: -21, y: 8.5}
+        - {x: -21, y: 5.5}
+        - {x: -18, y: 4.5}
+        - {x: -16, y: 7.5}
+        - {x: -17, y: 4.5}
+        - {x: -25, y: 4.5}
+        - {x: -25, y: -20.5}
+        - {x: -17, y: -30.5}
+        - {x: 25, y: -30.5}
+        - {x: 25, y: 30.5}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_25
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 517
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 30.5}
+        - {x: -19.5, y: 29.5}
+        - {x: -20.5, y: 25.5}
+        - {x: -20.5, y: -4.5}
+        - {x: -13.5, y: -30.5}
+        - {x: 13.5, y: -30.5}
+        - {x: 20.5, y: -15.5}
+        - {x: 20.5, y: 25.5}
+        - {x: 14.5, y: 30.5}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_26
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 516
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 32}
+        - {x: -20.5, y: 30}
+        - {x: -20.5, y: -26}
+        - {x: -13.5, y: -32}
+        - {x: 15.5, y: -32}
+        - {x: 20.5, y: -3}
+        - {x: 20.5, y: 28}
+        - {x: 15.5, y: 32}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_27
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 442
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 30}
+        - {x: -22, y: 28}
+        - {x: -22, y: -30}
+        - {x: 22, y: -30}
+        - {x: 22, y: 29}
+        - {x: 21, y: 30}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_28
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 444
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: -22.5}
+        - {x: -24.5, y: -28.5}
+        - {x: 27.5, y: -28.5}
+        - {x: 27.5, y: 7.5}
+        - {x: 24.5, y: 23.5}
+        - {x: 19.5, y: 28.5}
+        - {x: -24.5, y: 28.5}
+        - {x: -27.5, y: 27.5}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_29
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 445
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 30.5}
+        - {x: -21.5, y: 27.5}
+        - {x: -21.5, y: -30.5}
+        - {x: 19.5, y: -30.5}
+        - {x: 21.5, y: -24.5}
+        - {x: 21.5, y: 25.5}
+        - {x: 19.5, y: 30.5}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_30
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 449
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 29}
+        - {x: -25, y: 20}
+        - {x: -25, y: -14}
+        - {x: -15, y: -17}
+        - {x: -11, y: -29}
+        - {x: 25, y: -29}
+        - {x: 25, y: 12}
+        - {x: 16, y: 29}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_31
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 452
+        width: 54
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: -4.5}
+        - {x: -21, y: -16.5}
+        - {x: -13, y: -28.5}
+        - {x: 27, y: -28.5}
+        - {x: 27, y: -1.5}
+        - {x: 18, y: 28.5}
+        - {x: -22, y: 28.5}
+        - {x: -27, y: 26.5}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_32
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 452
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 29.5}
+        - {x: -24, y: 22.5}
+        - {x: -24, y: -20.5}
+        - {x: -15, y: -29.5}
+        - {x: 24, y: -29.5}
+        - {x: 24, y: 24.5}
+        - {x: 10, y: 29.5}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_33
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 454
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: -14.5}
+        - {x: -11.5, y: -28.5}
+        - {x: 27.5, y: -28.5}
+        - {x: 27.5, y: 13.5}
+        - {x: 25.5, y: 25.5}
+        - {x: 13.5, y: 28.5}
+        - {x: -23.5, y: 28.5}
+        - {x: -27.5, y: 23.5}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_34
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 380
+        width: 61
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 20.5}
+        - {x: -25.5, y: 19.5}
+        - {x: -30.5, y: 6.5}
+        - {x: -30.5, y: -16.5}
+        - {x: -28.5, y: -20.5}
+        - {x: 23.5, y: -20.5}
+        - {x: 30.5, y: -19.5}
+        - {x: 30.5, y: -4.5}
+        - {x: 12.5, y: 20.5}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_35
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 381
+        width: 57
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 20.5}
+        - {x: -26.5, y: 20.5}
+        - {x: -28.5, y: 16.5}
+        - {x: -28.5, y: -20.5}
+        - {x: 28.5, y: -20.5}
+        - {x: 28.5, y: -3.5}
+        - {x: 21.5, y: 16.5}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_36
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 381
+        width: 57
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 20.5}
+        - {x: -28.5, y: 17.5}
+        - {x: -28.5, y: -19.5}
+        - {x: -26.5, y: -20.5}
+        - {x: 28.5, y: -20.5}
+        - {x: 28.5, y: -5.5}
+        - {x: 14.5, y: 20.5}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_37
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 381
+        width: 57
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 20.5}
+        - {x: -26.5, y: 20.5}
+        - {x: -28.5, y: 16.5}
+        - {x: -28.5, y: -20.5}
+        - {x: 28.5, y: -20.5}
+        - {x: 28.5, y: -3.5}
+        - {x: 21.5, y: 16.5}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_38
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 309
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 31}
+        - {x: -20.5, y: 28}
+        - {x: -20.5, y: -27}
+        - {x: -19.5, y: -31}
+        - {x: 20.5, y: -31}
+        - {x: 20.5, y: 30}
+        - {x: 19.5, y: 31}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_39
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 233
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 31}
+        - {x: -20, y: 27}
+        - {x: -20, y: -16}
+        - {x: -10, y: -31}
+        - {x: 13, y: -31}
+        - {x: 20, y: -19}
+        - {x: 20, y: 22}
+        - {x: 11, y: 31}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_40
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 233
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 31}
+        - {x: -20.5, y: -12}
+        - {x: -14.5, y: -28}
+        - {x: -6.5, y: -31}
+        - {x: 10.5, y: -31}
+        - {x: 20.5, y: -11}
+        - {x: 20.5, y: 31}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_41
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 160
+        width: 40
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 28.5}
+        - {x: -20, y: 20.5}
+        - {x: -20, y: -28.5}
+        - {x: 7, y: -28.5}
+        - {x: 20, y: -10.5}
+        - {x: 20, y: 26.5}
+        - {x: 19, y: 28.5}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_42
       rect:
         serializedVersion: 2
         x: 3
-        y: 23
-        width: 170
-        height: 160
+        y: 92
+        width: 45
+        height: 58
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -28, y: -34}
-        - {x: -18, y: -39}
-        - {x: 4, y: -40}
-        - {x: 22, y: -44}
-        - {x: 36, y: -17}
-        - {x: 36, y: 25}
-        - {x: 21, y: 29}
-        - {x: -46, y: 29}
-        - {x: -85, y: -10}
-        - {x: -85, y: -48}
-        - {x: -52, y: -80}
-        - {x: 0, y: -80}
-        - {x: 10, y: -59}
-        - {x: -8, y: -40}
-        - {x: -24, y: -38}
-      - - {x: 83, y: 17}
-        - {x: 44, y: 17}
-        - {x: 14, y: -31}
-        - {x: 14, y: -67}
-        - {x: 17, y: -79}
-        - {x: 48, y: -79}
-        - {x: 71, y: -67}
-        - {x: 85, y: -31}
-        - {x: 85, y: 16}
-      - - {x: 4, y: -59}
-        - {x: 2, y: -60}
-        - {x: 2, y: -68}
-        - {x: 4, y: -69}
-        - {x: 6, y: -69}
-        - {x: 8, y: -66}
-        - {x: 8, y: -61}
-        - {x: 7, y: -59}
-      - - {x: -70, y: 80}
-        - {x: -85, y: 45}
-        - {x: -85, y: 1}
-        - {x: 37, y: 1}
-        - {x: 79, y: 12}
-        - {x: 79, y: 80}
+      - - {x: -20.5, y: 29}
+        - {x: -22.5, y: 25}
+        - {x: -22.5, y: 1}
+        - {x: -5.5, y: -29}
+        - {x: 22.5, y: -29}
+        - {x: 22.5, y: 23}
+        - {x: 18.5, y: 29}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_43
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 92
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 31}
+        - {x: -20.5, y: 30}
+        - {x: -20.5, y: -8}
+        - {x: -8.5, y: -31}
+        - {x: 18.5, y: -31}
+        - {x: 20.5, y: -18}
+        - {x: 20.5, y: 26}
+        - {x: 12.5, y: 31}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_44
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 93
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 29.5}
+        - {x: -24, y: 19.5}
+        - {x: -24, y: -18.5}
+        - {x: -13, y: -29.5}
+        - {x: 24, y: -29.5}
+        - {x: 24, y: 15.5}
+        - {x: 15, y: 29.5}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_45
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 16
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 31.5}
+        - {x: -20.5, y: 29.5}
+        - {x: -20.5, y: -15.5}
+        - {x: -19.5, y: -20.5}
+        - {x: -5.5, y: -31.5}
+        - {x: 20.5, y: -31.5}
+        - {x: 20.5, y: 31.5}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_46
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 20
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 31}
+        - {x: -18.5, y: 31}
+        - {x: -20.5, y: 28}
+        - {x: -20.5, y: -4}
+        - {x: -14.5, y: -31}
+        - {x: 17.5, y: -31}
+        - {x: 20.5, y: -17}
+        - {x: 20.5, y: 28}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_47
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 21
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 32}
+        - {x: -20.5, y: 24}
+        - {x: -20.5, y: -13}
+        - {x: -18.5, y: -18}
+        - {x: -7.5, y: -32}
+        - {x: 16.5, y: -32}
+        - {x: 20.5, y: -31}
+        - {x: 20.5, y: 32}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_48
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 24
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 31.5}
+        - {x: -19.5, y: 31.5}
+        - {x: -20.5, y: 30.5}
+        - {x: -20.5, y: -22.5}
+        - {x: -18.5, y: -31.5}
+        - {x: 13.5, y: -31.5}
+        - {x: 20.5, y: -17.5}
+        - {x: 20.5, y: 26.5}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_49
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 25
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 31.5}
+        - {x: -20.5, y: -23.5}
+        - {x: -19.5, y: -24.5}
+        - {x: -2.5, y: -31.5}
+        - {x: 14.5, y: -31.5}
+        - {x: 20.5, y: -2.5}
+        - {x: 20.5, y: 27.5}
+        - {x: 18.5, y: 31.5}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_50
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 29
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 31}
+        - {x: -20.5, y: 23}
+        - {x: -20.5, y: 2}
+        - {x: -13.5, y: -31}
+        - {x: 17.5, y: -31}
+        - {x: 20.5, y: -7}
+        - {x: 20.5, y: 24}
+        - {x: 12.5, y: 31}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_51
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 27
+        width: 40
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 31.5}
+        - {x: -20, y: 27.5}
+        - {x: -20, y: -10.5}
+        - {x: -9, y: -31.5}
+        - {x: 16, y: -31.5}
+        - {x: 20, y: -14.5}
+        - {x: 20, y: 30.5}
+        - {x: 18, y: 31.5}
+    - name: drake_maplestory_sheet_by_drakeflame13-d52ro4a_52
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 29
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 31}
+        - {x: -20.5, y: 30}
+        - {x: -20.5, y: -15}
+        - {x: -14.5, y: -31}
+        - {x: 16.5, y: -31}
+        - {x: 20.5, y: -11}
+        - {x: 20.5, y: 29}
+        - {x: 17.5, y: 31}
     outline: []
   spritePackingTag: 
   userData: 

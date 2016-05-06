@@ -12,8 +12,6 @@ public class PlayerController : MonoBehaviour
   public int health = 200;                 // Current health of player
 
 	private Animator anim;
-  private AnimationClip toHuman;               // Animation from wolf to human
-  private AnimationClip toWolf;                // Animation from human to wolf
   private Rigidbody2D rb;
   public BoxCollider2D trigger;            // Holds the player attack trigger
 
@@ -31,22 +29,6 @@ public class PlayerController : MonoBehaviour
 	{
 		anim = GetComponent<Animator> ();
     rb = GetComponent<Rigidbody2D>();
-
-    //foreach (AnimationClip animClip in 
-    //         anim.runtimeAnimatorController.animationClips)
-    //{
-    //  if (animClip.name == "ToHuman")
-    //  {
-    //    toHuman = animClip;
-    //  }
-    //  else if (animClip.name == "ToWolf")
-    //  {
-    //    toWolf = animClip;
-    //  }
-    //}
-
-    //toHuman.wrapMode = WrapMode.Once;
-    //toWolf.wrapMode = WrapMode.Once;
 
     trigger.enabled = false;                // Disable attack trigger
 	}
@@ -117,6 +99,7 @@ public class PlayerController : MonoBehaviour
       isWolf = true;
       //anim.SetBool ("IsWolf", isWolf);
       //anim.SetLayerWeight(1, 0f);                   // Change to wolf animation
+      Debug.Log("Setting weight to 0");
       StartCoroutine(ChangeLayerWeight(0f));
 		}
 
@@ -129,6 +112,7 @@ public class PlayerController : MonoBehaviour
       isWolf = false;
       //anim.SetBool ("IsWolf", isWolf);
       //anim.SetLayerWeight(1, 1f);                   // Change to human animation
+      Debug.Log("Setting weight to 1");
       StartCoroutine(ChangeLayerWeight(1f));
     }
 	}
@@ -148,7 +132,7 @@ public class PlayerController : MonoBehaviour
 
 		Vector3 theScale = transform.localScale;
 		theScale.x *= -1;
-    anim.SetLayerWeight(1, 1f);
+    //anim.SetLayerWeight(1, 1f);
     transform.localScale = theScale;
 	}
     
