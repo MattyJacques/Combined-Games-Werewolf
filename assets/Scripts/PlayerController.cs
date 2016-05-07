@@ -8,8 +8,6 @@ public class PlayerController : MonoBehaviour
 
 	public float moveSpeed = 1.5f;				   // Move speed of player
 	public float jumpForce = 1000f;          // The jump force of player
-  private float height;                    // Height of the player
-  int layerMask;                           // Layer mask of player
 
   public Transform ground;
   private bool isGrounded = false;
@@ -34,9 +32,6 @@ public class PlayerController : MonoBehaviour
 		anim = GetComponent<Animator> ();       // Get animation controller
     rb = GetComponent<Rigidbody2D>();       // Get rigidbody 
 
-    height = GetComponent<BoxCollider2D>().size.y * 2f;
-    layerMask = LayerMask.NameToLayer("Player");
-
     trigger.enabled = false;                // Disable attack trigger
 
 	} // Awake()
@@ -52,8 +47,8 @@ public class PlayerController : MonoBehaviour
 
 	void Update ()
 	{
-    isGrounded = Physics2D.Linecast(transform.position, ground.position, 1 << LayerMask.NameToLayer("Ground"));
-    Debug.Log(isGrounded);
+    isGrounded = Physics2D.Linecast(transform.position, ground.position, 1 
+                   << LayerMask.NameToLayer("Ground"));
 
 		if (Input.GetButtonDown ("Jump") && isGrounded) //Add grounded "&& grounded"
     {
@@ -90,7 +85,10 @@ public class PlayerController : MonoBehaviour
       {
         isWalking = true;
 
-        transform.position = new Vector3(transform.position.x + (h * Time.deltaTime * moveSpeed), transform.position.y, transform.position.z);
+        transform.position = new Vector3(transform.position.x + 
+                                         (h * Time.deltaTime * moveSpeed), 
+                                         transform.position.y, 
+                                         transform.position.z);
       }
       else
       {
