@@ -34,12 +34,18 @@ public class EnemyBalrog : Enemy {
                 anim.SetBool("IsAttacking", isAttacking);
                 attackTime = 1.35f;
                 Instantiate(fireball, new Vector3(transform.position.x + 3, transform.position.y + 5, 4.5f), Quaternion.Euler(0,0,-25));
-                
+                timeToHit -= Time.deltaTime;
             }
             else if (timeToHit < 0)
             {
                 isHit = true;
                 anim.SetBool("IsHit", isHit);
+                timeToHit -= Time.deltaTime;
+            }
+            else if (attackTime < 0)
+            {
+                isAttacking = false;
+                anim.SetBool("IsAttacking", isAttacking);
             }
 
             if (timeToHit < -hitTime)
@@ -48,14 +54,11 @@ public class EnemyBalrog : Enemy {
                 isHit = false;
                 anim.SetBool("IsHit", isHit);
             }
-            else
-            {
-                timeToHit -= Time.deltaTime;
-            }
 
             if (attackTime > 0)
             {
                 attackTime -= Time.deltaTime;
+                timeToHit -= Time.deltaTime;
             }
             else
             {
