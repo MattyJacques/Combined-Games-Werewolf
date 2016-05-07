@@ -1,0 +1,653 @@
+fileFormatVersion: 2
+guid: 52063636f8ce4504cb585586e3f1aa08
+timeCreated: 1462631491
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MonkeyBossPhase1_0
+    21300002: MonkeyBossPhase1_1
+    21300004: MonkeyBossPhase1_6
+    21300006: MonkeyBossPhase1_7
+    21300008: MonkeyBossPhase1_10
+    21300010: MonkeyBossPhase1_12
+    21300012: MonkeyBossPhase1_13
+    21300014: MonkeyBossPhase1_14
+    21300016: MonkeyBossPhase1_15
+    21300018: MonkeyBossPhase1_16
+    21300020: MonkeyBossPhase1_17
+    21300022: MonkeyBossPhase1_18
+    21300024: MonkeyBossPhase1_19
+    21300026: MonkeyBossPhase1_20
+    21300028: MonkeyBossPhase1_22
+    21300030: MonkeyBossPhase1_23
+    21300032: MonkeyBossPhase1_24
+    21300034: MonkeyBossPhase1_25
+    21300036: MonkeyBossPhase1_26
+    21300038: MonkeyBossPhase1_27
+    21300040: MonkeyBossPhase1_29
+    21300042: MonkeyBossPhase1_30
+    21300044: MonkeyBossPhase1_31
+    21300046: MonkeyBossPhase1_35
+    21300048: MonkeyBossPhase1_36
+    21300050: MonkeyBossPhase1_2
+    21300052: MonkeyBossPhase1_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: MonkeyBossPhase1_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 167
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MonkeyBossPhase1_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 167
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MonkeyBossPhase1_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 115
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MonkeyBossPhase1_7
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 115
+        width: 58
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MonkeyBossPhase1_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 115
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MonkeyBossPhase1_12
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 5
+        width: 161
+        height: 139
+      alignment: 9
+      pivot: {x: 0.82037205, y: 0.16712117}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.704834, y: -16.098354}
+        - {x: 20.704834, y: 12.901646}
+        - {x: 13.704834, y: 36.901646}
+        - {x: 5.704834, y: 40.901646}
+        - {x: -11.295166, y: 40.901646}
+        - {x: -15.295166, y: 31.901646}
+        - {x: -14.295166, y: 27.901646}
+        - {x: -11.295166, y: 21.901646}
+        - {x: -14.295166, y: 11.901646}
+        - {x: -14.295166, y: 27.901646}
+        - {x: -15.295166, y: 32.901646}
+        - {x: -17.295166, y: 37.901646}
+        - {x: -17.295166, y: 64.90164}
+        - {x: -38.295166, y: 79.90164}
+        - {x: -40.295166, y: 80.90164}
+        - {x: -78.295166, y: 80.90164}
+        - {x: -91.295166, y: 60.901646}
+        - {x: -91.295166, y: 17.901646}
+        - {x: -72.295166, y: -16.098354}
+        - {x: -49.295166, y: -16.098354}
+        - {x: -47.295166, y: -15.098354}
+        - {x: -48.295166, y: -15.098354}
+        - {x: -46.295166, y: -16.098354}
+    - name: MonkeyBossPhase1_13
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 5
+        width: 160
+        height: 139
+      alignment: 9
+      pivot: {x: 0.808152, y: 0.16712117}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.802734, y: -16.098354}
+        - {x: 22.802734, y: 25.901646}
+        - {x: 19.802734, y: 39.901646}
+        - {x: -10.197266, y: 42.901646}
+        - {x: -13.197266, y: 31.901646}
+        - {x: -12.197266, y: 27.901646}
+        - {x: -10.197266, y: 22.901646}
+        - {x: -11.197266, y: 20.901646}
+        - {x: -14.197266, y: 37.901646}
+        - {x: -9.197266, y: 68.90164}
+        - {x: -37.197266, y: 80.90164}
+        - {x: -81.197266, y: 80.90164}
+        - {x: -89.197266, y: 73.90164}
+        - {x: -89.197266, y: 23.901646}
+        - {x: -73.197266, y: -16.098354}
+        - {x: -48.197266, y: -16.098354}
+        - {x: -46.197266, y: -14.098354}
+        - {x: -46.197266, y: -10.098354}
+        - {x: -45.197266, y: -16.098354}
+    - name: MonkeyBossPhase1_14
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 5
+        width: 161
+        height: 139
+      alignment: 9
+      pivot: {x: 0.806238, y: 0.16712117}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.432617, y: 39.901646}
+        - {x: -13.432617, y: 32.901646}
+        - {x: -12.432617, y: 23.901646}
+        - {x: -14.432617, y: 35.901646}
+        - {x: -15.432617, y: 65.90164}
+        - {x: -31.432617, y: 80.90164}
+        - {x: -74.43262, y: 80.90164}
+        - {x: -89.43262, y: 67.90164}
+        - {x: -89.43262, y: 12.901646}
+        - {x: -77.43262, y: -16.098354}
+        - {x: 22.567383, y: -16.098354}
+        - {x: 22.567383, y: 19.901646}
+        - {x: 4.567383, y: 45.901646}
+    - name: MonkeyBossPhase1_15
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 5
+        width: 160
+        height: 139
+      alignment: 9
+      pivot: {x: 0.8271149, y: 0.16166414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5465698, y: 49.425404}
+        - {x: -10.45343, y: 40.425404}
+        - {x: -15.45343, y: 33.425404}
+        - {x: -14.45343, y: 24.425404}
+        - {x: -15.45343, y: 36.425404}
+        - {x: -20.45343, y: 64.4254}
+        - {x: -26.45343, y: 70.4254}
+        - {x: -38.45343, y: 80.4254}
+        - {x: -43.45343, y: 81.4254}
+        - {x: -72.45343, y: 81.4254}
+        - {x: -91.45343, y: 60.425404}
+        - {x: -91.45343, y: 35.425404}
+        - {x: -87.45343, y: 20.425404}
+        - {x: -68.45343, y: -15.574596}
+        - {x: 19.54657, y: -15.574596}
+        - {x: 20.54657, y: -14.574596}
+        - {x: 20.54657, y: 12.425404}
+        - {x: 16.54657, y: 21.425404}
+    - name: MonkeyBossPhase1_16
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 5
+        width: 160
+        height: 139
+      alignment: 9
+      pivot: {x: 0.8176338, y: 0.1725782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.331787, y: 40.37789}
+        - {x: -14.331787, y: 31.37789}
+        - {x: -13.331787, y: 27.37789}
+        - {x: -11.331787, y: 22.37789}
+        - {x: -13.331787, y: 19.37789}
+        - {x: -14.331787, y: 32.37789}
+        - {x: -7.331787, y: 69.37789}
+        - {x: -34.331787, y: 80.37789}
+        - {x: -79.33179, y: 80.37789}
+        - {x: -90.33179, y: 63.37789}
+        - {x: -90.33179, y: 35.37789}
+        - {x: -85.33179, y: 19.37789}
+        - {x: -66.33179, y: -16.62211}
+        - {x: 19.668213, y: -16.62211}
+        - {x: 21.668213, y: -15.62211}
+        - {x: 21.668213, y: 13.37789}
+        - {x: 7.668213, y: 42.37789}
+    - name: MonkeyBossPhase1_17
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 5
+        width: 160
+        height: 139
+      alignment: 9
+      pivot: {x: 0.8128929, y: 0.1725782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.266113, y: -16.62211}
+        - {x: 22.266113, y: 25.37789}
+        - {x: 19.266113, y: 39.37789}
+        - {x: -10.733887, y: 42.37789}
+        - {x: -13.733887, y: 31.37789}
+        - {x: -12.733887, y: 27.37789}
+        - {x: -10.733887, y: 22.37789}
+        - {x: -11.733887, y: 20.37789}
+        - {x: -14.733887, y: 37.37789}
+        - {x: -9.733887, y: 68.37789}
+        - {x: -37.733887, y: 80.37789}
+        - {x: -81.73389, y: 80.37789}
+        - {x: -89.73389, y: 73.37789}
+        - {x: -89.73389, y: 23.37789}
+        - {x: -73.73389, y: -16.62211}
+        - {x: -48.733887, y: -16.62211}
+        - {x: -46.733887, y: -14.62211}
+        - {x: -46.733887, y: -10.62211}
+        - {x: -45.733887, y: -16.62211}
+    - name: MonkeyBossPhase1_18
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 5
+        width: 161
+        height: 139
+      alignment: 9
+      pivot: {x: 0.81566095, y: 0.12892194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.8739, y: -12.432053}
+        - {x: 21.126099, y: -12.432053}
+        - {x: 21.126099, y: 9.567947}
+        - {x: 11.126099, y: 38.567947}
+        - {x: 2.1260986, y: 45.567947}
+        - {x: -9.873901, y: 43.567947}
+        - {x: -14.873901, y: 35.567947}
+        - {x: -13.873901, y: 31.567947}
+        - {x: -11.873901, y: 26.567947}
+        - {x: -12.873901, y: 24.567947}
+        - {x: -15.873901, y: 41.567947}
+        - {x: -16.873901, y: 68.56795}
+        - {x: -31.873901, y: 84.56795}
+        - {x: -75.8739, y: 84.56795}
+        - {x: -90.8739, y: 69.56795}
+        - {x: -90.8739, y: 37.567947}
+        - {x: -86.8739, y: 23.567947}
+        - {x: -67.8739, y: -12.432053}
+        - {x: -49.8739, y: -12.432053}
+        - {x: -47.8739, y: -10.432053}
+        - {x: -47.8739, y: -6.4320526}
+        - {x: -46.8739, y: -11.432053}
+    - name: MonkeyBossPhase1_19
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 5
+        width: 152
+        height: 142
+      alignment: 9
+      pivot: {x: 0.839341, y: 0.17949536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.676514, y: 57.37791}
+        - {x: 8.676514, y: 81.377914}
+        - {x: -67.32349, y: 81.377914}
+        - {x: -88.32349, y: 60.37791}
+        - {x: -88.32349, y: 18.37791}
+        - {x: -75.32349, y: -17.62209}
+        - {x: 2.6765137, y: -17.62209}
+        - {x: 10.676514, y: -8.622089}
+        - {x: 17.676514, y: 2.3779106}
+    - name: MonkeyBossPhase1_20
+      rect:
+        serializedVersion: 2
+        x: 2038
+        y: 5
+        width: 149
+        height: 149
+      alignment: 9
+      pivot: {x: 0.8156296, y: 0.2556421}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.2497559, y: 26.592821}
+        - {x: -3.2497559, y: 15.592821}
+        - {x: -4.249756, y: 18.592821}
+        - {x: -12.249756, y: 34.59282}
+        - {x: 8.750244, y: 40.59282}
+        - {x: 16.750244, y: 47.59282}
+        - {x: 11.750244, y: 56.59282}
+        - {x: 7.750244, y: 55.59282}
+        - {x: 4.750244, y: 52.59282}
+        - {x: 7.750244, y: 55.59282}
+        - {x: 12.750244, y: 68.59282}
+        - {x: -0.24975586, y: 77.59282}
+        - {x: -56.249756, y: 77.59282}
+        - {x: -84.249756, y: 55.59282}
+        - {x: -84.249756, y: -6.407179}
+        - {x: -60.249756, y: -26.407179}
+        - {x: 11.750244, y: -26.407179}
+        - {x: 19.750244, y: -23.407179}
+        - {x: 19.750244, y: 28.592821}
+        - {x: 15.750244, y: 31.592821}
+    - name: MonkeyBossPhase1_22
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 5
+        width: 149
+        height: 127
+      alignment: 9
+      pivot: {x: 0.80544776, y: 0.22525772}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.033081, y: 69.0453}
+        - {x: -67.03308, y: 69.0453}
+        - {x: -83.03308, y: 41.045303}
+        - {x: -83.03308, y: 26.045303}
+        - {x: -78.03308, y: 5.0453033}
+        - {x: -61.03308, y: -19.954697}
+        - {x: 17.966919, y: -19.954697}
+        - {x: 20.966919, y: -13.954697}
+        - {x: 20.966919, y: 47.045303}
+        - {x: 9.966919, y: 58.045303}
+    - name: MonkeyBossPhase1_23
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 5
+        width: 144
+        height: 138
+      alignment: 9
+      pivot: {x: 0.8371226, y: 0.13722607}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.6604004, y: -12.979561}
+        - {x: 16.6604, y: 5.020439}
+        - {x: 16.6604, y: 43.02044}
+        - {x: 10.6604, y: 54.02044}
+        - {x: 4.6604004, y: 60.02044}
+        - {x: -3.3395996, y: 70.02044}
+        - {x: -22.3396, y: 83.02044}
+        - {x: -77.3396, y: 83.02044}
+        - {x: -83.3396, y: 81.02044}
+        - {x: -83.3396, y: 10.020439}
+        - {x: -70.3396, y: -12.979561}
+        - {x: -42.3396, y: -12.979561}
+        - {x: -40.3396, y: -10.979561}
+        - {x: -40.3396, y: -6.979561}
+        - {x: -39.3396, y: -12.979561}
+    - name: MonkeyBossPhase1_24
+      rect:
+        serializedVersion: 2
+        x: 2512
+        y: 5
+        width: 142
+        height: 139
+      alignment: 9
+      pivot: {x: 0.7190113, y: 0.19440633}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.45752, y: 78.28286}
+        - {x: -52.45752, y: 78.28286}
+        - {x: -70.45752, y: 58.28286}
+        - {x: -70.45752, y: 22.28286}
+        - {x: -58.45752, y: -18.71714}
+        - {x: 24.54248, y: -18.71714}
+        - {x: 28.54248, y: -8.71714}
+        - {x: 28.54248, y: 57.28286}
+        - {x: 14.54248, y: 70.28286}
+    - name: MonkeyBossPhase1_25
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 6
+        width: 142
+        height: 138
+      alignment: 9
+      pivot: {x: 0.8151632, y: 0.2251714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.31128, y: 74.3308}
+        - {x: -80.31128, y: 56.330803}
+        - {x: -80.31128, y: -17.669199}
+        - {x: -70.31128, y: -21.669199}
+        - {x: 18.68872, y: -21.669199}
+        - {x: 18.68872, y: 52.330803}
+        - {x: -14.311279, y: 74.3308}
+    - name: MonkeyBossPhase1_26
+      rect:
+        serializedVersion: 2
+        x: 2815
+        y: 6
+        width: 142
+        height: 139
+      alignment: 9
+      pivot: {x: 0.8365307, y: 0.22169127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.76111, y: 75.35458}
+        - {x: -81.76111, y: 61.354584}
+        - {x: -81.76111, y: 18.354586}
+        - {x: -67.76111, y: -21.645414}
+        - {x: -0.7611084, y: -21.645414}
+        - {x: 17.238892, y: -10.645414}
+        - {x: 17.238892, y: 45.354584}
+        - {x: 5.2388916, y: 75.35458}
+    - name: MonkeyBossPhase1_27
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 56
+        width: 60
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MonkeyBossPhase1_29
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 5
+        width: 56
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MonkeyBossPhase1_30
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 5
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MonkeyBossPhase1_31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 5
+        width: 70
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MonkeyBossPhase1_35
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 5
+        width: 107
+        height: 118
+      alignment: 9
+      pivot: {x: 0.7126716, y: 0.21715915}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52.586975, y: 64.497795}
+        - {x: -52.586975, y: -15.502207}
+        - {x: -50.586975, y: -17.502207}
+        - {x: -33.586975, y: -17.502207}
+        - {x: -33.586975, y: 53.497795}
+        - {x: -37.586975, y: 64.497795}
+      - - {x: -11.586975, y: 15.497793}
+        - {x: -18.586975, y: 6.497793}
+        - {x: -18.586975, y: -11.502207}
+        - {x: -12.586975, y: -17.502207}
+        - {x: 21.413025, y: -17.502207}
+        - {x: 22.413025, y: -16.502207}
+        - {x: 22.413025, y: 3.4977932}
+        - {x: 12.413025, y: 15.497793}
+    - name: MonkeyBossPhase1_36
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 5
+        width: 122
+        height: 172
+      alignment: 9
+      pivot: {x: 0.7611324, y: 0.14278638}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60.39395, y: 102.876816}
+        - {x: -64.39395, y: 90.876816}
+        - {x: -64.39395, y: 25.87682}
+        - {x: -57.39395, y: -17.12318}
+        - {x: -24.393951, y: -17.12318}
+        - {x: -21.393951, y: -5.1231804}
+        - {x: -21.393951, y: 67.876816}
+        - {x: -36.39395, y: 102.876816}
+      - - {x: 7.6060486, y: 12.87682}
+        - {x: -6.3939514, y: 15.87682}
+        - {x: -20.393951, y: 7.8768196}
+        - {x: -20.393951, y: -13.12318}
+        - {x: -16.393951, y: -17.12318}
+        - {x: 17.606049, y: -17.12318}
+        - {x: 20.606049, y: -15.12318}
+        - {x: 20.606049, y: -0.12318039}
+        - {x: 18.606049, y: 5.8768196}
+    - name: MonkeyBossPhase1_2
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 4
+        width: 89
+        height: 49
+      alignment: 9
+      pivot: {x: 0.6445109, y: 0.46174726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.170181, y: 11.556215}
+        - {x: 3.1701813, y: 18.556215}
+        - {x: -6.8298187, y: 18.556215}
+        - {x: -17.829819, y: 12.556215}
+        - {x: -17.829819, y: -1.4437847}
+        - {x: -12.829819, y: -15.443785}
+        - {x: 20.170181, y: -15.443785}
+        - {x: 23.170181, y: -10.443785}
+        - {x: 23.170181, y: 3.5562153}
+        - {x: 21.170181, y: 7.5562153}
+      - - {x: -39.82982, y: 13.556215}
+        - {x: -39.82982, y: 6.5562153}
+        - {x: -38.82982, y: 5.5562153}
+        - {x: -31.829819, y: 5.5562153}
+        - {x: -24.829819, y: 7.5562153}
+        - {x: -24.829819, y: 11.556215}
+        - {x: -25.829819, y: 13.556215}
+    - name: MonkeyBossPhase1_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 4
+        width: 104
+        height: 55
+      alignment: 9
+      pivot: {x: 0.7183647, y: 0.44004178}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.533371, y: 17.539007}
+        - {x: -19.533371, y: 8.539007}
+        - {x: -19.533371, y: -2.4609928}
+        - {x: -11.533371, y: -16.460993}
+        - {x: 19.466629, y: -16.460993}
+        - {x: 20.466629, y: -14.460993}
+        - {x: 20.466629, y: 11.539007}
+        - {x: 4.466629, y: 17.539007}
+      - - {x: -51.53337, y: 11.539007}
+        - {x: -49.53337, y: 4.539007}
+        - {x: -32.53337, y: 4.539007}
+        - {x: -32.53337, y: 20.539007}
+        - {x: -40.53337, y: 22.539007}
+        - {x: -49.53337, y: 22.539007}
+        - {x: -51.53337, y: 20.539007}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
