@@ -6,10 +6,10 @@ public class EnemyDino : Enemy
 
   private Animator theAnimator;        // Animation controller
 
-  public bool isIdle = true;          // Is the enemy idle
+  private bool isIdle = true;          // Is the enemy idle
   //private bool isWalking = false;      // Is the enemy walking
   private bool isDead = false;         // Is the enemy dead
-  public bool isAttacking = false;    // Is the enemy attacking
+  private bool isAttacking = false;    // Is the enemy attacking
 
   private float attackTime;
 
@@ -36,13 +36,14 @@ public class EnemyDino : Enemy
       //Attack();
     } 
 
-        if (isAttacking && (Time.time > attackTime))
-        {
-            isAttacking = false;                              // Finishing attacking
-            isIdle = true;
-            theAnimator.SetBool("IsIdle", isIdle);
-            theAnimator.SetBool("IsAttacking", isAttacking);
-        }
+    if (isAttacking && (Time.time > attackTime))
+    {
+        isAttacking = false;                              // Finishing attacking
+        isIdle = true;
+        theAnimator.SetBool("IsIdle", isIdle);
+        theAnimator.SetBool("IsAttacking", isAttacking);
+    }
+
 	} // Update()
 
   IEnumerator Attack()

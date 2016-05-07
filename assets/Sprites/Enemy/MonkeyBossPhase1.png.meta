@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 52063636f8ce4504cb585586e3f1aa08
-timeCreated: 1462631491
+timeCreated: 1462637543
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -85,7 +85,7 @@ TextureImporter:
         width: 57
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: MonkeyBossPhase1_1
@@ -96,7 +96,7 @@ TextureImporter:
         width: 57
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: MonkeyBossPhase1_6
@@ -107,7 +107,7 @@ TextureImporter:
         width: 57
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: MonkeyBossPhase1_7
@@ -118,7 +118,7 @@ TextureImporter:
         width: 58
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: MonkeyBossPhase1_10
@@ -129,7 +129,7 @@ TextureImporter:
         width: 57
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: MonkeyBossPhase1_12
@@ -196,117 +196,6 @@ TextureImporter:
         - {x: -46.197266, y: -14.098354}
         - {x: -46.197266, y: -10.098354}
         - {x: -45.197266, y: -16.098354}
-    - name: MonkeyBossPhase1_14
-      rect:
-        serializedVersion: 2
-        x: 1019
-        y: 5
-        width: 161
-        height: 139
-      alignment: 9
-      pivot: {x: 0.806238, y: 0.16712117}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8.432617, y: 39.901646}
-        - {x: -13.432617, y: 32.901646}
-        - {x: -12.432617, y: 23.901646}
-        - {x: -14.432617, y: 35.901646}
-        - {x: -15.432617, y: 65.90164}
-        - {x: -31.432617, y: 80.90164}
-        - {x: -74.43262, y: 80.90164}
-        - {x: -89.43262, y: 67.90164}
-        - {x: -89.43262, y: 12.901646}
-        - {x: -77.43262, y: -16.098354}
-        - {x: 22.567383, y: -16.098354}
-        - {x: 22.567383, y: 19.901646}
-        - {x: 4.567383, y: 45.901646}
-    - name: MonkeyBossPhase1_15
-      rect:
-        serializedVersion: 2
-        x: 1190
-        y: 5
-        width: 160
-        height: 139
-      alignment: 9
-      pivot: {x: 0.8271149, y: 0.16166414}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 2.5465698, y: 49.425404}
-        - {x: -10.45343, y: 40.425404}
-        - {x: -15.45343, y: 33.425404}
-        - {x: -14.45343, y: 24.425404}
-        - {x: -15.45343, y: 36.425404}
-        - {x: -20.45343, y: 64.4254}
-        - {x: -26.45343, y: 70.4254}
-        - {x: -38.45343, y: 80.4254}
-        - {x: -43.45343, y: 81.4254}
-        - {x: -72.45343, y: 81.4254}
-        - {x: -91.45343, y: 60.425404}
-        - {x: -91.45343, y: 35.425404}
-        - {x: -87.45343, y: 20.425404}
-        - {x: -68.45343, y: -15.574596}
-        - {x: 19.54657, y: -15.574596}
-        - {x: 20.54657, y: -14.574596}
-        - {x: 20.54657, y: 12.425404}
-        - {x: 16.54657, y: 21.425404}
-    - name: MonkeyBossPhase1_16
-      rect:
-        serializedVersion: 2
-        x: 1361
-        y: 5
-        width: 160
-        height: 139
-      alignment: 9
-      pivot: {x: 0.8176338, y: 0.1725782}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -9.331787, y: 40.37789}
-        - {x: -14.331787, y: 31.37789}
-        - {x: -13.331787, y: 27.37789}
-        - {x: -11.331787, y: 22.37789}
-        - {x: -13.331787, y: 19.37789}
-        - {x: -14.331787, y: 32.37789}
-        - {x: -7.331787, y: 69.37789}
-        - {x: -34.331787, y: 80.37789}
-        - {x: -79.33179, y: 80.37789}
-        - {x: -90.33179, y: 63.37789}
-        - {x: -90.33179, y: 35.37789}
-        - {x: -85.33179, y: 19.37789}
-        - {x: -66.33179, y: -16.62211}
-        - {x: 19.668213, y: -16.62211}
-        - {x: 21.668213, y: -15.62211}
-        - {x: 21.668213, y: 13.37789}
-        - {x: 7.668213, y: 42.37789}
-    - name: MonkeyBossPhase1_17
-      rect:
-        serializedVersion: 2
-        x: 1532
-        y: 5
-        width: 160
-        height: 139
-      alignment: 9
-      pivot: {x: 0.8128929, y: 0.1725782}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 22.266113, y: -16.62211}
-        - {x: 22.266113, y: 25.37789}
-        - {x: 19.266113, y: 39.37789}
-        - {x: -10.733887, y: 42.37789}
-        - {x: -13.733887, y: 31.37789}
-        - {x: -12.733887, y: 27.37789}
-        - {x: -10.733887, y: 22.37789}
-        - {x: -11.733887, y: 20.37789}
-        - {x: -14.733887, y: 37.37789}
-        - {x: -9.733887, y: 68.37789}
-        - {x: -37.733887, y: 80.37789}
-        - {x: -81.73389, y: 80.37789}
-        - {x: -89.73389, y: 73.37789}
-        - {x: -89.73389, y: 23.37789}
-        - {x: -73.73389, y: -16.62211}
-        - {x: -48.733887, y: -16.62211}
-        - {x: -46.733887, y: -14.62211}
-        - {x: -46.733887, y: -10.62211}
-        - {x: -45.733887, y: -16.62211}
     - name: MonkeyBossPhase1_18
       rect:
         serializedVersion: 2
@@ -503,7 +392,7 @@ TextureImporter:
         width: 60
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: MonkeyBossPhase1_29
@@ -514,7 +403,7 @@ TextureImporter:
         width: 56
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: MonkeyBossPhase1_30
@@ -525,7 +414,7 @@ TextureImporter:
         width: 58
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: MonkeyBossPhase1_31
@@ -536,7 +425,7 @@ TextureImporter:
         width: 70
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: MonkeyBossPhase1_35
