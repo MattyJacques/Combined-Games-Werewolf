@@ -4,38 +4,58 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
-	public bool facingRight = true;		
+	public bool facingRight = true;		       // Is player facing right
 
-	public float moveSpeed = 1.5f;				
-	public float jumpForce = 1000f;
+	public float moveSpeed = 1.5f;				   // Move speed of player
+	public float jumpForce = 1000f;          // The jump force of player
+  private float height;                    // Height of the player
+  int layerMask;                           // Layer mask of player
+
+  public Transform ground;
+  private bool isGrounded = false;
 
   public int health = 200;                 // Current health of player
 
-	private Animator anim;
-  private Rigidbody2D rb;
+	private Animator anim;                   // Animation controller
+  private Rigidbody2D rb;                  // Rigidbody of player
   public BoxCollider2D trigger;            // Holds the player attack trigger
 
-  public Sprite humanSprite;
-  public Sprite wolfSprite;
-
-	private bool isWolf = true;
-  private bool isWalking = false;
-  private bool isAttacking = false;
-  private bool isJumping = false;
+	private bool isWolf = true;              // Is the player a wolf
+  private bool isWalking = false;          // Is the player walking
+  private bool isAttacking = false;        // Is the player attacking
+  private bool isJumping = false;          // Is the player jumping
   private bool isDead = false;             // If current player state is dead
 
 
 	void Awake ()
-	{
-		anim = GetComponent<Animator> ();
-    rb = GetComponent<Rigidbody2D>();
+	{ // Get the animation controller and rigidbody on object creation, disable 
+    // the attack trigger
+
+		anim = GetComponent<Animator> ();       // Get animation controller
+    rb = GetComponent<Rigidbody2D>();       // Get rigidbody 
+
+    height = GetComponent<BoxCollider2D>().size.y * 2f;
+    layerMask = LayerMask.NameToLayer("Player");
 
     trigger.enabled = false;                // Disable attack trigger
-	}
+
+	} // Awake()
+
+
+  void Start()
+  { // Set the height of the player
+
+
+
+  } // Start()
+
 
 	void Update ()
 	{
-		if (Input.GetButtonDown ("Jump")) //Add grounded "&& grounded"
+    isGrounded = Physics2D.Linecast(transform.position, ground.position, 1 << LayerMask.NameToLayer("Ground"));
+    Debug.Log(isGrounded);
+
+		if (Input.GetButtonDown ("Jump") && isGrounded) //Add grounded "&& grounded"
     {
             isJumping = true;
             anim.SetBool("IsJumping", isJumping);
@@ -55,65 +75,57 @@ public class PlayerController : MonoBehaviour
 
 	void FixedUpdate ()
 	{
-        if (isJumping)
-        {
-            if (Physics2D.Raycast(transform.position, -Vector2.up, 0.2f) && (rb.velocity.y < 0))
-            {
-                //FIX
-                Debug.DrawRay(transform.position, -Vector2.up);
-                isJumping = false;
-                anim.SetBool("IsJumping", isJumping);
-            }
-        }
-        if (!isAttacking)
-        {
-            float h = Input.GetAxis("Horizontal");
+    if (isJumping)
+    {
+      if (isGrounded && rb.velocity.y < 0)
+      { 
+        Jumping();
+      }
+    }
+    if (!isAttacking)
+    {
+      float h = Input.GetAxis("Horizontal");
 
-            if (h != 0)
-            {
-                isWalking = true;
+      if (h != 0)
+      {
+        isWalking = true;
 
-                transform.position = new Vector3(transform.position.x + (h * Time.deltaTime * moveSpeed), transform.position.y, transform.position.z);
-            }
-            else
-            {
-                isWalking = false;
-            }
-            anim.SetBool("IsWalking", isWalking);
+        transform.position = new Vector3(transform.position.x + (h * Time.deltaTime * moveSpeed), transform.position.y, transform.position.z);
+      }
+      else
+      {
+        isWalking = false;
+      }
+      anim.SetBool("IsWalking", isWalking);
 
-            if (h > 0 && !facingRight)
-            {
-                Flip();
-            }
-            else if (h < 0 && facingRight)
-            {
-                Flip();
-            }
-        }
-	}
+      if (h > 0 && !facingRight)
+      {
+        Flip();
+      }
+      else if (h < 0 && facingRight)
+      {
+        Flip();
+      }
+    }
+	} // FixedUpdate()
 
 	void OnTriggerEnter2D (Collider2D other)
 	{
 		if (other.gameObject.tag == "Moon" && !isWolf) {
       anim.Play("Transform");
       isWolf = true;
-      //anim.SetBool ("IsWolf", isWolf);
-      //anim.SetLayerWeight(1, 0f);                   // Change to wolf animation
-      Debug.Log("Setting weight to 0");
-      StartCoroutine(ChangeLayerWeight(0f));
+      StartCoroutine(ChangeLayerWeight(0f));         // Change to wolf animation
 		}
 
 	}
 
 	void OnTriggerExit2D (Collider2D other)
 	{
-		if (other.gameObject.tag == "Moon") {
+		if (other.gameObject.tag == "Moon" && isWolf)
+    {
       anim.Play("Transform");
-      isWolf = false;
-      //anim.SetBool ("IsWolf", isWolf);
-      //anim.SetLayerWeight(1, 1f);                   // Change to human animation
-      Debug.Log("Setting weight to 1");
-      StartCoroutine(ChangeLayerWeight(1f));
+      isWolf = false;                 
+      StartCoroutine(ChangeLayerWeight(1f));        // Change to human animation
     }
 	}
 
@@ -132,7 +144,6 @@ public class PlayerController : MonoBehaviour
 
 		Vector3 theScale = transform.localScale;
 		theScale.x *= -1;
-    //anim.SetLayerWeight(1, 1f);
     transform.localScale = theScale;
 	}
     
@@ -144,21 +155,23 @@ public class PlayerController : MonoBehaviour
   }
 
   void Jumping()
-  {
-      isJumping = false;
-      anim.SetBool("IsJumping", isJumping);
-  }
+  { // Play the jump animation
+
+    isJumping = false;                      // Set jumping to false
+    anim.SetBool("IsJumping", isJumping);   // Set jump animation to false
+
+  } // Jumping()
 
 
   public void TakeDamage(int damage)
   { // Subtract damage given as parameter from the current player health
 
-    health -= damage;
+    health -= damage;              // Subtract damage from health
 
     if (health <= 0)
-    {
-      isDead = true;
-      Die();
+    { // If health is equal or less than 0, kill the player
+      isDead = true;               // Set dead to true
+      Die();                       // Call to kill player
     }
 
   } // TakeDamage()
@@ -173,7 +186,7 @@ public class PlayerController : MonoBehaviour
     //yield return new WaitForSeconds(anim.GetCurrentAnimatorStateInfo(0).
     //                                length);
     
-    //Destroy(this);                             // Destroy enemy
+    //Destroy(this);                    // Destroy enemy
 
   } // Die()
 
