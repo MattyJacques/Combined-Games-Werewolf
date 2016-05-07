@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
 	private bool isWolf = true;              // Is the player a wolf
   private bool isWalking = false;          // Is the player walking
   private bool isAttacking = false;        // Is the player attacking
-  private bool isJumping = false;          // Is the player jumping
+  public bool isJumping = false;          // Is the player jumping
   private bool isDead = false;             // If current player state is dead
 
 

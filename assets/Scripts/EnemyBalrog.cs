@@ -9,7 +9,7 @@ public class EnemyBalrog : Enemy {
     public float hitTime = 15f;
 
     private Animator anim;
-    private Rigidbody2D rb;
+    //private Rigidbody2D rb;  //Doesn't Move anymore
 
     private bool isHit;
     private bool isAttacking;
@@ -19,7 +19,7 @@ public class EnemyBalrog : Enemy {
     void Awake()
     {
         anim = GetComponent<Animator>();
-        rb = GetComponent<Rigidbody2D>();
+        //rb = GetComponent<Rigidbody2D>();
         timeToHit = attackingTime;
     }
 
