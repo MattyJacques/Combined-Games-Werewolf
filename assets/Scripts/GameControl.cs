@@ -8,6 +8,8 @@ public class GameControl : MonoBehaviour {
     public GameObject pauseMenu;
     public GameObject gameOverMenu;
 
+   
+
     private bool paused;
 	void Start () {
         paused = false;
@@ -67,4 +69,9 @@ public class GameControl : MonoBehaviour {
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
+  public void LoadLevel()
+  {
+
+  }
 }

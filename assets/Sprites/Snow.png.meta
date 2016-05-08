@@ -1,0 +1,782 @@
+fileFormatVersion: 2
+guid: 616258ee58b8f15459b47494c80d2a0a
+timeCreated: 1462739167
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Snow_0
+    21300002: Snow_1
+    21300004: Snow_2
+    21300006: Snow_3
+    21300008: Snow_4
+    21300010: Snow_5
+    21300012: Snow_6
+    21300014: Snow_7
+    21300016: Snow_8
+    21300018: Snow_9
+    21300020: Snow_10
+    21300022: Snow_11
+    21300024: Snow_12
+    21300026: Snow_13
+    21300028: Snow_14
+    21300030: Snow_15
+    21300032: Snow_16
+    21300034: Snow_17
+    21300036: Snow_18
+    21300038: Snow_19
+    21300040: Snow_20
+    21300042: Snow_21
+    21300044: Snow_22
+    21300046: Snow_23
+    21300048: Snow_24
+    21300050: Snow_25
+    21300052: Snow_26
+    21300054: Snow_27
+    21300056: Snow_28
+    21300058: Snow_29
+    21300060: Snow_30
+    21300062: Snow_31
+    21300064: Snow_32
+    21300066: Snow_33
+    21300068: Snow_34
+    21300070: Snow_35
+    21300072: Snow_36
+    21300074: Snow_37
+    21300076: Snow_38
+    21300078: Snow_39
+    21300080: Snow_40
+    21300082: Snow_41
+    21300084: Snow_42
+    21300086: Snow_43
+    21300088: Snow_44
+    21300090: Snow_45
+    21300092: Snow_46
+    21300094: Snow_47
+    21300096: Snow_48
+    21300098: Snow_49
+    21300100: Snow_50
+    21300102: Snow_51
+    21300104: Snow_52
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Snow_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 255
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 30}
+        - {x: -45, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 30}
+    - name: Snow_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 255
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 30}
+        - {x: -45, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 30}
+    - name: Snow_2
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 255
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 30}
+        - {x: -45, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 30}
+    - name: Snow_3
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 255
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 30}
+        - {x: -45, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 30}
+    - name: Snow_4
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 255
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 30}
+        - {x: -45, y: -30}
+        - {x: 45, y: -30}
+        - {x: 45, y: 30}
+    - name: Snow_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 206
+        width: 64
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_6
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 207
+        width: 80
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: 16.5}
+        - {x: -26, y: 16.5}
+        - {x: -40, y: 9.5}
+        - {x: -40, y: -13.5}
+        - {x: -38, y: -16.5}
+        - {x: 37, y: -16.5}
+        - {x: 40, y: -10.5}
+        - {x: 40, y: 12.5}
+        - {x: 36, y: 14.5}
+    - name: Snow_7
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 207
+        width: 90
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 16.5}
+        - {x: -45, y: 15.5}
+        - {x: -45, y: -16.5}
+        - {x: 45, y: -16.5}
+        - {x: 45, y: 14.5}
+        - {x: 42, y: 16.5}
+    - name: Snow_8
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 207
+        width: 90
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 16.5}
+        - {x: -45, y: 15.5}
+        - {x: -45, y: -16.5}
+        - {x: 45, y: -16.5}
+        - {x: 45, y: 16.5}
+    - name: Snow_9
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 207
+        width: 90
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 16.5}
+        - {x: -45, y: 15.5}
+        - {x: -45, y: -16.5}
+        - {x: 45, y: -16.5}
+        - {x: 45, y: 14.5}
+        - {x: 42, y: 16.5}
+    - name: Snow_10
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 158
+        width: 90
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_11
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 154
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 16}
+        - {x: -45, y: -16}
+        - {x: 30, y: -16}
+        - {x: 45, y: -13}
+        - {x: 45, y: 16}
+    - name: Snow_12
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 126
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 30}
+        - {x: -16.5, y: -30}
+        - {x: 16.5, y: -30}
+        - {x: 16.5, y: 30}
+    - name: Snow_13
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 126
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 30}
+        - {x: -16.5, y: 22}
+        - {x: -8.5, y: 7}
+        - {x: -16.5, y: -19}
+        - {x: -16.5, y: -30}
+        - {x: 16.5, y: -30}
+        - {x: 16.5, y: 30}
+    - name: Snow_14
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 126
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 30}
+        - {x: -16.5, y: -30}
+        - {x: 16.5, y: -30}
+        - {x: 16.5, y: 30}
+    - name: Snow_15
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 126
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_16
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 167
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_17
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 164
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_18
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 164
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_19
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 167
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_20
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 167
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_21
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 167
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_22
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 164
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_23
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 167
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_24
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 167
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_25
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 164
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_26
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 167
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_27
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 167
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_28
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 167
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_29
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 151
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_30
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 151
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_31
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 151
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_32
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 151
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_33
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 151
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_34
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 148
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_35
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 148
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_36
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 151
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_37
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 151
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_38
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 151
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_39
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 151
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_40
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 151
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_41
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 135
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_42
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 135
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_43
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 132
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_44
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 135
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_45
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 135
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_46
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 135
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_47
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 135
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_48
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 135
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Snow_49
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 7
+        width: 90
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 43}
+        - {x: -45, y: -5}
+        - {x: 8, y: -43}
+        - {x: 45, y: -43}
+        - {x: 45, y: 43}
+    - name: Snow_50
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 7
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 44.5}
+        - {x: 30, y: 42.5}
+        - {x: -18, y: 10.5}
+        - {x: -45, y: -8.5}
+        - {x: -45, y: -44.5}
+        - {x: 45, y: -44.5}
+        - {x: 45, y: 44.5}
+    - name: Snow_51
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 6
+        width: 90
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 43}
+        - {x: -45, y: -43}
+        - {x: 0, y: -43}
+        - {x: 45, y: -28}
+        - {x: 45, y: 43}
+    - name: Snow_52
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 7
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 45}
+        - {x: -45, y: 45}
+        - {x: -45, y: -45}
+        - {x: 45, y: -45}
+        - {x: 45, y: -13}
+        - {x: 1, y: 22}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
