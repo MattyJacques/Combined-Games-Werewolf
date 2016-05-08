@@ -11,7 +11,7 @@ public class EnemyDino : Enemy
   private bool isDead = false;         // Is the enemy dead
   private bool isAttacking = false;    // Is the enemy attacking
 
-  private float attackTime;
+  private float attackTime = 0;         // Time until next attack
 
   void Awake ()
   { // Get the animator component on object creation

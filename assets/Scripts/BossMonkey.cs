@@ -5,9 +5,7 @@ public class BossMonkey : Enemy
 {
   private Animator theAnimator;        // Animation controller
 
-  private bool isIdle = true;          // Is the enemy idle
   private bool isDead = false;         // Is the enemy dead
-  private bool isAttacking = false;    // Is the enemy attacking
   private bool hasTransformed = false; // If the enemy has transformed
 
   private float attackTime = 0;        // Time until next attack
@@ -22,27 +20,45 @@ public class BossMonkey : Enemy
 
 	void Update ()
   {
-    if (Vector2.Distance(transform.position, player.transform.position) < 
-        rangeCheck && !hasTransformed)
+    if (Vector2.Distance(transform.position, 
+        player.transform.position) < rangeCheck)
     {
-      Transform();
+      if (!hasTransformed)
+      {
+        Transform();
+      }
+      else if (Time.time > attackTime)
+      {
+        attackTime = Time.time + 2.5f;
+        Attack();
+      }
     }
 
-    if (isAttacking && (Time.time > attackTime))
-    {
-      isAttacking = false;                              // Finishing attacking
-      isIdle = true;
-      theAnimator.SetBool("IsIdle", isIdle);
-      theAnimator.SetBool("IsAttacking", isAttacking);
-    }
-  }
+  } // Update()
 
   void Transform()
   { // Change the enemy from the baby monkey to the actual boss monkey.
 
-    theAnimator.Play("MonkeyTransform");            // Switch to transform state
-    hasTransformed = true;
+    hasTransformed = true;                              // Set transform to true
+    theAnimator.SetBool("IsTransform", hasTransformed); // Start transfrorm
 
   } // Transform()
+
+
+  void Attack()
+  { // Chooses a random attack from the spit or stomp attacks
+
+    int randAttack = Random.Range(0, 2);
+
+    if (randAttack == 0)
+    {
+      theAnimator.SetTrigger("IsStomp");
+    }
+    else if (randAttack == 1)
+    {
+      theAnimator.SetTrigger("IsSpit");
+    }
+
+  } // Attack()
 
 }
