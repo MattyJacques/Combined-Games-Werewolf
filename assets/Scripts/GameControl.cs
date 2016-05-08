@@ -9,7 +9,9 @@ public class GameControl : MonoBehaviour {
     public GameObject gameOverMenu;
 
     private bool paused;
+
 	void Start () {
+
         paused = false;
         player = GameObject.FindGameObjectWithTag("Player");
 
@@ -23,12 +25,14 @@ public class GameControl : MonoBehaviour {
         }
     }
 	
-	// Update is called once per frame
 	void Update () {
         if (player != null)
         {
+            //If the player dies
             if (player.GetComponent<PlayerController>().health <= 0)
             {
+                //Detach the camera and destory the player
+                //EDIT TO WORK WITH PLAYER DEATH ANIMATION
                 Camera.main.transform.parent = null;
                 Destroy(player.gameObject);
                 gameOverMenu.SetActive(true);
@@ -39,14 +43,18 @@ public class GameControl : MonoBehaviour {
 
     public void PauseGame ()
     {
+
+        //If not paused 
         if (!paused)
         {
+            //Pause the game
             paused = true;
             Time.timeScale = 0;
             pauseMenu.SetActive(paused);
         }
         else
         {
+            //Un-pause the game
             paused = false;
             Time.timeScale = 1;
             pauseMenu.SetActive(paused);
