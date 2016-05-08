@@ -20,23 +20,35 @@ public class Enemy : MonoBehaviour {
 
 	void Update () 
   {
-	
+	  if(health <= 0)
+    {
+      Die();                           //when health is < 0 DIe
+    }
 
 	}
 
 
-  public virtual void Attack()
-  {
+ // public virtual void Attack()
+//  {
 
-  }
+//  }
 
   public virtual void Move()
   {
 
   }
 
-  public virtual void Die()
-  {
+  //run the animator and then destory the object
+  IEnumerator Die()
+  { // Play animation then destroy the enemy when has no health left
 
-  }
+    GetComponent<Animator>().SetBool("IsDead", true);     // Play dead animation
+
+    // Wait until animation is finished to destroy enemy
+    yield return new WaitForSeconds(GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).
+                                    length);
+
+    Destroy(this.gameObject);                             // Destroy enemy
+
+  } // Die()
 }
