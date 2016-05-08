@@ -20,12 +20,16 @@ public class EnemySheep : Enemy {
 	}
 	
 	void Update () {
-        if (health > 0)
+        //If alive and there is a player
+        if (health > 0 && player != null)
         {
+            //If in range
             if (Vector2.Distance(player.transform.position, transform.position) < rangeCheck)
             {
+                //If we're chilling
                 if (!currentlyCharging && (waitTime <= 0))
                 {
+                    //Charge!
                     currentlyCharging = true;
                     anim.SetBool("IsCharging", currentlyCharging);
                     chargeTime = Time.time + 1.5f;
@@ -38,6 +42,7 @@ public class EnemySheep : Enemy {
                         chargeDirection = 1;
                     }
                 }
+                //If we're already charging 
                 else if (currentlyCharging)
                 {
                     if (chargeTime > Time.time)
@@ -46,6 +51,7 @@ public class EnemySheep : Enemy {
                     }
                     else
                     {
+                        //Set wait 
                         currentlyCharging = false;
                         waitTime = 2f;
                         anim.SetBool("IsCharging", currentlyCharging);
@@ -68,6 +74,7 @@ public class EnemySheep : Enemy {
                 transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
             }
 
+            //If we're waiting
             if (waitTime > 0)
             {
                 waitTime -= Time.deltaTime;
@@ -80,6 +87,7 @@ public class EnemySheep : Enemy {
         }
         else
         {
+            //Replace with death in superclass
             if(deathTime == 0)
             {
                 deathTime = Time.time + 2f;
@@ -102,7 +110,6 @@ public class EnemySheep : Enemy {
             waitTime = 2f;
             anim.SetBool("IsCharging", currentlyCharging);
             anim.SetBool("IsHit", true);
-            //coll.gameObject.GetComponent<Player>().health -= x;
         }
     }
 }

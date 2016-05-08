@@ -19,22 +19,28 @@ public class EnemyLich : Enemy {
     }
 	
 	void Update () {
-        if (health > 0)
+        //If alive and there is a player
+        if (health > 0 && player != null)
         {
+            //If the player is close and we are not currently attacking
             if ((Vector2.Distance(player.transform.position, transform.position) < 2) && !isAttacking)
             {
+                //Attack
                 isAttacking = true;
                 anim.SetBool("IsAttacking", isAttacking);
                 attackTime = 1.35f;
             }
+            //If the player is within chasing distance
             else if (Vector2.Distance(player.transform.position, transform.position) < rangeCheck)
             {
+                //Move towards the player
                 isMoving = true;
                 anim.SetBool("IsMoving", isMoving);
                 rb.AddForce((player.transform.position - transform.position) * speed * Time.deltaTime);
             }
             else
             {
+                //Slow speed when not in range
                 isMoving = false;
                 anim.SetBool("IsMoving", isMoving);
                 rb.AddRelativeForce(-rb.velocity * 0.95f);
@@ -62,7 +68,7 @@ public class EnemyLich : Enemy {
         }
         else
         {
-
+            //Death stuff, replace with superclass
             if (deathTime == 0)
             {
                 deathTime = Time.time + 2f;

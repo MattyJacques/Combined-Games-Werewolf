@@ -24,17 +24,19 @@ public class EnemyDino : Enemy
 	
 	void Update ()
   { // Check if the player is close enough to attack
-
-    if (Vector2.Distance(transform.position, player.transform.position) < rangeCheck &&
-        !isAttacking)
-    { // If player is close enough to attack, attack
-      isIdle = false;
-      theAnimator.SetBool("IsIdle", isIdle);
-      isAttacking = true;                               // Set attacking to true
-      theAnimator.SetBool("IsAttacking", isAttacking);  // Play attack animation
-      attackTime = Time.time + 1f;
-      //Attack();
-    } 
+        if (player != null)
+        {
+            if (Vector2.Distance(transform.position, player.transform.position) < rangeCheck &&
+                !isAttacking)
+            { // If player is close enough to attack, attack
+                isIdle = false;
+                theAnimator.SetBool("IsIdle", isIdle);
+                isAttacking = true;                               // Set attacking to true
+                theAnimator.SetBool("IsAttacking", isAttacking);  // Play attack animation
+                attackTime = Time.time + 1f;
+                //Attack();
+            }
+        }
 
     if (isAttacking && (Time.time > attackTime))
     {
