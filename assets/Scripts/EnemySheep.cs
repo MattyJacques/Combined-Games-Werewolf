@@ -20,7 +20,7 @@ public class EnemySheep : Enemy {
 	}
 	
 	void Update () {
-        if (health > 0)
+        if (health > 0 && player != null)
         {
             if (Vector2.Distance(player.transform.position, transform.position) < rangeCheck)
             {
