@@ -115,12 +115,12 @@ public class PlayerController : MonoBehaviour
       isWolf = true;
       StartCoroutine(ChangeLayerWeight(0f));         // Change to wolf animation
 		}
-
+   // _______________________________________________________________________________________
+    //THIS COULD BE IT'S OWN PROGRAM BUT THIS SEEMS EASIER (FOR LAVA ETC)
     if(other.gameObject.tag == "Instant Kill") //if collide with instant kill box
     {
       TakeDamage(1000); // kill the player by passsing alot of damage
     }
-
 	}
 
 	void OnTriggerExit2D (Collider2D other)
