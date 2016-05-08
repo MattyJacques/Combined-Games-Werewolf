@@ -8,6 +8,7 @@ public class BossMonkey : Enemy
   private bool isIdle = true;          // Is the enemy idle
   private bool isDead = false;         // Is the enemy dead
   private bool isAttacking = false;    // Is the enemy attacking
+  private bool hasTransformed = false; // If the enemy has transformed
 
   private float attackTime = 0;        // Time until next attack
 
@@ -22,14 +23,9 @@ public class BossMonkey : Enemy
 	void Update ()
   {
     if (Vector2.Distance(transform.position, player.transform.position) < 
-        rangeCheck && !isAttacking)
-    { // If player is close enough to attack, attack
-      isIdle = false;
-      theAnimator.SetBool("IsIdle", isIdle);
-      isAttacking = true;                               // Set attacking to true
-      theAnimator.SetBool("IsAttacking", isAttacking);  // Play attack animation
-      attackTime = Time.time + 1f;
-      //Attack();
+        rangeCheck && !hasTransformed)
+    {
+      Transform();
     }
 
     if (isAttacking && (Time.time > attackTime))
@@ -40,5 +36,13 @@ public class BossMonkey : Enemy
       theAnimator.SetBool("IsAttacking", isAttacking);
     }
   }
+
+  void Transform()
+  { // Change the enemy from the baby monkey to the actual boss monkey.
+
+    theAnimator.Play("MonkeyTransform");            // Switch to transform state
+    hasTransformed = true;
+
+  } // Transform()
 
 }
