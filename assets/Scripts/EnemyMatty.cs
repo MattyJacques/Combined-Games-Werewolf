@@ -23,22 +23,27 @@ public class EnemyMatty : Enemy
 
     void Update()
     {
+        //If alive and there is a player
         if (health > 0 && player != null)
         {
+            //If in range
             if (Vector2.Distance(player.transform.position, transform.position) < 2)
             {
+                //Stand still
                 isMoving = false;
                 anim.SetBool("IsMoving", isMoving);
 
-                //Jumping
+                //Jump if the player does
                 if (player.GetComponent<PlayerController>().isJumping && !isJumping)
                 {
                     rb.AddForce(new Vector2(0f, player.GetComponent<PlayerController>().jumpForce));
                     isJumping = true;
                 }
             }
+            //If within range
             else if (Vector2.Distance(player.transform.position, transform.position) < rangeCheck)
             {
+                //Move closer to the player
                 rb.AddForce((player.transform.position - transform.position) * speed * Time.deltaTime);
                 isMoving = true;
                 anim.SetBool("IsMoving", isMoving);
@@ -64,10 +69,6 @@ public class EnemyMatty : Enemy
             {
                 transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
             }
-        }
-        else
-        {
-
         }
     }
 

@@ -20,13 +20,14 @@ public class EnemyBalrogFire : MonoBehaviour {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player");
+        //Get direction to player
         direction = player.transform.position - transform.position;
     }
 	
-	// Update is called once per frame
 	void Update () {
         if (!isDead)
         {
+            //Add force towards where the player was
             rb.AddForce(direction * 50 * Time.deltaTime);
         }
         else
