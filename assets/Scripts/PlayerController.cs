@@ -17,12 +17,13 @@ public class PlayerController : MonoBehaviour
 	private Animator anim;                   // Animation controller
   private Rigidbody2D rb;                  // Rigidbody of player
   public BoxCollider2D trigger;            // Holds the player attack trigger
+  public GameObject gameOverMenu;          // Gamer over menu
 
 	private bool isWolf = true;              // Is the player a wolf
   private bool isWalking = false;          // Is the player walking
   private bool isAttacking = false;        // Is the player attacking
-  public bool isJumping = false;          // Is the player jumping
-  private bool isDead = false;             // If current player state is dead
+  public bool isJumping = false;           // Is the player jumping
+
 
 
 	void Awake ()
@@ -173,23 +174,24 @@ public class PlayerController : MonoBehaviour
 
     if (health <= 0)
     { // If health is equal or less than 0, kill the player
-      isDead = true;               // Set dead to true
-      Die();                       // Call to kill player
+      StartCoroutine(Die());       // Call to kill player
     }
 
   } // TakeDamage()
 
 
-  void Die()
+  IEnumerator Die()
   { // Play animation then destroy the enemy when has no health left
 
-    anim.SetBool("IsDead", isDead);     // Play dead animation
+    anim.SetBool("IsDead", true);     // Play dead animation
 
     // Wait until animation is finished to destroy enemy
-    //yield return new WaitForSeconds(anim.GetCurrentAnimatorStateInfo(0).
-    //                                length);
-    
-    //Destroy(this);                    // Destroy enemy
+    yield return new WaitForSeconds(anim.GetCurrentAnimatorStateInfo(0).
+                                    length);
+
+    Camera.main.transform.parent = null;         // Disconnect camera
+    Destroy(this.gameObject);                    // Destroy enemy
+    gameOverMenu.SetActive(true);                // Show game over
 
   } // Die()
 

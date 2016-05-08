@@ -5,7 +5,6 @@ public class BossMonkey : Enemy
 {
   private Animator theAnimator;        // Animation controller
 
-  private bool isDead = false;         // Is the enemy dead
   private bool hasTransformed = false; // If the enemy has transformed
 
   private float attackTime = 0;        // Time until next attack
@@ -13,6 +12,7 @@ public class BossMonkey : Enemy
   void Awake ()
   { // Get the animation controler
 
+    health = 1000;
     theAnimator = GetComponent<Animator>();     // Get animation controller
 
 	} // Awake()
@@ -20,18 +20,25 @@ public class BossMonkey : Enemy
 
 	void Update ()
   {
-    if (Vector2.Distance(transform.position, 
-        player.transform.position) < rangeCheck)
+    if (health > 0 && player != null)
     {
-      if (!hasTransformed)
+      if (Vector2.Distance(transform.position,
+          player.transform.position) < rangeCheck)
       {
-        Transform();
+        if (!hasTransformed && health < 1000)
+        {
+          Transform();
+        }
+        else if (Time.time > attackTime)
+        {
+          attackTime = Time.time + 2.5f;
+          Attack();
+        }
       }
-      else if (Time.time > attackTime)
-      {
-        attackTime = Time.time + 2.5f;
-        Attack();
-      }
+    }
+    else if (health <= 0)
+    {
+      StartCoroutine(Die());
     }
 
   } // Update()
@@ -45,7 +52,7 @@ public class BossMonkey : Enemy
   } // Transform()
 
 
-  void Attack()
+  override public void Attack()
   { // Chooses a random attack from the spit or stomp attacks
 
     int randAttack = Random.Range(0, 2);
@@ -60,5 +67,18 @@ public class BossMonkey : Enemy
     }
 
   } // Attack()
+
+  IEnumerator Die()
+  { // Play animation then destroy the enemy when has no health left
+
+    theAnimator.SetBool("IsDead", true);     // Play dead animation
+
+    // Wait until animation is finished to destroy enemy
+    yield return new WaitForSeconds(theAnimator.GetCurrentAnimatorStateInfo(0).
+                                    length);
+
+    Destroy(this.gameObject);                             // Destroy enemy
+
+  } // Die()
 
 }

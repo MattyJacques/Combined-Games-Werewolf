@@ -28,18 +28,18 @@ public class GameControl : MonoBehaviour {
     }
 	
 	void Update () {
-        if (player != null)
-        {
-            //If the player dies
-            if (player.GetComponent<PlayerController>().health <= 0)
-            {
-                //Detach the camera and destory the player
-                //EDIT TO WORK WITH PLAYER DEATH ANIMATION
-                Camera.main.transform.parent = null;
-                Destroy(player.gameObject);
-                gameOverMenu.SetActive(true);
-            }
-        }
+        //if (player != null)
+        //{
+        //    //If the player dies
+        //    if (player.GetComponent<PlayerController>().health <= 0)
+        //    {
+        //        //Detach the camera and destory the player
+        //        //EDIT TO WORK WITH PLAYER DEATH ANIMATION
+        //        Camera.main.transform.parent = null;
+        //        Destroy(player.gameObject);
+        //        gameOverMenu.SetActive(true);
+        //    }
+        //}
 	
 	}
 
