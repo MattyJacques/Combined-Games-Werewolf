@@ -53,17 +53,4 @@ public class EnemyDino : Enemy
 
   } // TakeDamage()
 
-  IEnumerator Die()
-  { // Play animation then destroy the enemy when has no health left
-
-    theAnimator.SetBool("IsDead", true);     // Play dead animation
-
-    // Wait until animation is finished to destroy enemy
-    yield return new WaitForSeconds(theAnimator.GetCurrentAnimatorStateInfo(0).
-                                    length);
-
-    Destroy(this.gameObject);                             // Destroy enemy
-
-  } // Die()
-
 } // DinoController

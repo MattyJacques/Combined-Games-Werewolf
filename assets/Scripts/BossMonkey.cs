@@ -4,6 +4,7 @@ using System.Collections;
 public class BossMonkey : Enemy
 {
   private Animator theAnimator;        // Animation controller
+  public GameObject projectile;        // Spit projectile prefab
 
   private bool hasTransformed = false; // If the enemy has transformed
 
@@ -68,17 +69,32 @@ public class BossMonkey : Enemy
 
   } // Attack()
 
-  IEnumerator Die()
-  { // Play animation then destroy the enemy when has no health left
 
-    theAnimator.SetBool("IsDead", true);     // Play dead animation
+  public void CreateSeed(int mode)
+  { // Creates a seed using the projectile prefab, uses mode to check if seed
+    // is top, middle or bottom
 
-    // Wait until animation is finished to destroy enemy
-    yield return new WaitForSeconds(theAnimator.GetCurrentAnimatorStateInfo(0).
-                                    length);
+    if (mode == 1)
+    {
 
-    Destroy(this.gameObject);                             // Destroy enemy
+    }
+    else if (mode == 2)
+    {
+      Vector2 pos = new Vector2(transform.position.x - 2.67f, 
+                                transform.position.y + 0.81f);
 
-  } // Die()
+      GameObject spit = (GameObject)Instantiate(projectile, pos, 
+                                                transform.rotation);
+
+      
+
+      spit.transform.parent = this.gameObject.transform;
+    }
+    else if (mode == 3)
+    {
+
+    }
+
+  } // CreateSeed()
 
 }
