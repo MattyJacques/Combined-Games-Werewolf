@@ -76,7 +76,15 @@ public class BossMonkey : Enemy
 
     if (mode == 1)
     {
+      Vector2 pos = new Vector2(transform.position.x - 2.67f,
+                                transform.position.y + 0.41f);
 
+      GameObject spit = (GameObject)Instantiate(projectile, pos,
+                                                transform.rotation);
+
+
+
+      spit.transform.parent = this.gameObject.transform;
     }
     else if (mode == 2)
     {
@@ -92,7 +100,15 @@ public class BossMonkey : Enemy
     }
     else if (mode == 3)
     {
+      Vector2 pos = new Vector2(transform.position.x - 2.67f,
+                                transform.position.y + 1.21f);
 
+      GameObject spit = (GameObject)Instantiate(projectile, pos,
+                                                transform.rotation);
+
+
+
+      spit.transform.parent = this.gameObject.transform;
     }
 
   } // CreateSeed()
