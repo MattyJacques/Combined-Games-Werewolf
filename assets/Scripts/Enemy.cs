@@ -39,7 +39,7 @@ public class Enemy : MonoBehaviour {
   }
 
   //run the animator and then destory the object
-  IEnumerator Die()
+  public IEnumerator Die()
   { // Play animation then destroy the enemy when has no health left
 
     GetComponent<Animator>().SetBool("IsDead", true);     // Play dead animation
