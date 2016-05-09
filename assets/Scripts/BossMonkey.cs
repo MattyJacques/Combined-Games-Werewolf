@@ -52,7 +52,7 @@ public class BossMonkey : Enemy
   } // Transform()
 
 
-  override public void Attack()
+  void Attack()
   { // Chooses a random attack from the spit or stomp attacks
 
     int randAttack = Random.Range(0, 2);
