@@ -7,8 +7,6 @@ public class EnemyDino : Enemy
   private Animator theAnimator;        // Animation controller
 
   //private bool isWalking = false;      // Is the enemy walking
-  private bool isDead = false;         // Is the enemy dead
-  //private bool isAttacking = false;    // Is the enemy attacking
 
   private float attackTime = 0;         // Time until next attack
 
