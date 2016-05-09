@@ -11,6 +11,8 @@ public class GameSaves : MonoBehaviour
     public static GameSaves saves;
     public int levelUnlocked;
     public int coins;
+    public float volume;
+
 
     void Awake()
     {
@@ -38,6 +40,7 @@ public class GameSaves : MonoBehaviour
         //Set the variables according to current progress
         data.levelUnlocked = levelUnlocked;
         data.coins = coins;
+        data.volume = volume;
 
         //Store data in the previous created file
         bf.Serialize(file, data);
@@ -58,6 +61,7 @@ public class GameSaves : MonoBehaviour
             file.Close();
             levelUnlocked = data.levelUnlocked;
             coins = data.coins;
+            volume = data.volume;
 
         }
         else
@@ -88,5 +92,6 @@ class PlayerData
 {
     public int levelUnlocked;
     public int coins;
+    public float volume;
 }
 
