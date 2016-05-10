@@ -13,10 +13,16 @@ public class BossMonkey : Enemy
   void Awake ()
   { // Get the animation controler
 
-    health = 1000;
     theAnimator = GetComponent<Animator>();     // Get animation controller
 
 	} // Awake()
+
+  void Start()
+  { // Override Enemy Start() and set health
+
+    health = 1000;
+
+  } // Start()
 	
 
 	void Update ()
