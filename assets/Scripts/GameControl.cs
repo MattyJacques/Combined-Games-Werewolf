@@ -10,6 +10,10 @@ public class GameControl : MonoBehaviour {
 
   [SerializeField]
   private Image health;
+  [SerializeField]
+  private Text coinText;
+
+  private int coinNum = 0;
   
   private int maxHealth;
 
@@ -26,7 +30,9 @@ public class GameControl : MonoBehaviour {
     {
         Debug.LogError("Set pause menu");
     }
-    }
+
+    AddCoin();
+  }
 	
 	void Update ()
   {
@@ -45,6 +51,13 @@ public class GameControl : MonoBehaviour {
     return currHealth / maxHealth;
 
   } // CalcHealthFill()
+
+  void AddCoin()
+  { // Add a coin to the coin tracker text field
+
+    coinText.text = "x " + coinNum;
+
+  } // AddCoin()
 
     public void PauseGame ()
     {
