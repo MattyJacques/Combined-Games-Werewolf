@@ -1,47 +1,50 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameControl : MonoBehaviour {
 
-    private GameObject player;
-    public GameObject pauseMenu;
-    public GameObject gameOverMenu;
+  private GameObject player;
+  public GameObject pauseMenu;
 
-   
+  [SerializeField]
+  private Image health;
+  
+  private int maxHealth;
 
-    private bool paused;
+  private bool paused;
 
-	void Start () {
+	void Start ()
+  {
 
-        paused = false;
-        player = GameObject.FindGameObjectWithTag("Player");
+    paused = false;
+    player = GameObject.FindGameObjectWithTag("Player");
+    maxHealth = player.GetComponent<PlayerController>().health;
 
-        if(pauseMenu == null)
-        {
-            Debug.LogError("Set pause menu");
-        }
-        if (gameOverMenu == null)
-        {
-            Debug.LogError("Set game over menu");
-        }
+    if(pauseMenu == null)
+    {
+        Debug.LogError("Set pause menu");
+    }
     }
 	
-	void Update () {
-        //if (player != null)
-        //{
-        //    //If the player dies
-        //    if (player.GetComponent<PlayerController>().health <= 0)
-        //    {
-        //        //Detach the camera and destory the player
-        //        //EDIT TO WORK WITH PLAYER DEATH ANIMATION
-        //        Camera.main.transform.parent = null;
-        //        Destroy(player.gameObject);
-        //        gameOverMenu.SetActive(true);
-        //    }
-        //}
+	void Update ()
+  {
+
+    // Update player health bar
+    health.fillAmount = CalcHealthFill(player.GetComponent<PlayerController>().
+                                       health, maxHealth);
 	
-	}
+	} // Update()
+
+  float CalcHealthFill(float currHealth, int maxHealth)
+  { // Calculates how filled the health bar should be using the current health
+    // and the maximum health, max health as parameter for use with enemies and
+    // player
+
+    return currHealth / maxHealth;
+
+  } // CalcHealthFill()
 
     public void PauseGame ()
     {
