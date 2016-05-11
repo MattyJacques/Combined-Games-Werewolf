@@ -31,7 +31,6 @@ public class GameControl : MonoBehaviour {
         Debug.LogError("Set pause menu");
     }
 
-    AddCoin();
   }
 	
 	void Update ()
@@ -52,10 +51,12 @@ public class GameControl : MonoBehaviour {
 
   } // CalcHealthFill()
 
-  void AddCoin()
-  { // Add a coin to the coin tracker text field
+  void AddCoin(GameObject coin)
+  { // Add a coin to the coin tracker text field then destroy collected coin
 
-    coinText.text = "x " + coinNum;
+    coinNum++;                         // Increment coins collected
+    coinText.text = "x " + coinNum;    // Update coin tracker field
+    Destroy(coin);                     // Destroy collected coin
 
   } // AddCoin()
 

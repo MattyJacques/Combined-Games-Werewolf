@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
   private Rigidbody2D rb;                  // Rigidbody of player
   public BoxCollider2D trigger;            // Holds the player attack trigger
   public GameObject gameOverMenu;          // Gamer over menu
+  private GameObject gameController;       // Game Controller for coin collect
 
 	private bool isWolf = true;              // Is the player a wolf
   private bool isWalking = false;          // Is the player walking
@@ -32,6 +33,9 @@ public class PlayerController : MonoBehaviour
 
 		anim = GetComponent<Animator> ();       // Get animation controller
     rb = GetComponent<Rigidbody2D>();       // Get rigidbody 
+
+    // Get the game controller so the player can collect coins
+    gameController = GameObject.FindGameObjectWithTag("GameController");
 
     trigger.enabled = false;                // Disable attack trigger
 
@@ -115,11 +119,16 @@ public class PlayerController : MonoBehaviour
       isWolf = true;
       StartCoroutine(ChangeLayerWeight(0f));         // Change to wolf animation
 		}
-   // _______________________________________________________________________________________
+    // _________________________________________________________________________
     //THIS COULD BE IT'S OWN PROGRAM BUT THIS SEEMS EASIER (FOR LAVA ETC)
-    if(other.gameObject.tag == "Instant Kill") //if collide with instant kill box
-    {
+    else if (other.gameObject.tag == "Instant Kill")
+    { //if collide with instant kill box
       TakeDamage(1000); // kill the player by passsing alot of damage
+    }
+    else if (other.gameObject.tag == "Coin")
+    { // If collided with coin, call to collect coin
+      Debug.Log("Collided with coin");
+      gameController.SendMessage("AddCoin", other.gameObject);
     }
 	}
 
