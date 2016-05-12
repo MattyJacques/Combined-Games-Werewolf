@@ -1,10 +1,11 @@
 fileFormatVersion: 2
 guid: bfc3ed9ff94c3404d982d9a2a4763289
-timeCreated: 1462742626
+timeCreated: 1463003427
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Exit Sign
+    21300002: Lion Dart Shooter
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -57,15 +58,32 @@ TextureImporter:
         x: 878
         y: 811
         width: 77
-        height: 114
+        height: 113
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -38.5, y: 57}
-        - {x: -38.5, y: -57}
-        - {x: 38.5, y: -57}
-        - {x: 38.5, y: 57}
+      - - {x: -38.5, y: 56.5}
+        - {x: -38.5, y: -56.5}
+        - {x: 36.5, y: -56.5}
+        - {x: 38.5, y: -55.5}
+        - {x: 38.5, y: 56.5}
+    - name: Lion Dart Shooter
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 478
+        width: 106
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53, y: 72.5}
+        - {x: -53, y: -72.5}
+        - {x: 53, y: -72.5}
+        - {x: 53, y: 4.5}
+        - {x: 34, y: 72.5}
     outline: []
   spritePackingTag: 
   userData: 
