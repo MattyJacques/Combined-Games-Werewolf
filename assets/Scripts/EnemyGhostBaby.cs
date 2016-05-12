@@ -49,11 +49,11 @@ public class EnemyGhostBaby : Enemy
     inTrigger = false;
   }
 
-  void Die()
-  {
-    isDead = true;
-    anim.SetBool("IsDead", isDead);
-  }
+  //void Die()
+  //{
+  //  isDead = true;
+  //  anim.SetBool("IsDead", isDead);
+  //}
 
   void Standard()
   {

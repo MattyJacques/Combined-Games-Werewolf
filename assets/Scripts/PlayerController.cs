@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
   private GameObject gameController;       // Game Controller for coin collect
 
   // Animation bools
-	private bool isWolf = true;              // Is the player a wolf
+	private bool isWolf = false;              // Is the player a wolf
   private bool isWalking = false;          // Is the player walking
   private bool isAttacking = false;        // Is the player attacking
   private bool isClimb = false;            // Is the player climbing
@@ -88,32 +88,35 @@ public class PlayerController : MonoBehaviour
       if (v != 0 && !isWolf && canClimb)
       {
         isClimb = true;
-
+        rb.gravityScale = 0;
         transform.position = new Vector3(transform.position.x, 
                                          transform.position.y + 
-                                         (h * Time.deltaTime * moveSpeed),
+                                         (v * Time.deltaTime * moveSpeed),
                                          transform.position.z);
       }
       else
       {
         isClimb = false;
+        rb.gravityScale = 1;
+
+        if (h != 0)
+        {
+          isWalking = true;
+
+          transform.position = new Vector3(transform.position.x +
+                                           (h * Time.deltaTime * moveSpeed),
+                                           transform.position.y,
+                                           transform.position.z);
+        }
+        else
+        {
+          isWalking = false;
+        }
       }
 
       anim.SetBool("IsClimb", isClimb);
 
-      if (h != 0)
-      {
-        isWalking = true;
-
-        transform.position = new Vector3(transform.position.x + 
-                                         (h * Time.deltaTime * moveSpeed), 
-                                         transform.position.y, 
-                                         transform.position.z);
-      }
-      else
-      {
-        isWalking = false;
-      }
+      
       anim.SetBool("IsWalking", isWalking);
 
       if (h > 0 && !facingRight)
@@ -131,10 +134,11 @@ public class PlayerController : MonoBehaviour
 	void OnTriggerEnter2D (Collider2D other)
 	{
 		if (other.gameObject.tag == "Moon" && !isWolf) {
-      anim.Play("Transform");
-      isWolf = true;
-      StartCoroutine(ChangeLayerWeight(0f));         // Change to wolf animation
-		}
+      anim.SetLayerWeight(1, 1);
+      //anim.Play("Transform");
+      //isWolf = true;
+      //StartCoroutine(ChangeLayerWeight(0f));         // Change to wolf animation
+    }
     // _________________________________________________________________________
     //THIS COULD BE IT'S OWN PROGRAM BUT THIS SEEMS EASIER (FOR LAVA ETC)
     else if (other.gameObject.tag == "Instant Kill")
