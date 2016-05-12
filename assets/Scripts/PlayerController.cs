@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
   // Player Information
 	public bool facingRight = true;		       // Is player facing right
   private bool canClimb = false;           // Is in front of climbable object
+  private bool canHide = false;            // Is player in front of hiding spot
   public float moveSpeed = 1.5f;				   // Move speed of player
 	public float jumpForce = 1000f;          // The jump force of player
   public int health = 200;                 // Current health of player
@@ -80,6 +81,7 @@ public class PlayerController : MonoBehaviour
         Jumping();
       }
     }
+
     if (!isAttacking)
     {
       float h = Input.GetAxis("Horizontal");
@@ -116,7 +118,6 @@ public class PlayerController : MonoBehaviour
 
       anim.SetBool("IsClimb", isClimb);
 
-      
       anim.SetBool("IsWalking", isWalking);
 
       if (h > 0 && !facingRight)
@@ -150,10 +151,15 @@ public class PlayerController : MonoBehaviour
       Debug.Log("Collided with coin");
       gameController.SendMessage("AddCoin", other.gameObject);
     }
-    else if (other.gameObject.tag == "Climbable")
+    else if (other.gameObject.tag == "Climb")
     { // If object is a climbalbe object, set climbable to true
       Debug.Log("Player can climb");
       canClimb = true;
+    }
+    else if (other.gameObject.tag == "Hide")
+    { // If can hide behind object, update bool
+      Debug.Log("Player can hide");
+      canHide = true;
     }
 	} // OnTriggerEnter2D()
 
@@ -166,12 +172,17 @@ public class PlayerController : MonoBehaviour
       isWolf = false;                 
       StartCoroutine(ChangeLayerWeight(1f));        // Change to human animation
     }
-    else if (other.gameObject.tag == "Climbable")
+    else if (other.gameObject.tag == "Climb")
     { // If object is a climbalbe object, set climbable to false
       Debug.Log("Player can't climb");
       canClimb = false;
     }
-	} // OnTriggerExit2D()
+    else if (other.gameObject.tag == "Hide")
+    { // If can  leaving hide spot object, update bool
+      Debug.Log("Player can't hide");
+      canHide = false;
+    }
+  } // OnTriggerExit2D()
 
 
   IEnumerator ChangeLayerWeight(float weight)
