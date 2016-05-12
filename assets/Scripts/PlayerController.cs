@@ -149,6 +149,18 @@ public class PlayerController : MonoBehaviour
 	} // FixedUpdate()
 
 
+  void OnCollisionEnter2D(Collision2D other)
+  { // When player jumps on moving platform, make the platform a parent of the
+    // player for automatic movement adjusting
+
+    if (other.gameObject.tag == "Platform")
+    { // If colliding with platform, set parent to platform
+      transform.parent = other.transform;
+    }
+
+  } // OnCollisionEnter2D()
+
+
 	void OnTriggerEnter2D (Collider2D other)
 	{
 		if (other.gameObject.tag == "Moon" && !isWolf) {
