@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
   private GameObject gameController;       // Game Controller for coin collect
 
   // Animation bools
-	private bool isWolf = false;             // Is the player a wolf
+	private bool isWolf = true;             // Is the player a wolf
   private bool isWalking = false;          // Is the player walking
   private bool isAttacking = false;        // Is the player attacking
   private bool isClimb = false;            // Is the player climbing
@@ -152,13 +152,10 @@ public class PlayerController : MonoBehaviour
 	void OnTriggerEnter2D (Collider2D other)
 	{
 		if (other.gameObject.tag == "Moon" && !isWolf) {
-      anim.SetLayerWeight(1, 1);
-      //anim.Play("Transform");
-      //isWolf = true;
-      //StartCoroutine(ChangeLayerWeight(0f));         // Change to wolf animation
+      anim.Play("Transform");
+      isWolf = true;
+      StartCoroutine(ChangeLayerWeight(0f));         // Change to wolf animation
     }
-    // _________________________________________________________________________
-    //THIS COULD BE IT'S OWN PROGRAM BUT THIS SEEMS EASIER (FOR LAVA ETC)
     else if (other.gameObject.tag == "Instant Kill")
     { //if collide with instant kill box
       TakeDamage(1000); // kill the player by passsing alot of damage
