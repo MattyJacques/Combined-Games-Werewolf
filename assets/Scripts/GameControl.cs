@@ -84,16 +84,19 @@ public class GameControl : MonoBehaviour {
 
     public void Menu()
     {
+        GameSaves.saves.Save();
         SceneManager.LoadScene("Menu");
     }
 
     public void Options()
     {
+        GameSaves.saves.Save();
         SceneManager.LoadScene("Options");
     }
 
     public void Restart()
     {
+        GameSaves.saves.Save();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
