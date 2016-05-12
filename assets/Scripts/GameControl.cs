@@ -36,10 +36,12 @@ public class GameControl : MonoBehaviour {
 	void Update ()
   {
 
-    // Update player health bar
-    health.fillAmount = CalcHealthFill(player.GetComponent<PlayerController>().
-                                       health, maxHealth);
-	
+        if (player != null)
+        {
+            // Update player health bar
+            health.fillAmount = CalcHealthFill(player.GetComponent<PlayerController>().
+                                               health, maxHealth);
+        }
 	} // Update()
 
   float CalcHealthFill(float currHealth, int maxHealth)
@@ -94,9 +96,4 @@ public class GameControl : MonoBehaviour {
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
-
-  public void LoadLevel()
-  {
-
-  }
 }
