@@ -88,16 +88,22 @@ public class GameControl : MonoBehaviour {
 
     public void Menu()
     {
+        GameSaves.saves.Save();
+        Time.timeScale = 1;
         SceneManager.LoadScene("Menu");
     }
 
     public void Options()
     {
+        GameSaves.saves.Save();
+        Time.timeScale = 1;
         SceneManager.LoadScene("Options");
     }
 
     public void Restart()
     {
+        GameSaves.saves.Save();
+        Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
