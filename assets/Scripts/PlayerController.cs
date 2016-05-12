@@ -25,10 +25,11 @@ public class PlayerController : MonoBehaviour
   private GameObject gameController;       // Game Controller for coin collect
 
   // Animation bools
-	private bool isWolf = false;              // Is the player a wolf
+	private bool isWolf = false;             // Is the player a wolf
   private bool isWalking = false;          // Is the player walking
   private bool isAttacking = false;        // Is the player attacking
   private bool isClimb = false;            // Is the player climbing
+  private bool isHide = false;             // Is the player hiding
   [HideInInspector]
   public bool isJumping = false;           // Is the player jumping
 
@@ -40,6 +41,8 @@ public class PlayerController : MonoBehaviour
 
 		anim = GetComponent<Animator> ();       // Get animation controller
     rb = GetComponent<Rigidbody2D>();       // Get rigidbody 
+
+    GetComponent<EdgeCollider2D>().enabled = false;
 
     // Get the game controller so the player can collect coins
     gameController = GameObject.FindGameObjectWithTag("GameController");
@@ -54,14 +57,14 @@ public class PlayerController : MonoBehaviour
     isGrounded = Physics2D.Linecast(transform.position, ground.position, 1 
                    << LayerMask.NameToLayer("Ground"));
 
-		if (Input.GetButtonDown ("Jump") && isGrounded) //Add grounded "&& grounded"
+		if (Input.GetButtonDown ("Jump") && isGrounded && !isHide) //Add grounded "&& grounded"
     {
             isJumping = true;
             anim.SetBool("IsJumping", isJumping);
             GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpForce));
     }
 
-    if (Input.GetButtonDown("Fire1") && !isJumping)
+    if (Input.GetButtonDown("Fire1") && !isJumping && !isHide)
     {
       isAttacking = true;
       anim.SetBool("IsAttacking", isAttacking);
@@ -69,7 +72,21 @@ public class PlayerController : MonoBehaviour
       trigger.enabled = true;                      // Enable attack trigger
     }
 
-	} // Update()
+    if (Input.GetButtonDown("Fire2") && !isHide && canHide)
+    {
+      isHide = true;
+      anim.SetBool("IsHide", isHide);
+      Hiding();
+    }
+    else if (Input.GetButtonDown("Fire2") && isHide)
+    {
+      isHide = false;
+      anim.SetBool("IsHide", isHide);
+      Hiding();
+    }
+
+
+  } // Update()
 
 
 	void FixedUpdate ()
@@ -87,7 +104,7 @@ public class PlayerController : MonoBehaviour
       float h = Input.GetAxis("Horizontal");
       float v = Input.GetAxis("Vertical");
 
-      if (v != 0 && !isWolf && canClimb)
+      if (v != 0 && !isWolf && canClimb && !isHide)
       {
         isClimb = true;
         rb.gravityScale = 0;
@@ -101,7 +118,7 @@ public class PlayerController : MonoBehaviour
         isClimb = false;
         rb.gravityScale = 1;
 
-        if (h != 0)
+        if (h != 0 && !isHide)
         {
           isWalking = true;
 
@@ -120,11 +137,11 @@ public class PlayerController : MonoBehaviour
 
       anim.SetBool("IsWalking", isWalking);
 
-      if (h > 0 && !facingRight)
+      if (h > 0 && !facingRight && !isHide)
       {
         Flip();
       }
-      else if (h < 0 && facingRight)
+      else if (h < 0 && facingRight && !isHide)
       {
         Flip();
       }
@@ -219,6 +236,27 @@ public class PlayerController : MonoBehaviour
     anim.SetBool("IsJumping", isJumping);   // Set jump animation to false
 
   } // Jumping()
+
+
+  void Hiding()
+  { // Activates/Deactivates the player hiding depending on isHide
+
+    GetComponent<BoxCollider2D>().enabled = !isHide;
+    GetComponent<CircleCollider2D>().enabled = !isHide;
+    GetComponent<EdgeCollider2D>().enabled = isHide;
+
+    if (isHide)
+    {
+      transform.position = new Vector3(transform.position.x, 
+                                       transform.position.y, 0.1f);
+    }
+    else
+    {
+      transform.position = new Vector3(transform.position.x,
+                                       transform.position.y, -0.1f);
+    }
+
+  } // Hiding()
 
 
   public void TakeDamage(int damage)
