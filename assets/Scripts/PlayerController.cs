@@ -4,30 +4,36 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
+
+  // Player Information
 	public bool facingRight = true;		       // Is player facing right
-
-	public float moveSpeed = 1.5f;				   // Move speed of player
+  private bool canClimb = false;           // Is in front of climbable object
+  public float moveSpeed = 1.5f;				   // Move speed of player
 	public float jumpForce = 1000f;          // The jump force of player
-
-  public Transform ground;
-  private bool isGrounded = false;
-
   public int health = 200;                 // Current health of player
 
+  // Ground check Info
+  public Transform ground;                 // Position of player feet
+  private bool isGrounded = false;         // Is the player currently grounded  
+
+  // Player Component References
 	private Animator anim;                   // Animation controller
   private Rigidbody2D rb;                  // Rigidbody of player
   public BoxCollider2D trigger;            // Holds the player attack trigger
   public GameObject gameOverMenu;          // Gamer over menu
   private GameObject gameController;       // Game Controller for coin collect
 
+  // Animation bools
 	private bool isWolf = true;              // Is the player a wolf
   private bool isWalking = false;          // Is the player walking
   private bool isAttacking = false;        // Is the player attacking
+  private bool isClimb = false;            // Is the player climbing
+  [HideInInspector]
   public bool isJumping = false;           // Is the player jumping
 
 
 
-	void Awake ()
+  void Awake ()
 	{ // Get the animation controller and rigidbody on object creation, disable 
     // the attack trigger
 
@@ -40,14 +46,6 @@ public class PlayerController : MonoBehaviour
     trigger.enabled = false;                // Disable attack trigger
 
 	} // Awake()
-
-
-  void Start()
-  { // Set the height of the player
-
-
-
-  } // Start()
 
 
 	void Update ()
@@ -70,7 +68,7 @@ public class PlayerController : MonoBehaviour
       trigger.enabled = true;                      // Enable attack trigger
     }
 
-	}
+	} // Update()
 
 
 	void FixedUpdate ()
@@ -85,6 +83,23 @@ public class PlayerController : MonoBehaviour
     if (!isAttacking)
     {
       float h = Input.GetAxis("Horizontal");
+      float v = Input.GetAxis("Vertical");
+
+      if (v != 0 && !isWolf && canClimb)
+      {
+        isClimb = true;
+
+        transform.position = new Vector3(transform.position.x, 
+                                         transform.position.y + 
+                                         (h * Time.deltaTime * moveSpeed),
+                                         transform.position.z);
+      }
+      else
+      {
+        isClimb = false;
+      }
+
+      anim.SetBool("IsClimb", isClimb);
 
       if (h != 0)
       {
@@ -112,6 +127,7 @@ public class PlayerController : MonoBehaviour
     }
 	} // FixedUpdate()
 
+
 	void OnTriggerEnter2D (Collider2D other)
 	{
 		if (other.gameObject.tag == "Moon" && !isWolf) {
@@ -130,7 +146,13 @@ public class PlayerController : MonoBehaviour
       Debug.Log("Collided with coin");
       gameController.SendMessage("AddCoin", other.gameObject);
     }
-	}
+    else if (other.gameObject.tag == "Climbable")
+    { // If object is a climbalbe object, set climbable to true
+      Debug.Log("Player can climb");
+      canClimb = true;
+    }
+	} // OnTriggerEnter2D()
+
 
 	void OnTriggerExit2D (Collider2D other)
 	{
@@ -140,14 +162,20 @@ public class PlayerController : MonoBehaviour
       isWolf = false;                 
       StartCoroutine(ChangeLayerWeight(1f));        // Change to human animation
     }
-	}
+    else if (other.gameObject.tag == "Climbable")
+    { // If object is a climbalbe object, set climbable to false
+      Debug.Log("Player can't climb");
+      canClimb = false;
+    }
+	} // OnTriggerExit2D()
+
 
   IEnumerator ChangeLayerWeight(float weight)
   {
     yield return new WaitForSeconds(0.5f);
 
     anim.SetLayerWeight(1, weight);
-  }
+  } // ChangeLayerWeight()
 
 	
 	void Flip ()
@@ -158,14 +186,16 @@ public class PlayerController : MonoBehaviour
 		Vector3 theScale = transform.localScale;
 		theScale.x *= -1;
     transform.localScale = theScale;
-	}
+	} // Flip()
     
+
   void Attacking()
   {
     isAttacking = false;
     anim.SetBool("IsAttacking", isAttacking);
     trigger.enabled = false;                      // Deactive attack trigger
-  }
+  } // Attack()
+
 
   void Jumping()
   { // Play the jump animation
