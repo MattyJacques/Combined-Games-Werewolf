@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: 02d24028e29e35a4cadafde686911557
+timeCreated: 1463016953
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Tree_0
+    21300002: Tree_1
+    21300004: Tree_2
+    21300006: Tree_3
+    21300008: Tree_4
+    21300010: Tree_5
+    21300012: Tree_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Tree_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 10
+        width: 88
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 62}
+        - {x: -29, y: 59}
+        - {x: -43, y: 17}
+        - {x: -44, y: 7}
+        - {x: -44, y: -57}
+        - {x: -29, y: -62}
+        - {x: 44, y: -62}
+        - {x: 44, y: 48}
+        - {x: 21, y: 62}
+    - name: Tree_1
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 9
+        width: 37
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 31}
+        - {x: 1.5, y: 38}
+        - {x: -6.5, y: 38}
+        - {x: -18.5, y: 27}
+        - {x: -18.5, y: -38}
+        - {x: 18.5, y: -38}
+        - {x: 18.5, y: 20}
+        - {x: 12.5, y: 23}
+    - name: Tree_2
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 8
+        width: 39
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 42.5}
+        - {x: -19.5, y: 29.5}
+        - {x: -19.5, y: -40.5}
+        - {x: -16.5, y: -42.5}
+        - {x: 19.5, y: -42.5}
+        - {x: 19.5, y: 42.5}
+    - name: Tree_3
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 5
+        width: 87
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 64}
+        - {x: -27.5, y: 52}
+        - {x: -43.5, y: 6}
+        - {x: -43.5, y: -64}
+        - {x: 43.5, y: -64}
+        - {x: 43.5, y: 48}
+        - {x: 15.5, y: 64}
+    - name: Tree_4
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 10
+        width: 88
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 62}
+        - {x: -29, y: 59}
+        - {x: -43, y: 17}
+        - {x: -44, y: 7}
+        - {x: -44, y: -57}
+        - {x: -29, y: -62}
+        - {x: 44, y: -62}
+        - {x: 44, y: 48}
+        - {x: 21, y: 62}
+    - name: Tree_5
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 20
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Tree_6
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 0
+        width: 34
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

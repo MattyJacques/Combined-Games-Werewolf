@@ -1,0 +1,161 @@
+fileFormatVersion: 2
+guid: 67b7ffd4789509148a86307d403ce49f
+timeCreated: 1463015330
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Bushes_0
+    21300002: Bushes_1
+    21300004: Bushes_2
+    21300006: Bushes_3
+    21300008: Bushes_4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Bushes_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 7
+        width: 79
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 33.5}
+        - {x: -39.5, y: 13.5}
+        - {x: -39.5, y: -32.5}
+        - {x: -34.5, y: -33.5}
+        - {x: 39.5, y: -33.5}
+        - {x: 39.5, y: 17.5}
+        - {x: 20.5, y: 33.5}
+    - name: Bushes_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 5
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 26}
+        - {x: 13, y: 31}
+        - {x: -23, y: 31}
+        - {x: -26, y: 20}
+        - {x: -26, y: -30}
+        - {x: -25, y: -31}
+        - {x: 19, y: -31}
+        - {x: 26, y: -26}
+        - {x: 26, y: 29}
+    - name: Bushes_2
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 3
+        width: 97
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.5, y: 37.5}
+        - {x: 20.5, y: 40.5}
+        - {x: -36.5, y: 40.5}
+        - {x: -48.5, y: 26.5}
+        - {x: -48.5, y: -40.5}
+        - {x: 47.5, y: -40.5}
+        - {x: 48.5, y: -36.5}
+        - {x: 48.5, y: 29.5}
+    - name: Bushes_3
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 2
+        width: 111
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 47}
+        - {x: -55.5, y: 22}
+        - {x: -55.5, y: 17}
+        - {x: -49.5, y: 12}
+        - {x: -48.5, y: 12}
+        - {x: -51.5, y: 12}
+        - {x: -55.5, y: 9}
+        - {x: -55.5, y: -34}
+        - {x: -45.5, y: -47}
+        - {x: 54.5, y: -47}
+        - {x: 55.5, y: -43}
+        - {x: 55.5, y: 27}
+        - {x: 39.5, y: 47}
+    - name: Bushes_4
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 4
+        width: 105
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 44}
+        - {x: -52.5, y: 38}
+        - {x: -52.5, y: -44}
+        - {x: 50.5, y: -44}
+        - {x: 52.5, y: -35}
+        - {x: 52.5, y: 17}
+        - {x: 25.5, y: 44}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
