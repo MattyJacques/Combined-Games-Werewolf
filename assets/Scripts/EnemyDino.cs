@@ -21,18 +21,20 @@ public class EnemyDino : Enemy
 	void Update ()
   { // Check if the player is close enough to attack
 
-    if (player != null)
+    if (health > 0)
     {
-      if (Vector2.Distance(transform.position, player.transform.position) 
+        if (player != null && !player.GetComponent<PlayerController>().isHide)
+        {
+            if (Vector2.Distance(transform.position, player.transform.position)
           < rangeCheck && (attackTime + 3f < Time.time))
-      { // If player is close enough to attack, attack
+            { // If player is close enough to attack, attack
 
-        theAnimator.SetTrigger("IsAttack");
-        attackTime = Time.time + 1f;
+                theAnimator.SetTrigger("IsAttack");
+                attackTime = Time.time + 1f;
+            }
       }
     }
-
-    if (health <= 0)
+    else
     {
       StartCoroutine(Die());
     }

@@ -30,48 +30,51 @@ public class EnemyBalrog : Enemy {
     void Update()
     {
         //If alive and there is a target
-        if (health > 0 && player != null)
+        if (health > 0)
         {
-            //If the player is in range, if we are not currently attacking and if we are not stunned
-            if ((Vector2.Distance(player.transform.position, transform.position) < rangeCheck) && !isAttacking && timeToHit > 0)
+            if (player != null && !player.GetComponent<PlayerController>().isHide)
             {
-                isAttacking = true;
-                anim.SetBool("IsAttacking", isAttacking);
-                attackTime = 1.35f;
-                Instantiate(fireball, new Vector3(transform.position.x + 3, transform.position.y + 5, 4.5f), Quaternion.Euler(0,0,-25));
-                timeToHit -= Time.deltaTime;
-            }
-            //If we are stunned
-            else if (timeToHit < 0)
-            {
-                isHit = true;
-                anim.SetBool("IsHit", isHit);
-                timeToHit -= Time.deltaTime;
-            }
-            //If we are finished attacking
-            else if (attackTime < 0)
-            {
-                isAttacking = false;
-                anim.SetBool("IsAttacking", isAttacking);
-            }
-            //If the stun is up
-            if (timeToHit < -hitTime)
-            {
-                //Reset time to stun
-                timeToHit = attackingTime;
-                isHit = false;
-                anim.SetBool("IsHit", isHit);
-            }
-            //If we are currently attacking
-            if (attackTime > 0)
-            {
-                attackTime -= Time.deltaTime;
-                timeToHit -= Time.deltaTime;
-            }
-            else
-            {
-                //Reset attacking
-                isAttacking = false;
+                //If the player is in range, if we are not currently attacking and if we are not stunned
+                if ((Vector2.Distance(player.transform.position, transform.position) < rangeCheck) && !isAttacking && timeToHit > 0)
+                {
+                    isAttacking = true;
+                    anim.SetBool("IsAttacking", isAttacking);
+                    attackTime = 1.35f;
+                    Instantiate(fireball, new Vector3(transform.position.x + 3, transform.position.y + 5, 4.5f), Quaternion.Euler(0, 0, -25));
+                    timeToHit -= Time.deltaTime;
+                }
+                //If we are stunned
+                else if (timeToHit < 0)
+                {
+                    isHit = true;
+                    anim.SetBool("IsHit", isHit);
+                    timeToHit -= Time.deltaTime;
+                }
+                //If we are finished attacking
+                else if (attackTime < 0)
+                {
+                    isAttacking = false;
+                    anim.SetBool("IsAttacking", isAttacking);
+                }
+                //If the stun is up
+                if (timeToHit < -hitTime)
+                {
+                    //Reset time to stun
+                    timeToHit = attackingTime;
+                    isHit = false;
+                    anim.SetBool("IsHit", isHit);
+                }
+                //If we are currently attacking
+                if (attackTime > 0)
+                {
+                    attackTime -= Time.deltaTime;
+                    timeToHit -= Time.deltaTime;
+                }
+                else
+                {
+                    //Reset attacking
+                    isAttacking = false;
+                }
             }
 
         }

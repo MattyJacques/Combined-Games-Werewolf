@@ -24,12 +24,14 @@ public class EnemyGhostBaby : Enemy
 	
     if(health > 0)
     {
+        if (player != null && !player.GetComponent<PlayerController>().isHide)
+        {
 
+        }
     }
     else
     {
-      Die();
-      Destroy(this.gameObject);
+      StartCoroutine(Die());
     }
 
     if(inTrigger)

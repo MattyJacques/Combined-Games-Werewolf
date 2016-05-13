@@ -18,20 +18,6 @@ public class Enemy : MonoBehaviour {
     player = GameObject.FindGameObjectWithTag("Player");
 	}
 
-	void Update () 
-  {
-	  if(health <= 0)
-    {
-      Die();                           //when health is < 0 DIe
-    }
-
-	}
-
-
- // public virtual void Attack()
-//  {
-
-//  }
 
   public virtual void Move()
   {
@@ -52,12 +38,13 @@ public class Enemy : MonoBehaviour {
 
   } // Die()
 
-    void OnCollisionEnter2D(Collision2D other)
-    {
-        if(other.gameObject.tag == "Coin")
-        {
-            Physics2D.IgnoreCollision(other.gameObject.GetComponent<Collider2D>(), GetComponent<Collider2D>());
-            //Physics2D.IgnoreCollison
-        }
-    }
+  void OnTriggerEnter2D(Collider2D other)
+  {
+      if (other.gameObject.tag == "Instant Kill")
+      {
+          StartCoroutine(Die());
+      }
+  }
+  
+
 }

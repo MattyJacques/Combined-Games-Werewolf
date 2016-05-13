@@ -24,50 +24,53 @@ public class EnemyMatty : Enemy
     void Update()
     {
         //If alive and there is a player
-        if (health > 0 && player != null)
+        if (health > 0)
         {
-            //If in range
-            if (Vector2.Distance(player.transform.position, transform.position) < 2)
+            if (player != null && !player.GetComponent<PlayerController>().isHide)
             {
-                //Stand still
-                isMoving = false;
-                anim.SetBool("IsMoving", isMoving);
-
-                //Jump if the player does
-                if (player.GetComponent<PlayerController>().isJumping && !isJumping)
+                //If in range
+                if (Vector2.Distance(player.transform.position, transform.position) < 2)
                 {
-                    rb.AddForce(new Vector2(0f, player.GetComponent<PlayerController>().jumpForce));
-                    isJumping = true;
-                }
-            }
-            //If within range
-            else if (Vector2.Distance(player.transform.position, transform.position) < rangeCheck)
-            {
-                //Move closer to the player
-                rb.AddForce((player.transform.position - transform.position) * speed * Time.deltaTime);
-                isMoving = true;
-                anim.SetBool("IsMoving", isMoving);
-            }
-            else //Out of range
-            {
-                isMoving = false;
-                anim.SetBool("IsMoving", isMoving);
-            }
-            
-            //Reset jump
-            if (isJumping && !player.GetComponent<PlayerController>().isJumping)
-            {
-                isJumping = false;
-            }
+                    //Stand still
+                    isMoving = false;
+                    anim.SetBool("IsMoving", isMoving);
 
-            //Look direction
-            if ((player.transform.position.x < transform.position.x) && (transform.localScale.x < 0))
-            {
-                transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
-            }
-            else if ((player.transform.position.x > transform.position.x) && (transform.localScale.x > 0))
-            {
-                transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
+                    //Jump if the player does
+                    if (player.GetComponent<PlayerController>().isJumping && !isJumping)
+                    {
+                        rb.AddForce(new Vector2(0f, player.GetComponent<PlayerController>().jumpForce));
+                        isJumping = true;
+                    }
+                }
+                //If within range
+                else if (Vector2.Distance(player.transform.position, transform.position) < rangeCheck)
+                {
+                    //Move closer to the player
+                    rb.AddForce((player.transform.position - transform.position) * speed * Time.deltaTime);
+                    isMoving = true;
+                    anim.SetBool("IsMoving", isMoving);
+                }
+                else //Out of range
+                {
+                    isMoving = false;
+                    anim.SetBool("IsMoving", isMoving);
+                }
+
+                //Reset jump
+                if (isJumping && !player.GetComponent<PlayerController>().isJumping)
+                {
+                    isJumping = false;
+                }
+
+                //Look direction
+                if ((player.transform.position.x < transform.position.x) && (transform.localScale.x < 0))
+                {
+                    transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
+                }
+                else if ((player.transform.position.x > transform.position.x) && (transform.localScale.x > 0))
+                {
+                    transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
+                }
             }
         }
         else

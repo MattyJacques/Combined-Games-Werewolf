@@ -25,7 +25,9 @@ public class EndSign : MonoBehaviour
   {
     if(other.gameObject.tag == "Player")
     {
-      SceneManager.LoadScene(levelName);
+      //SceneManager.LoadScene(levelName);
+      Camera.main.transform.parent = null;
+
     }
   }
 }

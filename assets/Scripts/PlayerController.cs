@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
   private bool isWalking = false;          // Is the player walking
   private bool isAttacking = false;        // Is the player attacking
   private bool isClimb = false;            // Is the player climbing
-  private bool isHide = false;             // Is the player hiding
+  public bool isHide = false;             // Is the player hiding
   [HideInInspector]
   public bool isJumping = false;           // Is the player jumping
 
@@ -79,7 +79,7 @@ public class PlayerController : MonoBehaviour
       trigger.enabled = true;                      // Enable attack trigger
     }
 
-    if (Input.GetButtonDown("Fire2") && !isHide && canHide)
+    if (Input.GetButtonDown("Fire2") && !isHide && canHide && !isWolf)
     {
       isHide = true;
       anim.SetBool("IsHide", isHide);
