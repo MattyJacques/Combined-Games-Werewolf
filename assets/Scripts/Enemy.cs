@@ -51,4 +51,13 @@ public class Enemy : MonoBehaviour {
     Destroy(this.gameObject);                             // Destroy enemy
 
   } // Die()
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.gameObject.tag == "Coin")
+        {
+            Physics2D.IgnoreCollision(other.gameObject.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+            //Physics2D.IgnoreCollison
+        }
+    }
 }
