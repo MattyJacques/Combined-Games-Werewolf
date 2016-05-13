@@ -7,6 +7,7 @@ public class BossMonkey : Enemy
   public GameObject projectile;        // Spit projectile prefab
 
   private bool hasTransformed = false; // If the enemy has transformed
+  private float transformTime;
 
   private float attackTime = 0;        // Time until next attack
 
@@ -48,6 +49,13 @@ public class BossMonkey : Enemy
       StartCoroutine(Die());
     }
 
+        if (Time.time < transformTime)
+        {
+            Vector2 spriteSize = GetComponent<SpriteRenderer>().sprite.bounds.size;
+            gameObject.GetComponent<BoxCollider2D>().size = spriteSize;
+            gameObject.GetComponent<BoxCollider2D>().offset = GetComponent<SpriteRenderer>().sprite.bounds.center;
+        }
+
   } // Update()
 
   void Transform()
@@ -55,6 +63,8 @@ public class BossMonkey : Enemy
 
     hasTransformed = true;                              // Set transform to true
     theAnimator.SetBool("IsTransform", hasTransformed); // Start transfrorm
+
+    transformTime = Time.time + 9.16f;
 
   } // Transform()
 

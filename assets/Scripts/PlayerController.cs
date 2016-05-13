@@ -61,7 +61,14 @@ public class PlayerController : MonoBehaviour
     {
             isJumping = true;
             anim.SetBool("IsJumping", isJumping);
-            GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpForce));
+            if (!isWolf)
+            {
+                GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpForce / 2f));
+            }
+            else
+            {
+                GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpForce));
+            }
     }
 
     if (Input.GetButtonDown("Fire1") && !isJumping && !isHide)
