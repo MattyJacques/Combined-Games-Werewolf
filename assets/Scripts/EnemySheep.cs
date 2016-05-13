@@ -87,17 +87,7 @@ public class EnemySheep : Enemy {
         }
         else
         {
-            //Replace with death in superclass
-            if(deathTime == 0)
-            {
-                deathTime = Time.time + 2f;
-                anim.SetBool("IsHit", false);
-                anim.SetBool("IsDead", true);
-            }
-            else if (Time.time > deathTime)
-            {
-                Destroy(this.gameObject);
-            }       
+            StartCoroutine(Die());
         }
     }
 

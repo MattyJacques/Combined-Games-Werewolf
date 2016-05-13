@@ -68,17 +68,7 @@ public class EnemyLich : Enemy {
         }
         else
         {
-            //Death stuff, replace with superclass
-            if (deathTime == 0)
-            {
-                deathTime = Time.time + 2f;
-                rb.gravityScale = 1f;
-                anim.SetBool("IsDead", true);
-            }
-            else if (Time.time > deathTime)
-            {
-                Destroy(this.gameObject);
-            }
+            StartCoroutine(Die());
         }
     }
 }

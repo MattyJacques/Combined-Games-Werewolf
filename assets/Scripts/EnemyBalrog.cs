@@ -75,5 +75,9 @@ public class EnemyBalrog : Enemy {
             }
 
         }
+        else
+        {
+            StartCoroutine(Die());
+        }
     }
 }
