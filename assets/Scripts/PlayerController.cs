@@ -296,7 +296,7 @@ public class PlayerController : MonoBehaviour
   void EndLevel()
   { // Starts the end level sequence
 
-    anim.SetBool("isWalking", true);
+    anim.SetBool("IsWalking", true);
     endLevel = true;
 
     transform.position = new Vector3(transform.position.x + (Time.deltaTime * 
