@@ -5,19 +5,23 @@ using UnityEngine.SceneManagement;
 public class EndSign : MonoBehaviour
 {
   public string levelName = ""; //Name to be passed into script, 
-                           //cleaner way of doing this but just for now.
+                                //cleaner way of doing this but just for now.
 
+  private GameObject player;
 
-	// Use this for initialization
-	void Start ()
+  void Start()
   {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    player = GameObject.FindGameObjectWithTag("Player");
+  }
+
+  void FixedUpdate ()
+  {
+	  if (!player.GetComponent<SpriteRenderer>().isVisible)
+    {
+      //SceneManager.LoadScene(levelName);
+      Debug.Log("Level ended");
+    }
+  }
 
 
   //on trigger enter load the next level
@@ -25,8 +29,8 @@ public class EndSign : MonoBehaviour
   {
     if(other.gameObject.tag == "Player")
     {
-      //SceneManager.LoadScene(levelName);
       Camera.main.transform.parent = null;
+      other.SendMessage("EndLevel");
 
     }
   }

@@ -17,8 +17,10 @@ public class TutorialControl : MonoBehaviour
     foreach (GameObject wizard in wizards)
     {
       wizard.GetComponent<SpriteRenderer>().enabled = false;
-      wizard.transform.GetChild(0).GetComponentInChildren<SpriteRenderer>().enabled = false;
-      wizard.transform.GetChild(0).GetChild(0).GetComponentInChildren<MeshRenderer>().enabled = false;
+      wizard.transform.GetChild(0).
+        GetComponentInChildren<SpriteRenderer>().enabled = false;
+      wizard.transform.GetChild(0).GetChild(0).
+        GetComponentInChildren<MeshRenderer>().enabled = false;
     }
 
   } // Start()
@@ -28,8 +30,6 @@ public class TutorialControl : MonoBehaviour
   { // Toggles the moon every 5 seconds
 
     UpdateMoon();              // Update the moon timer and check for toggle
-
-
 
 	} // Update()
 

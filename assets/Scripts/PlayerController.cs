@@ -15,7 +15,10 @@ public class PlayerController : MonoBehaviour
 
   // Ground check Info
   public Transform ground;                 // Position of player feet
-  private bool isGrounded = false;         // Is the player currently grounded  
+  private bool isGrounded = false;         // Is the player currently grounded
+
+  // Level Info
+  private bool endLevel = false;           // Is the end level activated  
 
   // Player Component References
 	private Animator anim;                   // Animation controller
@@ -25,11 +28,12 @@ public class PlayerController : MonoBehaviour
   private GameObject gameController;       // Game Controller for coin collect
 
   // Animation bools
-	private bool isWolf = true;             // Is the player a wolf
+	private bool isWolf = true;              // Is the player a wolf
   private bool isWalking = false;          // Is the player walking
   private bool isAttacking = false;        // Is the player attacking
   private bool isClimb = false;            // Is the player climbing
-  public bool isHide = false;             // Is the player hiding
+  [HideInInspector]
+  public bool isHide = false;              // Is the player hiding
   [HideInInspector]
   public bool isJumping = false;           // Is the player jumping
 
@@ -54,44 +58,52 @@ public class PlayerController : MonoBehaviour
 
 	void Update ()
 	{
-    isGrounded = Physics2D.Linecast(transform.position, ground.position, 1 
+    if (!endLevel)
+    {
+      isGrounded = Physics2D.Linecast(transform.position, ground.position, 1
                    << LayerMask.NameToLayer("Ground"));
 
-		if (Input.GetButtonDown ("Jump") && isGrounded && !isHide) //Add grounded "&& grounded"
-    {
-            isJumping = true;
-            anim.SetBool("IsJumping", isJumping);
-            if (!isWolf)
-            {
-                GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpForce / 2f));
-            }
-            else
-            {
-                GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpForce));
-            }
-    }
+      if (Input.GetButtonDown("Jump") && isGrounded && !isHide) //Add grounded "&& grounded"
+      {
+        isJumping = true;
+        anim.SetBool("IsJumping", isJumping);
+        if (!isWolf)
+        {
+          GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpForce / 2f));
+        }
+        else
+        {
+          GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpForce));
+        }
+      }
 
-    if (Input.GetButtonDown("Fire1") && !isJumping && !isHide)
-    {
-      isAttacking = true;
-      anim.SetBool("IsAttacking", isAttacking);
+      if (Input.GetButtonDown("Fire1") && !isJumping && !isHide)
+      {
+        isAttacking = true;
+        anim.SetBool("IsAttacking", isAttacking);
 
-      trigger.enabled = true;                      // Enable attack trigger
-    }
+        trigger.enabled = true;                      // Enable attack trigger
+      }
 
-    if (Input.GetButtonDown("Fire2") && !isHide && canHide && !isWolf)
-    {
-      isHide = true;
-      anim.SetBool("IsHide", isHide);
-      Hiding();
+      if (Input.GetButtonDown("Fire2") && !isHide && canHide && !isWolf)
+      {
+        isHide = true;
+        anim.SetBool("IsHide", isHide);
+        Hiding();
+      }
+      else if (Input.GetButtonDown("Fire2") && isHide)
+      {
+        isHide = false;
+        anim.SetBool("IsHide", isHide);
+        Hiding();
+      }
     }
-    else if (Input.GetButtonDown("Fire2") && isHide)
+    else
     {
-      isHide = false;
-      anim.SetBool("IsHide", isHide);
-      Hiding();
+      transform.position = new Vector3(transform.position.x + (Time.deltaTime *
+                                     moveSpeed), transform.position.y,
+                                     transform.position.z);
     }
-
 
   } // Update()
 
@@ -106,7 +118,7 @@ public class PlayerController : MonoBehaviour
       }
     }
 
-    if (!isAttacking)
+    if (!isAttacking && !endLevel)
     {
       float h = Input.GetAxis("Horizontal");
       float v = Input.GetAxis("Vertical");
@@ -279,6 +291,19 @@ public class PlayerController : MonoBehaviour
     }
 
   } // Hiding()
+
+
+  void EndLevel()
+  { // Starts the end level sequence
+
+    anim.SetBool("isWalking", true);
+    endLevel = true;
+
+    transform.position = new Vector3(transform.position.x + (Time.deltaTime * 
+                                     moveSpeed), transform.position.y,
+                                     transform.position.z);
+
+  } // EndLevel()
 
 
   public void TakeDamage(int damage)
