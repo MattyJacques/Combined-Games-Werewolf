@@ -10,13 +10,19 @@ public class Enemy : MonoBehaviour {
   public int rangeCheck = 20;
   public GameObject player;
 
-	void Start ()
+  public SpriteRenderer healthBar;     // Reference to the sprite renderer of the health bar.
+  private Vector3 healthScale;				// The local scale of the health bar initially (with full health).
+
+  void Start ()
   {
     health = 100;
     scary = false;
 
+  //  healthBar = GetComponentInChildren<SpriteRenderer>(); 
+
     player = GameObject.FindGameObjectWithTag("Player");
-	}
+    healthScale = healthBar.transform.localScale;
+  }
 
 
   public virtual void Move()
@@ -46,5 +52,14 @@ public class Enemy : MonoBehaviour {
       }
   }
   
+  public void UpdateHealthBar()
+  {
+    // Set the health bar's colour to proportion of the way between green and red based on the player's health.
+    healthBar.material.color = Color.Lerp(Color.green, Color.red, 1 - health * 0.01f);
+
+    // Set the scale of the health bar to be proportional to the player's health.
+    healthBar.transform.localScale = new Vector3(healthScale.x * health * 0.01f, 1, 1);
+
+  }
 
 }

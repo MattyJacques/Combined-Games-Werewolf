@@ -14,6 +14,7 @@ public class PlayerAttackTrig : MonoBehaviour {
       // INSERT DO DAMAGE CODE 
       //col.SendMessage("TakeDamage", damage);
         col.GetComponent<Enemy>().health -= damage;
+        col.GetComponent<Enemy>().UpdateHealthBar();
     }
 
   } // OnTriggerEnter2D()

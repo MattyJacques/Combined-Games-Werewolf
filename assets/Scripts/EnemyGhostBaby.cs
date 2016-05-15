@@ -3,73 +3,87 @@ using System.Collections;
 
 public class EnemyGhostBaby : Enemy
 {
-  public bool facingRight = true;
-  public bool inTrigger = false;
-  //private bool isMoving = false;
-  //private bool isAttack = false;
-  private bool isDead = false;
-  //private bool isHit = false;
-
   private Animator anim;
+  private Rigidbody2D rb;
+
+  private bool isMoving;
+  private bool isAttacking;
+  private float attackTime;
+
+  private float deathTime;
+
 
   // Use this for initialization
   void Start ()
   {
-	  anim = GetComponent<Animator>();
+    anim = GetComponent<Animator>();
+    rb = GetComponent<Rigidbody2D>();
+    isMoving = false;
   }
-	
-	// Update is called once per frame
-	void Update ()
-  {
-	
-    if(health > 0)
-    {
-        if (player != null && !player.GetComponent<PlayerController>().isHide)
-        {
 
+  void Awake()
+  {
+    anim = GetComponent<Animator>();
+    rb = GetComponent<Rigidbody2D>();
+    isMoving = false;
+  }
+
+  void Update()
+  {
+    //If alive and there is a player
+    if (health > 0)
+    {
+      if (player != null && !player.GetComponent<PlayerController>().isHide)
+      {
+        //If the player is close and we are not currently attacking
+        if ((Vector2.Distance(player.transform.position, transform.position) < 2) && !isAttacking)
+        {
+          //Attack
+          isAttacking = true;
+          anim.SetBool("IsAttacking", isAttacking);
+          attackTime = 1.35f;
         }
+        //If the player is within chasing distance
+        else if (Vector2.Distance(player.transform.position, transform.position) < rangeCheck)
+        {
+          //Move towards the player
+          isMoving = true;
+          anim.SetBool("IsMoving", isMoving);
+          rb.AddForce((player.transform.position - transform.position) * speed * Time.deltaTime);
+        }
+        else
+        {
+          //Slow speed when not in range
+          isMoving = false;
+          anim.SetBool("IsMoving", isMoving);
+          rb.AddRelativeForce(-rb.velocity * 0.95f);
+        }
+
+
+        //Look direction
+        if ((player.transform.position.x < transform.position.x) && (transform.localScale.x < 0))
+        {
+          transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
+        }
+        else if ((player.transform.position.x > transform.position.x) && (transform.localScale.x > 0))
+        {
+          transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
+        }
+
+        if (attackTime > 0)
+        {
+          attackTime -= Time.deltaTime;
+        }
+        else
+        {
+          isAttacking = false;
+          anim.SetBool("IsAttacking", isAttacking);
+        }
+      }
     }
     else
     {
       StartCoroutine(Die());
     }
-
-    if(inTrigger)
-    {
-      //do movement shit
-    }
-
-	}
-
-  void OnTriggerEnter2D()
-  {
-    inTrigger = true;
-  }
-
-  void OnTriggerExit2D()
-  {
-    inTrigger = false;
-  }
-
-  //void Die()
-  //{
-  //  isDead = true;
-  //  anim.SetBool("IsDead", isDead);
-  //}
-
-  void Standard()
-  {
-    anim.SetBool("IsDead", isDead);
-  }
-
-
-  void Flip()
-  {
-
-    facingRight = !facingRight;
-
-    Vector3 theScale = transform.localScale;
-    theScale.x *= -1;
-    transform.localScale = theScale;
   }
 }
