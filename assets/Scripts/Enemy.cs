@@ -49,11 +49,12 @@ public class Enemy : MonoBehaviour {
   { // Subtract damage given as parameter from the current enemy health
 
     health -= damage;              // Subtract damage from health
-
+    UpdateHealthBar();
     if (health <= 0)
     { // If health is equal or less than 0, kill the player
       StartCoroutine(Die());       // Call to kill player
     }
+
 
   } // TakeDamage()
 
@@ -62,6 +63,7 @@ public class Enemy : MonoBehaviour {
   {
       if (other.gameObject.tag == "Instant Kill")
       {
+       //   UpdateHealthBar();
           StartCoroutine(Die());
       }
   }
