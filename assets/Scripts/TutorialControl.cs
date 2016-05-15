@@ -6,13 +6,16 @@ public class TutorialControl : MonoBehaviour
 
   private float timer;
 
-  [SerializeField]
   private GameObject moon;
+  private GameObject player;
   public GameObject[] wizards;
 	
 
   void Start()
   { // Disable the sprites of wizards so the player can't see them until trigger
+
+    player = GameObject.FindGameObjectWithTag("Player");
+    moon = GameObject.FindGameObjectWithTag("Moon");
 
     foreach (GameObject wizard in wizards)
     {
@@ -29,32 +32,37 @@ public class TutorialControl : MonoBehaviour
 	void Update ()
   { // Toggles the moon every 5 seconds
 
-    UpdateMoon();              // Update the moon timer and check for toggle
+    if (player.transform.position.x < 28)
+    {
+      moon.transform.position = new Vector3(player.transform.position.x - 4,
+                                             player.transform.position.y + 4,
+                                             player.transform.position.z);
+    }
 
 	} // Update()
 
 
-  void UpdateMoon()
-  { // Update the moon toggle timer, if timer is up toggle the mood into
-    // opposite state
+  //void UpdateMoon()
+  //{ // Update the moon toggle timer, if timer is up toggle the mood into
+  //  // opposite state
 
-    timer -= Time.deltaTime;         // Take frametime away from timer
+  //  timer -= Time.deltaTime;         // Take frametime away from timer
 
-    if (timer <= 0)
-    { // If timer is lower or equal to zero, toggle the moon
+  //  if (timer <= 0)
+  //  { // If timer is lower or equal to zero, toggle the moon
 
-      timer = 5;                     // Reset timer
+  //    timer = 5;                     // Reset timer
 
-      // Toggle the circle collider of the moon to stop transforms
-      moon.GetComponent<CircleCollider2D>().enabled =
-        !moon.GetComponent<CircleCollider2D>().enabled;
+  //    // Toggle the circle collider of the moon to stop transforms
+  //    moon.GetComponent<CircleCollider2D>().enabled =
+  //      !moon.GetComponent<CircleCollider2D>().enabled;
 
-      // Toggle the sprite renderer to hide the moon
-      moon.GetComponent<SpriteRenderer>().enabled =
-        !moon.GetComponent<SpriteRenderer>().enabled;
-    }
+  //    // Toggle the sprite renderer to hide the moon
+  //    moon.GetComponent<SpriteRenderer>().enabled =
+  //      !moon.GetComponent<SpriteRenderer>().enabled;
+  //  }
 
-  } // UpdateMoon()
+  //} // UpdateMoon()
 
 
   public void HandleTrigger(int trigIndex, Collider2D other)
