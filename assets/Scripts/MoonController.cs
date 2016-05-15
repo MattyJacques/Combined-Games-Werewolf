@@ -10,7 +10,7 @@ public class MoonController : MonoBehaviour
 	private Vector3 nextPos;
     private Transform currentPos;
     // Use this for initialization
-    void Start ()
+    void Awake()
 	{
 		startPos = transform.position;
 		//endPos = new Vector3 (20f, 4.5f, 80f);
