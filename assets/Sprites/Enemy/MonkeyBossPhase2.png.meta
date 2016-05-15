@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: d41e82e5f590581448ea5c8f3bacdbec
-timeCreated: 1462807530
+timeCreated: 1463323445
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -549,17 +549,17 @@ TextureImporter:
         y: 675
         width: 88
         height: 120
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -20.48452, y: 19.01239}
-        - {x: -20.48452, y: -1.9876099}
-        - {x: -10.48452, y: -27.98761}
-        - {x: 21.51548, y: -27.98761}
-        - {x: 21.51548, y: 29.01239}
-        - {x: -3.48452, y: 29.01239}
-        - {x: -16.48452, y: 24.01239}
+      - - {x: -20.48452, y: 46.969055}
+        - {x: -20.48452, y: 25.969055}
+        - {x: -10.48452, y: -0.030944824}
+        - {x: 21.51548, y: -0.030944824}
+        - {x: 21.51548, y: 56.969055}
+        - {x: -3.48452, y: 56.969055}
+        - {x: -16.48452, y: 51.969055}
     - name: MonkeyBossPhase2_28
       rect:
         serializedVersion: 2
@@ -567,8 +567,8 @@ TextureImporter:
         y: 678
         width: 92
         height: 66
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: MonkeyBossPhase2_35
@@ -578,8 +578,8 @@ TextureImporter:
         y: 675
         width: 52
         height: 43
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: MonkeyBossPhase2_49
@@ -1410,8 +1410,8 @@ TextureImporter:
         y: 677
         width: 92
         height: 58
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: MonkeyBossPhase2_8

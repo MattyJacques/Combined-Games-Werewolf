@@ -29,6 +29,7 @@ public class BossMonkey : Enemy
     health = 1000;
     GameObject moon = GameObject.FindGameObjectWithTag("Moon");
     moon.GetComponent<MoonController>().endPos = new Vector3(30f, 4.5f, 80f);
+    player = GameObject.FindGameObjectWithTag("Player");
 
   } // Start()
 	
@@ -142,6 +143,7 @@ public class BossMonkey : Enemy
     // where the player was located when animation starts
 
     stompPos =  player.transform.position;       // Store player position
+    stompPos.y -= 0.8f;                          // Move position down
 
   } // SetStompPosition()
 
