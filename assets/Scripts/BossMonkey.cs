@@ -55,6 +55,7 @@ public class BossMonkey : Enemy
     else if (health <= 0)
     {
       StartCoroutine(Die());
+      player.SendMessage("EndLevel");
     }
 
         if (Time.time < transformTime)
