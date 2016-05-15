@@ -13,7 +13,6 @@ public class PlayerAttackTrig : MonoBehaviour {
       
       col.SendMessage("TakeDamage", damage);
       col.GetComponent<Enemy>().UpdateHealthBar();
-
     }
 
   } // OnTriggerEnter2D()
