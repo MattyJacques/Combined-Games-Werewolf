@@ -44,6 +44,20 @@ public class Enemy : MonoBehaviour {
 
   } // Die()
 
+
+  public void TakeDamage(int damage)
+  { // Subtract damage given as parameter from the current enemy health
+
+    health -= damage;              // Subtract damage from health
+
+    if (health <= 0)
+    { // If health is equal or less than 0, kill the player
+      StartCoroutine(Die());       // Call to kill player
+    }
+
+  } // TakeDamage()
+
+
   void OnTriggerEnter2D(Collider2D other)
   {
       if (other.gameObject.tag == "Instant Kill")
