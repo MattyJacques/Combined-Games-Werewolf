@@ -5,6 +5,7 @@ public class BossMonkey : Enemy
 {
   // Component References
   private Animator theAnimator;        // Animation controller
+  public GameObject endWall;           // Wall blocking end level
 
   // Attack Information
   private float attackTime = 0;        // Time until next attack
@@ -55,7 +56,7 @@ public class BossMonkey : Enemy
     else if (health <= 0)
     {
       StartCoroutine(Die());
-      player.SendMessage("EndLevel");
+      
     }
 
         if (Time.time < transformTime)
@@ -66,6 +67,17 @@ public class BossMonkey : Enemy
         }
 
   } // Update()
+
+
+  IEnumerator TriggerEndLevel()
+  {
+    yield return new WaitForSeconds(4f);
+
+    player.SendMessage("EndLevel");
+    Destroy(endWall);
+
+  } // TriggerEndLevel()
+
 
   void Transform()
   { // Change the enemy from the baby monkey to the actual boss monkey.
