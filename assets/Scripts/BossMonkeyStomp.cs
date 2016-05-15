@@ -13,7 +13,7 @@ public class BossMonkeyStomp : MonoBehaviour
   } // OnTriggerEnter2D()
 
   
-  void Destroy()
+  void DestroyStomp()
   { // Destroy the object after animation
 
     Destroy(this.gameObject);     // Destroy the object
