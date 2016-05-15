@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
   private bool canHide = false;            // Is player in front of hiding spot
   public float moveSpeed = 1.5f;				   // Move speed of player
 	public float jumpForce = 1000f;          // The jump force of player
-  public int health = 200;                 // Current health of player
+    public int health;                 // Current health of player
 
   // Ground check Info
   public Transform ground;                 // Position of player feet
@@ -52,6 +52,7 @@ public class PlayerController : MonoBehaviour
     gameController = GameObject.FindGameObjectWithTag("GameController");
 
     trigger.enabled = false;                // Disable attack trigger
+    health = GameSaves.saves.maxHealth;
 
 	} // Awake()
 

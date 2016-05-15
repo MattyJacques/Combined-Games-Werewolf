@@ -6,46 +6,52 @@ public class PlatformPath : MonoBehaviour {
 
  
   public Transform[] platformPoints;  //points for the platform
+    public bool isMoon;
+    public bool atEnd;
 
-
-  public IEnumerator<Transform> GetPathEnumerator()
-  {
-    //if path is empty or too short, break
-    if(platformPoints == null || platformPoints.Length < 1)
+    public IEnumerator<Transform> GetPathEnumerator()
     {
-      yield break;
+        //if path is empty or too short, break
+        if (platformPoints == null || platformPoints.Length < 1)
+        {
+            yield break;
+        }
+
+        // set direction and index
+        int direction = 1;
+        int index = 0;
+
+        //always looping
+        while (true)
+        {
+            //return index of points
+            yield return platformPoints[index];
+
+            // if length == 1 continue
+            if (platformPoints.Length == 1)
+            {
+                continue;
+            }
+
+            // if index < 0 change direction
+            if (index <= 0)
+            {
+                direction = 1;
+            }
+            //if index greater than length - 1 change direction
+            else if (index >= platformPoints.Length - 1 && !isMoon)
+            {
+                direction = -1;
+            }
+            else if (index >= platformPoints.Length - 1 && isMoon)
+            {
+                index = 0;
+                atEnd = true;
+            }
+            //set index
+            index = index + direction;
+        }
     }
-
-    // set direction and index
-    int direction = 1;
-    int index = 0;
-
-    //always looping
-    while(true)
-    {
-      //return index of points
-      yield return platformPoints[index];
-
-      // if length == 1 continue
-      if(platformPoints.Length == 1)
-      {
-        continue;
-      }
-
-      // if index < 0 change direction
-      if(index <= 0)
-      {
-        direction = 1;
-      }
-      //if index greater than length - 1 change direction
-      else if(index >= platformPoints.Length - 1)
-      {
-        direction = -1;
-      }
-      //set index
-      index = index + direction;
-    }
-  }
 
   public void OnDrawGizmos()
   {
