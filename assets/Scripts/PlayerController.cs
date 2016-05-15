@@ -52,7 +52,7 @@ public class PlayerController : MonoBehaviour
     gameController = GameObject.FindGameObjectWithTag("GameController");
 
     trigger.enabled = false;                // Disable attack trigger
-        health = GameSaves.saves.maxHealth;
+    health = GameSaves.saves.maxHealth;
 
 	} // Awake()
 
