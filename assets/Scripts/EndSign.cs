@@ -16,11 +16,14 @@ public class EndSign : MonoBehaviour
 
   void FixedUpdate ()
   {
-	  if (!player.GetComponent<SpriteRenderer>().isVisible)
-    {
-      //SceneManager.LoadScene(levelName);
-      Debug.Log("Level ended");
-    }
+        if (player != null)
+        {
+            if (!player.GetComponent<SpriteRenderer>().isVisible)
+            {
+                //SceneManager.LoadScene(levelName);
+                Debug.Log("Level ended");
+            }
+        }
   }
 
 

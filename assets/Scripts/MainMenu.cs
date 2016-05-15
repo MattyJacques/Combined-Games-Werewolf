@@ -21,12 +21,6 @@ public class MainMenu : MonoBehaviour
     LevelSelect.SetActive(false);
   }
 
-  // Update is called once per frame
-  void Update()
-  {
-
-  }
-
   void OnMainMenu()
   {
     StartMenu.SetActive(true);
@@ -40,12 +34,14 @@ public class MainMenu : MonoBehaviour
 
   public void LoadLevel(string levelName)
   {
-    SceneManager.LoadScene(levelName);
+        GameSaves.saves.Save();
+        SceneManager.LoadScene(levelName);
     // Application.LoadLevel(levelName);
   }
 
     public void QuitGame()
     {
+        GameSaves.saves.Save();
         Application.Quit();
     }
 

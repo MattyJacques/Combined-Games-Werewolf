@@ -12,6 +12,7 @@ public class GameSaves : MonoBehaviour
     public int levelUnlocked;
     public int coins;
     public float volume;
+    public int maxHealth;
 
 
     void Awake()
@@ -41,6 +42,7 @@ public class GameSaves : MonoBehaviour
         data.levelUnlocked = levelUnlocked;
         data.coins = coins;
         data.volume = volume;
+        data.maxHealth = maxHealth;
 
         //Store data in the previous created file
         bf.Serialize(file, data);
@@ -62,6 +64,8 @@ public class GameSaves : MonoBehaviour
             levelUnlocked = data.levelUnlocked;
             coins = data.coins;
             volume = data.volume;
+            AudioListener.volume = volume;
+            maxHealth = data.maxHealth;
 
         }
         else
@@ -69,6 +73,7 @@ public class GameSaves : MonoBehaviour
             //If no save exist create a new save
             levelUnlocked = 1;
             coins = 0;
+            maxHealth = 200;
 
             Save();
         }
@@ -93,5 +98,6 @@ class PlayerData
     public int levelUnlocked;
     public int coins;
     public float volume;
+    public int maxHealth;
 }
 

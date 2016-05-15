@@ -6,14 +6,14 @@ public class MoonController : MonoBehaviour
 	public Vector3 startPos;
 	public Vector3 endPos;
 
-	private float speed = 1.3f;
+	private float speed = 50f;
 	private Vector3 nextPos;
     private Transform currentPos;
     // Use this for initialization
     void Start ()
 	{
 		startPos = transform.position;
-		endPos = new Vector3 (20f, 4.5f, 80f);
+		//endPos = new Vector3 (20f, 4.5f, 80f);
 		currentPos = gameObject.GetComponent<Transform> ();
 		currentPos.position = startPos;
 	}
@@ -26,7 +26,8 @@ public class MoonController : MonoBehaviour
 
 	void FixedUpdate ()
 	{
-        nextPos = new Vector3(currentPos.position.x + (speed * Time.deltaTime), currentPos.position.y, currentPos.position.z);
+        nextPos = (endPos - transform.position) / speed * Time.deltaTime;
+        nextPos = new Vector3(currentPos.position.x + nextPos.x, currentPos.position.y + nextPos.y, currentPos.position.z);
 		currentPos.position = nextPos;
 
 		if (currentPos.position.x > endPos.x) {
