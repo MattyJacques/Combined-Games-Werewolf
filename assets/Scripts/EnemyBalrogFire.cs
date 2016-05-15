@@ -73,7 +73,7 @@ public class EnemyBalrogFire : MonoBehaviour {
         }
         else if (coll.gameObject.tag == "Player")
         {
-            //Player take damage
+            coll.gameObject.SendMessage("TakeDamage", 10);
         }
     }
 }
