@@ -12,8 +12,8 @@ public class PlayerAttackTrig : MonoBehaviour {
     { // If collider is from a enemy, call to take damage
       
       // INSERT DO DAMAGE CODE 
-      //col.SendMessage("TakeDamage", damage);
-        col.GetComponent<Enemy>().health -= damage;
+      col.SendMessage("TakeDamage", damage);
+        //col.GetComponent<Enemy>().health -= damage;
     }
 
   } // OnTriggerEnter2D()

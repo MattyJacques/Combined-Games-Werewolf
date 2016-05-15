@@ -41,16 +41,16 @@ public class EnemyDino : Enemy
 
 	} // Update()
 
-  void TakeDamage(int damage)
-  { // Minus damage from health
+  //void TakeDamage(int damage)
+  //{ // Minus damage from health
 
-    health -= damage;     // Subtract player damage from enemy health
+  //  health -= damage;     // Subtract player damage from enemy health
 
-    if (health <= 0)
-    { // If health is equal or below 0, call ot kill enemy
-      Die();
-    }
+  //  if (health <= 0)
+  //  { // If health is equal or below 0, call ot kill enemy
+  //    Die();
+  //  }
 
-  } // TakeDamage()
+  //} // TakeDamage()
 
 } // DinoController
