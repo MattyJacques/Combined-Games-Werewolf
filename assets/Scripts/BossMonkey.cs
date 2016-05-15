@@ -3,13 +3,18 @@ using System.Collections;
 
 public class BossMonkey : Enemy
 {
+  // Component References
   private Animator theAnimator;        // Animation controller
-  public GameObject projectile;        // Spit projectile prefab
 
-  private bool hasTransformed = false; // If the enemy has transformed
-  private float transformTime;
-
+  // Attack Information
   private float attackTime = 0;        // Time until next attack
+  public GameObject projectile;        // Spit projectile prefab
+  public GameObject stompAttack;       // Stomp attack prefab
+  private Vector3 stompPos;            // Position of stomp attack
+
+  // Transform Information
+  private bool hasTransformed = false; // If the enemy has transformed
+  private float transformTime;         // Holds time until transform complete
 
   void Awake ()
   { // Get the animation controler
@@ -22,6 +27,8 @@ public class BossMonkey : Enemy
   { // Override Enemy Start() and set health
 
     health = 1000;
+    GameObject moon = GameObject.FindGameObjectWithTag("Moon");
+    moon.GetComponent<MoonController>().endPos = new Vector3(30f, 4.5f, 80f);
 
   } // Start()
 	
@@ -128,5 +135,23 @@ public class BossMonkey : Enemy
     }
 
   } // CreateSeed()
+
+
+  void SetStompPosition()
+  { // Store the players current position so the stomp attack will be created
+    // where the player was located when animation starts
+
+    stompPos =  player.transform.position;       // Store player position
+
+  } // SetStompPosition()
+
+  
+  void CreateStomp()
+  { // Create the stomp attack prefab in the stored location from earlier in
+    // the animation
+
+    Instantiate(stompAttack, stompPos, transform.rotation); // Create stomp obj
+
+  } // CreateStomp()
 
 }

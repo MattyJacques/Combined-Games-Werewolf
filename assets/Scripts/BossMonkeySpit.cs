@@ -10,6 +10,11 @@ public class BossMonkeySpit : MonoBehaviour
 
     GetComponent<Rigidbody2D>().AddForce(dir * 500 * Time.deltaTime);
 
+    if (!GetComponent<SpriteRenderer>().isVisible)
+    { // If projectile is offscreen, destroy object
+      Destroy(this.gameObject);
+    }
+
   } // Update()
 
 	void OnTriggerEnter2D(Collider2D coll)
