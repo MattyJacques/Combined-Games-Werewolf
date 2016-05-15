@@ -17,28 +17,32 @@ public class FollowPath : MonoBehaviour {
   public float maxDistanceToGoal = 0.1f;           // 
 
   private IEnumerator<Transform> currentPoint;     // current point
+    private Vector3 startPos;
 
-	// Use this for initialization
-	public void Start ()
-  {
-	  if(path == null) //if path is empty throw an error
+    // Use this for initialization
+    public void Start()
     {
-      Debug.LogError("path cannot be null", gameObject);
-      return;
+        if (path == null) //if path is empty throw an error
+        {
+            Debug.LogError("path cannot be null", gameObject);
+            return;
+        }
+
+        //get the path start
+        currentPoint = path.GetPathEnumerator();
+        currentPoint.MoveNext(); // strt moving
+
+        if (currentPoint.Current == null)
+        {
+            return; // if current point is nothing break
+        }
+
+        path.atEnd = true;
+        transform.position = currentPoint.Current.position;
+        startPos = transform.position;
+        //set the transform of the platform to the current point
+        
     }
-
-    //get the path start
-    currentPoint = path.GetPathEnumerator();
-    currentPoint.MoveNext(); // strt moving
-
-    if(currentPoint.Current == null)
-    {
-      return; // if current point is nothing break
-    }
-
-    //set the transform of the platform to the current point
-    transform.position = currentPoint.Current.position;
-	}
 	
 	// Update is called once per frame
 	public void Update ()
@@ -49,6 +53,11 @@ public class FollowPath : MonoBehaviour {
       return;
     }
 
+      if (path.atEnd)
+        {
+            transform.position = startPos;
+            path.atEnd = false;
+        }
     // if type of movement is movetowards, do that
     if(type == FollowType.MoveTowards)
     {
