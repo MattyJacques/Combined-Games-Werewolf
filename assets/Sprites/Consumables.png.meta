@@ -1,0 +1,3804 @@
+fileFormatVersion: 2
+guid: 98258a458eaff3f4da34253cf15ae58e
+timeCreated: 1463317102
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Consumables_0
+    21300002: Consumables_1
+    21300004: Consumables_2
+    21300006: Consumables_3
+    21300008: Consumables_4
+    21300010: Consumables_5
+    21300012: Consumables_6
+    21300014: Consumables_7
+    21300016: Consumables_8
+    21300018: Consumables_9
+    21300020: Consumables_10
+    21300022: Consumables_11
+    21300024: Consumables_12
+    21300026: Consumables_13
+    21300028: Consumables_14
+    21300030: Consumables_15
+    21300032: Consumables_16
+    21300034: Consumables_17
+    21300036: Consumables_18
+    21300038: Consumables_19
+    21300040: Consumables_20
+    21300042: Consumables_21
+    21300044: Consumables_22
+    21300046: Consumables_23
+    21300048: Consumables_24
+    21300050: Consumables_25
+    21300052: Consumables_26
+    21300054: Consumables_27
+    21300056: Consumables_28
+    21300058: Consumables_29
+    21300060: Consumables_30
+    21300062: Consumables_31
+    21300064: Consumables_32
+    21300066: Consumables_33
+    21300068: Consumables_34
+    21300070: Consumables_35
+    21300072: Consumables_36
+    21300074: Consumables_37
+    21300076: Consumables_38
+    21300078: Consumables_39
+    21300080: Consumables_40
+    21300082: Consumables_41
+    21300084: Consumables_42
+    21300086: Consumables_43
+    21300088: Consumables_44
+    21300090: Consumables_45
+    21300092: Consumables_46
+    21300094: Consumables_47
+    21300096: Consumables_48
+    21300098: Consumables_49
+    21300100: Consumables_50
+    21300102: Consumables_51
+    21300104: Consumables_52
+    21300106: Consumables_53
+    21300108: Consumables_54
+    21300110: Consumables_55
+    21300112: Consumables_56
+    21300114: Consumables_57
+    21300116: Consumables_58
+    21300118: Consumables_59
+    21300120: Consumables_60
+    21300122: Consumables_61
+    21300124: Consumables_62
+    21300126: Consumables_63
+    21300128: Consumables_64
+    21300130: Consumables_65
+    21300132: Consumables_66
+    21300134: Consumables_67
+    21300136: Consumables_68
+    21300138: Consumables_69
+    21300140: Consumables_70
+    21300142: Consumables_71
+    21300144: Consumables_72
+    21300146: Consumables_73
+    21300148: Consumables_74
+    21300150: Consumables_75
+    21300152: Consumables_76
+    21300154: Consumables_77
+    21300156: Consumables_78
+    21300158: Consumables_79
+    21300160: Consumables_80
+    21300162: Consumables_81
+    21300164: Consumables_82
+    21300166: Consumables_83
+    21300168: Consumables_84
+    21300170: Consumables_85
+    21300172: Consumables_86
+    21300174: Consumables_87
+    21300176: Consumables_88
+    21300178: Consumables_89
+    21300180: Consumables_90
+    21300182: Consumables_91
+    21300184: Consumables_92
+    21300186: Consumables_93
+    21300188: Consumables_94
+    21300190: Consumables_95
+    21300192: Consumables_96
+    21300194: Consumables_97
+    21300196: Consumables_98
+    21300198: Consumables_99
+    21300200: Consumables_100
+    21300202: Consumables_101
+    21300204: Consumables_102
+    21300206: Consumables_103
+    21300208: Consumables_104
+    21300210: Consumables_105
+    21300212: Consumables_106
+    21300214: Consumables_107
+    21300216: Consumables_108
+    21300218: Consumables_109
+    21300220: Consumables_110
+    21300222: Consumables_111
+    21300224: Consumables_112
+    21300226: Consumables_113
+    21300228: Consumables_114
+    21300230: Consumables_115
+    21300232: Consumables_116
+    21300234: Consumables_117
+    21300236: Consumables_118
+    21300238: Consumables_119
+    21300240: Consumables_120
+    21300242: Consumables_121
+    21300244: Consumables_122
+    21300246: Consumables_123
+    21300248: Consumables_124
+    21300250: Consumables_125
+    21300252: Consumables_126
+    21300254: Consumables_127
+    21300256: Consumables_128
+    21300258: Consumables_129
+    21300260: Consumables_130
+    21300262: Consumables_131
+    21300264: Consumables_132
+    21300266: Consumables_133
+    21300268: Consumables_134
+    21300270: Consumables_135
+    21300272: Consumables_136
+    21300274: Consumables_137
+    21300276: Consumables_138
+    21300278: Consumables_139
+    21300280: Consumables_140
+    21300282: Consumables_141
+    21300284: Consumables_142
+    21300286: Consumables_143
+    21300288: Consumables_144
+    21300290: Consumables_145
+    21300292: Consumables_146
+    21300294: Consumables_147
+    21300296: Consumables_148
+    21300298: Consumables_149
+    21300300: Consumables_150
+    21300302: Consumables_151
+    21300304: Consumables_152
+    21300306: Consumables_153
+    21300308: Consumables_154
+    21300310: Consumables_155
+    21300312: Consumables_156
+    21300314: Consumables_157
+    21300316: Consumables_158
+    21300318: Consumables_159
+    21300320: Consumables_160
+    21300322: Consumables_161
+    21300324: Consumables_162
+    21300326: Consumables_163
+    21300328: Consumables_164
+    21300330: Consumables_165
+    21300332: Consumables_166
+    21300334: Consumables_167
+    21300336: Consumables_168
+    21300338: Consumables_169
+    21300340: Consumables_170
+    21300342: Consumables_171
+    21300344: Consumables_172
+    21300346: Consumables_173
+    21300348: Consumables_174
+    21300350: Consumables_175
+    21300352: Consumables_176
+    21300354: Consumables_177
+    21300356: Consumables_178
+    21300358: Consumables_179
+    21300360: Consumables_180
+    21300362: Consumables_181
+    21300364: Consumables_182
+    21300366: Consumables_183
+    21300368: Consumables_184
+    21300370: Consumables_185
+    21300372: Consumables_186
+    21300374: Consumables_187
+    21300376: Consumables_188
+    21300378: Consumables_189
+    21300380: Consumables_190
+    21300382: Consumables_191
+    21300384: Consumables_192
+    21300386: Consumables_193
+    21300388: Consumables_194
+    21300390: Consumables_195
+    21300392: Consumables_196
+    21300394: Consumables_197
+    21300396: Consumables_198
+    21300398: Consumables_199
+    21300400: Consumables_200
+    21300402: Consumables_201
+    21300404: Consumables_202
+    21300406: Consumables_203
+    21300408: Consumables_204
+    21300410: Consumables_205
+    21300412: Consumables_206
+    21300414: Consumables_207
+    21300416: Consumables_208
+    21300418: Consumables_209
+    21300420: Consumables_210
+    21300422: Consumables_211
+    21300424: Consumables_212
+    21300426: Consumables_213
+    21300428: Consumables_214
+    21300430: Consumables_215
+    21300432: Consumables_216
+    21300434: Consumables_217
+    21300436: Consumables_218
+    21300438: Consumables_219
+    21300440: Consumables_220
+    21300442: Consumables_221
+    21300444: Consumables_222
+    21300446: Consumables_223
+    21300448: Consumables_224
+    21300450: Consumables_225
+    21300452: Consumables_226
+    21300454: Consumables_227
+    21300456: Consumables_228
+    21300458: Consumables_229
+    21300460: Consumables_230
+    21300462: Consumables_231
+    21300464: Consumables_232
+    21300466: Consumables_233
+    21300468: Consumables_234
+    21300470: Consumables_235
+    21300472: Consumables_236
+    21300474: Consumables_237
+    21300476: Consumables_238
+    21300478: Consumables_239
+    21300480: Consumables_240
+    21300482: Consumables_241
+    21300484: Consumables_242
+    21300486: Consumables_243
+    21300488: Consumables_244
+    21300490: Consumables_245
+    21300492: Consumables_246
+    21300494: Consumables_247
+    21300496: Consumables_248
+    21300498: Consumables_249
+    21300500: Consumables_250
+    21300502: Consumables_251
+    21300504: Consumables_252
+    21300506: Consumables_253
+    21300508: Consumables_254
+    21300510: Consumables_255
+    21300512: Consumables_256
+    21300514: Consumables_257
+    21300516: Consumables_258
+    21300518: Consumables_259
+    21300520: Consumables_260
+    21300522: Consumables_261
+    21300524: Consumables_262
+    21300526: Consumables_263
+    21300528: Consumables_264
+    21300530: Consumables_265
+    21300532: Consumables_266
+    21300534: Consumables_267
+    21300536: Consumables_268
+    21300538: Consumables_269
+    21300540: Consumables_270
+    21300542: Consumables_271
+    21300544: Consumables_272
+    21300546: Consumables_273
+    21300548: Consumables_274
+    21300550: Consumables_275
+    21300552: Consumables_276
+    21300554: Consumables_277
+    21300556: Consumables_278
+    21300558: Consumables_279
+    21300560: Consumables_280
+    21300562: Consumables_281
+    21300564: Consumables_282
+    21300566: Consumables_283
+    21300568: Consumables_284
+    21300570: Consumables_285
+    21300572: Consumables_286
+    21300574: Consumables_287
+    21300576: Consumables_288
+    21300578: Consumables_289
+    21300580: Consumables_290
+    21300582: Consumables_291
+    21300584: Consumables_292
+    21300586: Consumables_293
+    21300588: Consumables_294
+    21300590: Consumables_295
+    21300592: Consumables_296
+    21300594: Consumables_297
+    21300596: Consumables_298
+    21300598: Consumables_299
+    21300600: Consumables_300
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Consumables_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 756
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 756
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_2
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 756
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 756
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_4
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 754
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_5
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 754
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_6
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 754
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_7
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 758
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_8
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 758
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_9
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 758
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_10
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 758
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_11
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 755
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_12
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 754
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_13
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 758
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_14
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 754
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_15
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 755
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_16
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 757
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_17
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 757
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_18
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 757
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_19
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 700
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_20
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 700
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_21
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 700
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_22
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 699
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_23
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 701
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_24
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 701
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_25
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 701
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_26
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 699
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_27
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 699
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_28
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 700
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_29
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 700
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_30
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 700
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_31
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 700
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_32
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 697
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_33
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 697
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_34
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 697
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_35
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 697
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_36
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 697
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_37
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 697
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_38
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 643
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_39
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 641
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_40
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 645
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_41
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 646
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_42
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 645
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_43
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 643
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_44
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 644
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_45
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 643
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_46
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 643
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_47
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 642
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_48
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 640
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_49
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 640
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_50
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 641
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_51
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 645
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_52
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 646
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_53
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 646
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_54
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 645
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_55
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 647
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_56
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 645
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_57
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 590
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_58
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 583
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Consumables_59
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 585
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_60
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 583
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_61
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 583
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_62
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 583
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_63
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 588
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_64
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 585
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_65
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 584
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_66
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 582
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_67
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 587
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_68
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 587
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_69
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 586
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_70
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 587
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_71
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 587
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_72
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 583
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_73
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 584
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_74
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 583
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_75
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 583
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_76
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 526
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_77
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 527
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_78
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 527
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_79
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 527
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_80
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 526
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_81
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 529
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_82
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 526
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_83
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 534
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_84
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 526
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_85
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 533
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_86
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 530
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_87
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 527
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_88
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 530
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_89
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 530
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_90
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 531
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_91
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 529
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_92
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 527
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_93
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 528
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_94
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 526
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_95
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 526
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_96
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 470
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_97
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 471
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_98
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 471
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_99
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 470
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_100
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 474
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_101
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 470
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_102
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 470
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_103
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 471
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_104
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 471
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_105
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 471
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_106
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 470
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_107
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 470
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_108
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 470
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_109
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 469
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_110
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 469
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_111
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 469
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_112
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 469
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_113
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 472
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_114
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 471
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_115
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 416
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_116
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 414
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_117
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 412
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 16}
+        - {x: -16.5, y: 5}
+        - {x: -16.5, y: -16}
+        - {x: 16.5, y: -16}
+        - {x: 16.5, y: 11}
+        - {x: 9.5, y: 16}
+    - name: Consumables_118
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 412
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_119
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 416
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_120
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 414
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_121
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 413
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_122
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 416
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_123
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 415
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_124
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 414
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_125
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 418
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_126
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 413
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_127
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 413
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_128
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 415
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_129
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 417
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_130
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 416
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_131
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 413
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_132
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 412
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 16}
+        - {x: -16, y: -3}
+        - {x: -16, y: -16}
+        - {x: 7, y: -16}
+        - {x: 16, y: 3}
+        - {x: 16, y: 16}
+    - name: Consumables_133
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 411
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 16.5}
+        - {x: -16.5, y: -2.5}
+        - {x: -16.5, y: -16.5}
+        - {x: -5.5, y: -16.5}
+        - {x: 1.5, y: -14.5}
+        - {x: 16.5, y: 3.5}
+        - {x: 16.5, y: 16.5}
+    - name: Consumables_134
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 355
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -16, y: 11}
+        - {x: -16, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -13}
+        - {x: 16, y: 14}
+        - {x: 13, y: 16}
+    - name: Consumables_135
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 355
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_136
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 355
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_137
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 358
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_138
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 371
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_139
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 357
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_140
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 357
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_141
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 371
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_142
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 357
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_143
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 357
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_144
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 357
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_145
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 357
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_146
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 357
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_147
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 355
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_148
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 355
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_149
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 355
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_150
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 359
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_151
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 358
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_152
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 357
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_153
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 356
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_154
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 356
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_155
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 357
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_156
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 297
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16.5}
+        - {x: -16, y: 8.5}
+        - {x: -16, y: -16.5}
+        - {x: 16, y: -16.5}
+        - {x: 16, y: 16.5}
+    - name: Consumables_157
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 300
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_158
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 302
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_159
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 298
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_160
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 298
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_161
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 298
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_162
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 298
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_163
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 303
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_164
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 303
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_165
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 299
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_166
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 322
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_167
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 299
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_168
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 300
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_169
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 300
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_170
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 299
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_171
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 299
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_172
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 299
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_173
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 300
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_174
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 300
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_175
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 301
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_176
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 241
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_177
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 245
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_178
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 245
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_179
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 244
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_180
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 243
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_181
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 241
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_182
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 242
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_183
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 262
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_184
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 267
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_185
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 242
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_186
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 246
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_187
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 233
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 21.5}
+        - {x: -21, y: 20.5}
+        - {x: -21, y: -20.5}
+        - {x: -16, y: -21.5}
+        - {x: 14, y: -21.5}
+        - {x: 21, y: -11.5}
+        - {x: 21, y: 13.5}
+        - {x: 12, y: 21.5}
+    - name: Consumables_188
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 233
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 21.5}
+        - {x: -21.5, y: -21.5}
+        - {x: 20.5, y: -21.5}
+        - {x: 21.5, y: -20.5}
+        - {x: 21.5, y: 14.5}
+        - {x: 13.5, y: 21.5}
+    - name: Consumables_189
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 235
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 21}
+        - {x: -20.5, y: 16}
+        - {x: -20.5, y: -20}
+        - {x: -15.5, y: -21}
+        - {x: 14.5, y: -21}
+        - {x: 20.5, y: -14}
+        - {x: 20.5, y: 19}
+        - {x: 14.5, y: 21}
+    - name: Consumables_190
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 235
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 22}
+        - {x: -20, y: 22}
+        - {x: -20, y: -4}
+        - {x: -18, y: -17}
+        - {x: -9, y: -22}
+        - {x: 11, y: -22}
+        - {x: 20, y: -11}
+        - {x: 20, y: 11}
+        - {x: 16, y: 19}
+    - name: Consumables_191
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 235
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 22}
+        - {x: -21.5, y: -16}
+        - {x: -12.5, y: -22}
+        - {x: 14.5, y: -22}
+        - {x: 21.5, y: -15}
+        - {x: 21.5, y: 5}
+        - {x: 7.5, y: 22}
+    - name: Consumables_192
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 234
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 22.5}
+        - {x: -21.5, y: -14.5}
+        - {x: -8.5, y: -22.5}
+        - {x: 14.5, y: -22.5}
+        - {x: 21.5, y: -15.5}
+        - {x: 21.5, y: 13.5}
+        - {x: 17.5, y: 22.5}
+    - name: Consumables_193
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 233
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 23.5}
+        - {x: -17, y: -16.5}
+        - {x: -10, y: -23.5}
+        - {x: 12, y: -23.5}
+        - {x: 17, y: -21.5}
+        - {x: 17, y: 6.5}
+        - {x: -6, y: 23.5}
+    - name: Consumables_194
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 238
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 18.5}
+        - {x: -16, y: 14.5}
+        - {x: -16, y: -14.5}
+        - {x: -7, y: -18.5}
+        - {x: 13, y: -18.5}
+        - {x: 16, y: -13.5}
+        - {x: 16, y: 10.5}
+        - {x: 9, y: 18.5}
+    - name: Consumables_195
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 232
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 24.5}
+        - {x: -22.5, y: 19.5}
+        - {x: -22.5, y: -13.5}
+        - {x: -13.5, y: -24.5}
+        - {x: 16.5, y: -24.5}
+        - {x: 22.5, y: -13.5}
+        - {x: 22.5, y: 22.5}
+        - {x: 20.5, y: 24.5}
+    - name: Consumables_196
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 236
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 20.5}
+        - {x: -18.5, y: 20.5}
+        - {x: -20.5, y: 16.5}
+        - {x: -20.5, y: -17.5}
+        - {x: -15.5, y: -20.5}
+        - {x: 18.5, y: -20.5}
+        - {x: 20.5, y: -13.5}
+        - {x: 20.5, y: 13.5}
+        - {x: 13.5, y: 19.5}
+    - name: Consumables_197
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 262
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_198
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 184
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_199
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 184
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_200
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 184
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_201
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 187
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_202
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 186
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_203
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 184
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_204
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 184
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_205
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 209
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_206
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 202
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_207
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 187
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_208
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 187
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_209
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 186
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_210
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 189
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_211
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 189
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_212
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 188
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_213
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 188
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_214
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 189
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_215
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 186
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_216
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 185
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_217
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 186
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_218
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 195
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_219
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 203
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_220
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 196
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_221
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 187
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_222
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 188
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_223
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 185
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_224
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 130
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_225
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 129
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_226
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 129
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_227
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 128
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_228
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 128
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_229
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 129
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_230
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 132
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_231
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 148
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_232
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 127
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_233
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 131
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_234
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 131
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_235
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 131
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_236
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 131
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_237
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 129
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_238
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 130
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_239
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 127
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_240
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 129
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_241
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 129
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_242
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 130
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_243
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 127
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_244
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 69
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 16.5}
+        - {x: -17, y: 5.5}
+        - {x: -17, y: -15.5}
+        - {x: -14, y: -16.5}
+        - {x: 12, y: -16.5}
+        - {x: 17, y: -11.5}
+        - {x: 17, y: 11.5}
+        - {x: 12, y: 16.5}
+    - name: Consumables_245
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 72
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_246
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 76
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_247
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 71
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_248
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 69
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 16.5}
+        - {x: -7.5, y: 12.5}
+        - {x: -16.5, y: 5.5}
+        - {x: -16.5, y: -16.5}
+        - {x: 12.5, y: -16.5}
+        - {x: 15.5, y: -13.5}
+        - {x: 16.5, y: -4.5}
+        - {x: 16.5, y: 16.5}
+    - name: Consumables_249
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 73
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_250
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 70
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_251
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 73
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_252
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 71
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_253
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 70
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_254
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 70
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_255
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 72
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_256
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 72
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_257
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 73
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_258
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 71
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_259
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 70
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_260
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 70
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_261
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 78
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_262
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 70
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_263
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 72
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_264
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 71
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_265
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 47
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_266
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 45
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_267
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 45
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_268
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 47
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_269
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 47
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_270
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 14
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_271
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 13
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_272
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 15
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_273
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 13
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_274
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 13
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -15}
+        - {x: -12, y: -16}
+        - {x: 9, y: -16}
+        - {x: 16, y: -11}
+        - {x: 16, y: 7}
+        - {x: 12, y: 16}
+    - name: Consumables_275
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 12
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_276
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 17
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_277
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 18
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_278
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 15
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_279
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 14
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_280
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 13
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_281
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 16
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_282
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 16
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_283
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 18
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_284
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 16
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_285
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 35
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_286
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 35
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_287
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 35
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_288
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 35
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_289
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 33
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_290
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 23
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_291
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 23
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_292
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 23
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_293
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 23
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_294
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 23
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_295
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 23
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_296
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 23
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_297
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 23
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_298
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_299
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 11
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Consumables_300
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
