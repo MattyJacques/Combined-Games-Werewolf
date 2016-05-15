@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
   private bool canHide = false;            // Is player in front of hiding spot
   public float moveSpeed = 1.5f;				   // Move speed of player
 	public float jumpForce = 1000f;          // The jump force of player
-    public int health;                 // Current health of player
+  public int health;                       // Current health of player
 
   // Ground check Info
   public Transform ground;                 // Position of player feet
@@ -46,13 +46,14 @@ public class PlayerController : MonoBehaviour
 		anim = GetComponent<Animator> ();       // Get animation controller
     rb = GetComponent<Rigidbody2D>();       // Get rigidbody 
 
+    // Disable hiding collider
     GetComponent<EdgeCollider2D>().enabled = false;
 
     // Get the game controller so the player can collect coins
     gameController = GameObject.FindGameObjectWithTag("GameController");
 
     trigger.enabled = false;                // Disable attack trigger
-    health = GameSaves.saves.maxHealth;
+    health = GameSaves.saves.maxHealth;     // Set max health
 
 	} // Awake()
 
@@ -321,16 +322,16 @@ public class PlayerController : MonoBehaviour
 
 
   IEnumerator Die()
-  { // Play animation then destroy the enemy when has no health left
+  { // Play animation then destroy the player when has no health left
 
     anim.SetBool("IsDead", true);     // Play dead animation
 
-    // Wait until animation is finished to destroy enemy
+    // Wait until animation is finished to destroy player
     yield return new WaitForSeconds(anim.GetCurrentAnimatorStateInfo(0).
                                     length);
 
     Camera.main.transform.parent = null;         // Disconnect camera
-    Destroy(this.gameObject);                    // Destroy enemy
+    Destroy(this.gameObject);                    // Destroy player
     gameOverMenu.SetActive(true);                // Show game over
 
   } // Die()

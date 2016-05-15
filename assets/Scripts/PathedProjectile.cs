@@ -5,6 +5,7 @@ public class PathedProjectile : MonoBehaviour {
 
   private Transform destination;
   private float speed;
+  private int damage = 40;
 
   public void Initialise(Transform newDestination, float newSpeed)
   {
@@ -28,4 +29,15 @@ public class PathedProjectile : MonoBehaviour {
 
     Destroy(gameObject);
 	}
+  
+  void OnTriggerEnter2D(Collider2D coll)
+  { // If collided with player, do damage
+
+    if (coll.CompareTag("Player") || coll.CompareTag("Enemy"))
+    {
+      coll.SendMessage("TakeDamage", damage);
+      Destroy(this.gameObject);
+    }
+
+  } // OnTriggerEnter2D()
 }
