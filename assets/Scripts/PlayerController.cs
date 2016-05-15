@@ -79,7 +79,7 @@ public class PlayerController : MonoBehaviour
                 }
             }
 
-            if (Input.GetButtonDown("Fire1") && !isJumping && !isHide)
+            if (Input.GetButtonDown("Fire1") && !isJumping && !isHide && !isClimb)
             {
                 isAttacking = true;
                 anim.SetBool("IsAttacking", isAttacking);
