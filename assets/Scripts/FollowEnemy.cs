@@ -17,6 +17,6 @@ public class FollowEnemy : MonoBehaviour {
   void Update()
   {
     // Set the position to the player's position with the offset.
-    transform.position = enemy.position + offset;
+    //transform.position = enemy.position + offset;
   }
 }

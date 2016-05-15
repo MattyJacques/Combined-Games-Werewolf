@@ -10,8 +10,6 @@ public class EnemyGhostBaby : Enemy
   private bool isAttacking;
   private float attackTime;
 
-  private float deathTime;
-
 
   // Use this for initialization
   void Start ()
