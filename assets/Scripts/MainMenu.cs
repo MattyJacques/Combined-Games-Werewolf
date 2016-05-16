@@ -21,12 +21,13 @@ public class MainMenu : MonoBehaviour
     LevelSelect.SetActive(false);
   }
 
-  void OnMainMenu()
+  public void OnMainMenu()
   {
     StartMenu.SetActive(true);
+    LevelSelect.SetActive(false);
   }
 
-  void OnLevelSelect()
+  public void OnLevelSelect()
   {
     LevelSelect.SetActive(true);
     StartMenu.SetActive(false);

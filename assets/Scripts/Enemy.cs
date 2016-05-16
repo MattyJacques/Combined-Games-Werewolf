@@ -35,10 +35,7 @@ public class Enemy : MonoBehaviour {
   public IEnumerator Die()
   { // Play animation then destroy the enemy when has no health left
 
-    for (int i = 0; i < coinNum; i++)
-    {
-      Instantiate(coinPrefab, this.gameObject.transform.position, this.gameObject.transform.rotation);
-    }
+
 
     GetComponent<Animator>().SetBool("IsDead", true);     // Play dead animation
 
@@ -49,7 +46,7 @@ public class Enemy : MonoBehaviour {
 
 
     Destroy(this.gameObject);                             // Destroy enemy
-
+    SpawnCoins();
   } // Die()
 
 
@@ -61,6 +58,7 @@ public class Enemy : MonoBehaviour {
     if (health <= 0)
     { // If health is equal or less than 0, kill the player
       StartCoroutine(Die());       // Call to kill player
+
     }
 
 
@@ -86,4 +84,12 @@ public class Enemy : MonoBehaviour {
 
   }
 
+  void SpawnCoins()
+  {
+    for (int i = 0; i < coinNum; i++)
+    {
+        Instantiate(coinPrefab, this.gameObject.transform.position, this.gameObject.transform.rotation);
+        coinPrefab.GetComponent<Rigidbody2D>().AddForce(new Vector2(1, 1));
+    }
+  }
 }
