@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerAttackTrig : MonoBehaviour {
+public class PlayerAttackTrig : MonoBehaviour 
+{
 
   public int damage = 100;                  // How much damage player does
 
@@ -13,6 +14,10 @@ public class PlayerAttackTrig : MonoBehaviour {
       
       col.SendMessage("TakeDamage", damage);
    //   col.GetComponent<Enemy>().UpdateHealthBar();
+    }
+    if(col.CompareTag("Coin"))
+    {
+        return;
     }
 
   } // OnTriggerEnter2D()
