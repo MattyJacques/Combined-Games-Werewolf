@@ -10,9 +10,10 @@ public class Enemy : MonoBehaviour {
   public int rangeCheck = 20;
   public int coinNum = 5;
   public GameObject player;
-  public GameObject coinPrefab;
+  //public GameObject coinPrefab;
   public SpriteRenderer healthBar;     // Reference to the sprite renderer of the health bar.
   private Vector3 healthScale;				// The local scale of the health bar initially (with full health).
+  public GameObject coinSpawner;
 
   void Start ()
   {
@@ -20,7 +21,7 @@ public class Enemy : MonoBehaviour {
     scary = false;
 
   //  healthBar = GetComponentInChildren<SpriteRenderer>(); 
-
+    coinSpawner.SetActive(false);
     player = GameObject.FindGameObjectWithTag("Player");
     healthScale = healthBar.transform.localScale;
   }
@@ -46,7 +47,9 @@ public class Enemy : MonoBehaviour {
 
 
     Destroy(this.gameObject);                             // Destroy enemy
-    SpawnCoins();
+    coinSpawner.SetActive(true);
+    coinSpawner.SendMessage("SpawnCoins");
+ //   SpawnCoins();
   } // Die()
 
 
@@ -55,8 +58,9 @@ public class Enemy : MonoBehaviour {
 
     health -= damage;              // Subtract damage from health
     UpdateHealthBar();
-    if (health <= 0)
+    if (health <= 0 && healthBar != null)
     { // If health is equal or less than 0, kill the player
+      Destroy(healthBar.gameObject);
       StartCoroutine(Die());       // Call to kill player
 
     }
@@ -76,22 +80,32 @@ public class Enemy : MonoBehaviour {
   
   public void UpdateHealthBar()
   {
-    // Set the health bar's colour to proportion of the way between green and red based on the player's health.
-    healthBar.material.color = Color.Lerp(Color.green, Color.red, 1 - health * 0.01f);
+    if(health > 0)
+    {
+        // Set the health bar's colour to proportion of the way between green and red based on the player's health.
+        healthBar.material.color = Color.Lerp(Color.green, Color.red, 1 - health * 0.01f);
 
-    // Set the scale of the health bar to be proportional to the player's health.
-    healthBar.transform.localScale = new Vector3(healthScale.x * health * 0.01f, 1, 1);
+        // Set the scale of the health bar to be proportional to the player's health.
+        healthBar.transform.localScale = new Vector3(healthScale.x * health * 0.01f, 1, 1);
+    }
+
 
   }
 
   void SpawnCoins()
   {
+    coinSpawner.SetActive(true);
     for (int i = 0; i < coinNum; i++)
     {
-        Instantiate(coinPrefab, this.gameObject.transform.position, this.gameObject.transform.rotation);
-        coinPrefab.GetComponent<Rigidbody2D>().AddForce(new Vector2(1,1),ForceMode2D.Impulse);
+  //      Instantiate(coinPrefab, this.gameObject.transform.position, this.gameObject.transform.rotation);
+   //     coinPrefab.GetComponent<Rigidbody2D>().AddForce(new Vector2(5,1),ForceMode2D.Impulse);
     }
+    coinSpawner.SetActive(false);
   }
 
+  void ExplosiveForce()
+  {
+
+  }
 
 }
