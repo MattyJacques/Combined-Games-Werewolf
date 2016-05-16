@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     private bool isGrounded = false;         // Is the player currently grounded
 
     // Level Info
-    private bool endLevel = false;           // Is the end level activated  
+    public bool endLevel = false;           // Is the end level activated  
 
     // Player Component References
     private Animator anim;                   // Animation controller
@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour
 
     void Awake()
     { // Get the animation controller and rigidbody on object creation, disable 
-      // the attack trigger
+        // the attack trigger
 
         anim = GetComponent<Animator>();       // Get animation controller
         rb = GetComponent<Rigidbody2D>();       // Get rigidbody 
@@ -172,7 +172,7 @@ public class PlayerController : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     { // When player jumps on moving platform, make the platform a parent of the
-      // player for automatic movement adjusting
+        // player for automatic movement adjusting
 
         if (other.gameObject.tag == "Platform")
         { // If colliding with platform, set parent to platform
@@ -184,7 +184,7 @@ public class PlayerController : MonoBehaviour
 
     void OnCollisionExit2D(Collision2D other)
     { // When player jumps on moving platform, make the platform a parent of the
-      // player for automatic movement adjusting
+        // player for automatic movement adjusting
 
         if (other.gameObject.tag == "Platform")
         { // If colliding with platform, set parent to platform

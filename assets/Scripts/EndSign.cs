@@ -18,7 +18,8 @@ public class EndSign : MonoBehaviour
   {
         if (player != null)
         {
-            if (!player.GetComponent<SpriteRenderer>().isVisible)
+            if (!player.GetComponent<SpriteRenderer>().isVisible && 
+                player.GetComponent<PlayerController>().endLevel)
             {
                 //SceneManager.LoadScene(levelName);
                 Debug.Log("Level ended");
