@@ -8,8 +8,9 @@ public class Enemy : MonoBehaviour {
   public float speed = 15;
   public int damage = 10;
   public int rangeCheck = 20;
+  public int coinNum = 5;
   public GameObject player;
-
+  public GameObject coinPrefab;
   public SpriteRenderer healthBar;     // Reference to the sprite renderer of the health bar.
   private Vector3 healthScale;				// The local scale of the health bar initially (with full health).
 
@@ -34,11 +35,18 @@ public class Enemy : MonoBehaviour {
   public IEnumerator Die()
   { // Play animation then destroy the enemy when has no health left
 
+    for (int i = 0; i < coinNum; i++)
+    {
+      Instantiate(coinPrefab, this.gameObject.transform.position, this.gameObject.transform.rotation);
+    }
+
     GetComponent<Animator>().SetBool("IsDead", true);     // Play dead animation
 
     // Wait until animation is finished to destroy enemy
-    yield return new WaitForSeconds(GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).
-                                    length);
+    yield return new WaitForSeconds(GetComponent<Animator>().
+                                    GetCurrentAnimatorStateInfo(0).length);
+
+
 
     Destroy(this.gameObject);                             // Destroy enemy
 
