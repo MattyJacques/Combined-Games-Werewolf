@@ -8,24 +8,34 @@ using System.IO;
 
 public class GameSaves : MonoBehaviour
 {
+    //Create a persistent save
     public static GameSaves saves;
+    //Store the number of levels unlocked
     public int levelUnlocked;
+    //Store the number of coins
     public int coins;
+    //Store the volume
     public float volume;
+    //Store the max health
     public int maxHealth;
 
 
     void Awake()
     {
+        //If there is not currently a save
         if (saves == null)
         {
+            //Ensure this save is not destroyed
             DontDestroyOnLoad(gameObject);
             saves = this;
         }
+        //else if there is another
         else if (saves != this)
         {
+            //Destroy this
             Destroy(gameObject);
         }
+        //Load the save
         Load();
     }
 
@@ -34,7 +44,8 @@ public class GameSaves : MonoBehaviour
     {
         //Initialize a new Binary Formatter and create a new save file
         BinaryFormatter bf = new BinaryFormatter();
-        FileStream file = File.Create(Application.persistentDataPath + "/Save.dat");
+        FileStream file = File.Create
+            (Application.persistentDataPath + "/Save.dat");
 
         //Create a new PlayerData
         PlayerData data = new PlayerData();
@@ -58,7 +69,8 @@ public class GameSaves : MonoBehaviour
         {
             //Load the file
             BinaryFormatter bf = new BinaryFormatter();
-            FileStream file = File.Open(Application.persistentDataPath + "/Save.dat", FileMode.Open);
+            FileStream file = File.Open(Application.persistentDataPath +
+                "/Save.dat", FileMode.Open);
             PlayerData data = (PlayerData)bf.Deserialize(file);
             file.Close();
             levelUnlocked = data.levelUnlocked;

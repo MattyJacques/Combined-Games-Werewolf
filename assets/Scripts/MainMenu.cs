@@ -37,7 +37,6 @@ public class MainMenu : MonoBehaviour
   {
         GameSaves.saves.Save();
         SceneManager.LoadScene(levelName);
-    // Application.LoadLevel(levelName);
   }
 
     public void QuitGame()

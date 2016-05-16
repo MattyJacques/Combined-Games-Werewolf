@@ -1,64 +1,67 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Parallaxing : MonoBehaviour {
+public class Parallaxing : MonoBehaviour
+{
 
-  public Transform[] backgrounds;       //backgrounds of the game
-  private float[] parallaxScales;       //proportion for cameras movement
-  public float smoothing = 1f;          //smoothing of movement
+    //Store Parents of the background
+    public Transform[] backgrounds;
+    //Store the amount to parallax
+    private float[] parallaxScales;
+    //Store the smoothing value
+    public float smoothing = 1f;
+    //Reference the main camera
+    private Transform cam;  
+    //Store the previous camera position              
+    private Vector3 previousCamPos;      
 
-  private Transform cam;                //reference for cam
-  private Vector3 previousCamPos;       // cam position in the previous frame
-
-  void Awake()
-  {
-    cam = Camera.main.transform;        //set up camera reference
-  } //Awake
-
-
-	void Start ()
-  {
-
-    previousCamPos = cam.position;      // prev frame had camera position
-
-    parallaxScales = new float[backgrounds.Length]; //assign parallax scales
-        for(int i = 0; i < backgrounds.Length; i++)
-        {
-          parallaxScales[i] = backgrounds[i].position.z * -1;
-        }
-	}
-	
-	// Update is called once per frame
-	void Update ()
-  {
-    //for each background
-	  for(int i = 0; i < backgrounds.Length; i++)
+    void Awake()
     {
-      //pallax is opposite of the camera movement
-      float parallaxX = (previousCamPos.x - cam.position.x) * parallaxScales[i];
-  //    float parallaxY = (previousCamPos.y - cam.position.y) * parallaxScales[i];
-
-      //target x position = current x plus parallax
-      float backgroundTargetPosX = backgrounds[i].position.x + parallaxX;
-    //  float backgroundTargetPosY = backgrounds[i].position.x + parallaxY;
-
-
-      //target pos = background current position with its target x pos
-//      Vector3 backgroundTargetPos = new Vector3(backgroundTargetPosX,
-//                                                backgroundTargetPosY,
-//                                                backgrounds[i].position.z);
-
-      //target pos = background current position with its target x pos
-      Vector3 backgroundTargetPos = new Vector3(backgroundTargetPosX,
-                                                backgrounds[i].position.y,
-                                                backgrounds[i].position.z);
-
-      // fade between current pos and the target pos using lerp
-      backgrounds[i].position = Vector3.Lerp(backgrounds[i].position, 
-                                             backgroundTargetPos, 
-                                             smoothing * Time.deltaTime);
+        //Set the camera reference
+        cam = Camera.main.transform;
     }
-    //set previous cam position
-    previousCamPos = cam.position;
-	}
+
+
+    void Start()
+    {
+        //Set the previous camera position
+        previousCamPos = cam.position;
+        //Set the scale of parallax
+        parallaxScales = new float[backgrounds.Length];
+
+        //Loop through all background layers
+        for (int i = 0; i < backgrounds.Length; i++)
+        {
+            //Set the scale according to how far back the background is
+            parallaxScales[i] = backgrounds[i].position.z * -1;
+        }
+    }
+
+    void Update()
+    {
+        //For all the backgrounds
+        for (int i = 0; i < backgrounds.Length; i++)
+        {
+            //Parallax relative to the camera movement
+            float parallaxX = (previousCamPos.x - cam.position.x) * 
+                parallaxScales[i];
+            float parallaxY = (previousCamPos.y - cam.position.y) * 
+                parallaxScales[i];
+
+            //Offset the background according to the the parallax scale
+            float backgroundTargetPosX = backgrounds[i].position.x + parallaxX;
+            float backgroundTargetPosY = backgrounds[i].position.y + parallaxY;
+
+
+            //Create a vector for the desired position
+            Vector3 backgroundTargetPos = new Vector3(backgroundTargetPosX, 
+                backgroundTargetPosY, backgrounds[i].position.z);
+
+            //Lerp the background to the desired position 
+            backgrounds[i].position = Vector3.Lerp(backgrounds[i].position, 
+                backgroundTargetPos,smoothing * Time.deltaTime);
+        }
+        //Set previous cam position
+        previousCamPos = cam.position;
+    }
 }
