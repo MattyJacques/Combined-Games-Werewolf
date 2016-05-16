@@ -22,10 +22,10 @@ public class Parallaxing : MonoBehaviour {
     previousCamPos = cam.position;      // prev frame had camera position
 
     parallaxScales = new float[backgrounds.Length]; //assign parallax scales
-    for(int i = 0; i < backgrounds.Length; i++)
-    {
-      parallaxScales[i] = backgrounds[i].position.z * -1;
-    }
+        for(int i = 0; i < backgrounds.Length; i++)
+        {
+          parallaxScales[i] = backgrounds[i].position.z * -1;
+        }
 	}
 	
 	// Update is called once per frame
@@ -36,22 +36,22 @@ public class Parallaxing : MonoBehaviour {
     {
       //pallax is opposite of the camera movement
       float parallaxX = (previousCamPos.x - cam.position.x) * parallaxScales[i];
-      float parallaxY = (previousCamPos.y - cam.position.y) * parallaxScales[i];
+  //    float parallaxY = (previousCamPos.y - cam.position.y) * parallaxScales[i];
 
       //target x position = current x plus parallax
       float backgroundTargetPosX = backgrounds[i].position.x + parallaxX;
-      float backgroundTargetPosY = backgrounds[i].position.x + parallaxY;
+    //  float backgroundTargetPosY = backgrounds[i].position.x + parallaxY;
 
-
-      //target pos = background current position with its target x pos
-      Vector3 backgroundTargetPos = new Vector3(backgroundTargetPosX,
-                                                backgroundTargetPosY,
-                                                backgrounds[i].position.z);
 
       //target pos = background current position with its target x pos
 //      Vector3 backgroundTargetPos = new Vector3(backgroundTargetPosX,
-//                                                backgrounds[i].position.y,
+//                                                backgroundTargetPosY,
 //                                                backgrounds[i].position.z);
+
+      //target pos = background current position with its target x pos
+      Vector3 backgroundTargetPos = new Vector3(backgroundTargetPosX,
+                                                backgrounds[i].position.y,
+                                                backgrounds[i].position.z);
 
       // fade between current pos and the target pos using lerp
       backgrounds[i].position = Vector3.Lerp(backgrounds[i].position, 

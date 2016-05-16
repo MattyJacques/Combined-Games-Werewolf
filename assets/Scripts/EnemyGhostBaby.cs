@@ -78,4 +78,11 @@ public class EnemyGhostBaby : Enemy
             StartCoroutine(Die());
         }
     }
+    void OnCollisionEnter2D(Collision2D coll)
+    {
+        if (coll.gameObject.tag == "Player")
+        {
+            coll.gameObject.SendMessage("TakeDamage", 10);
+        }
+    }
 }

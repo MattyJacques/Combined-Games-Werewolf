@@ -89,7 +89,9 @@ public class Enemy : MonoBehaviour {
     for (int i = 0; i < coinNum; i++)
     {
         Instantiate(coinPrefab, this.gameObject.transform.position, this.gameObject.transform.rotation);
-        coinPrefab.GetComponent<Rigidbody2D>().AddForce(new Vector2(1, 1));
+        coinPrefab.GetComponent<Rigidbody2D>().AddForce(new Vector2(1,1),ForceMode2D.Impulse);
     }
   }
+
+
 }

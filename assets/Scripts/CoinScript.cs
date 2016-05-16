@@ -3,12 +3,12 @@ using System.Collections;
 
 public class CoinScript : MonoBehaviour {
 
-    private float spawnTime; // time after spawn
+    public float spawnTime; // time after spawn
 
 	// Use this for initialization
-	void Start () 
+	void Awake () 
     {
-      spawnTime = 2.0f;
+      spawnTime = 1.0f;
       StartCoroutine(ActivateCoin());
 	}
 
