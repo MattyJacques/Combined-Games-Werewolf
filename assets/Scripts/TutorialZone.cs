@@ -4,9 +4,8 @@ using System.Collections;
 public class TutorialZone : MonoBehaviour
 {
   [SerializeField]
-  private int trigIndex;
-
-  private bool isTriggered = false;
+  private int trigIndex;                    // Index of trigger for zone
+  private bool isTriggered = false;         // Has the zone been triggered
 
 	void OnTriggerEnter2D(Collider2D other)
   { // Send the trig index and the collider to the parent for handling of which
