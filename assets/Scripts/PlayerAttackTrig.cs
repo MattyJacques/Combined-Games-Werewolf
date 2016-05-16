@@ -11,13 +11,11 @@ public class PlayerAttackTrig : MonoBehaviour
 
     if (col.CompareTag("Enemy"))
     { // If collider is from a enemy, call to take damage
-      
       col.SendMessage("TakeDamage", damage);
-   //   col.GetComponent<Enemy>().UpdateHealthBar();
     }
-    if(col.CompareTag("Coin"))
-    {
-        return;
+    else if (col.CompareTag("Coin"))
+    { // If tigger is coin, ignore
+      return;
     }
 
   } // OnTriggerEnter2D()
