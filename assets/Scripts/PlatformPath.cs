@@ -62,7 +62,8 @@ public class PlatformPath : MonoBehaviour
     //draw lines between the points, for easier setup
     for(int i = 1; i< platformPoints.Length; i++)
     {
-      Gizmos.DrawLine(platformPoints[i - 1].position, platformPoints[i].position);
+      Gizmos.DrawLine(platformPoints[i - 1].position, 
+          platformPoints[i].position);
     }
   }
 }

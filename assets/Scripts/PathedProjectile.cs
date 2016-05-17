@@ -22,7 +22,8 @@ public class PathedProjectile : MonoBehaviour {
                                              destination.position,
                                              Time.deltaTime * speed);
     //get distance squared
-    var distanceSquared = (destination.transform.position - transform.position).sqrMagnitude;
+    var distanceSquared = (destination.transform.position - 
+        transform.position).sqrMagnitude;
 
     //i distance squared above number, return
     if (distanceSquared > 0.01f * 0.01f)

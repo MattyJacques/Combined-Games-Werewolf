@@ -25,10 +25,12 @@ public class EnemyGhostBaby : Enemy
         //If alive and there is a player
         if (health > 0)
         {
-            if (player != null && !player.GetComponent<PlayerController>().isHide)
+            if (player != null && 
+                !player.GetComponent<PlayerController>().isHide)
             {
                 //If the player is close and we are not currently attacking
-                if ((Vector2.Distance(player.transform.position, transform.position) < 2) && !isAttacking)
+                if ((Vector2.Distance(player.transform.position, 
+                    transform.position) < 2) && !isAttacking)
                 {
                     //Attack
                     isAttacking = true;
@@ -36,12 +38,14 @@ public class EnemyGhostBaby : Enemy
                     attackTime = 1.35f;
                 }
                 //If the player is within chasing distance
-                else if (Vector2.Distance(player.transform.position, transform.position) < rangeCheck)
+                else if (Vector2.Distance(player.transform.position, 
+                    transform.position) < rangeCheck)
                 {
                     //Move towards the player
                     isMoving = true;
                     anim.SetBool("IsMoving", isMoving);
-                    rb.AddForce((player.transform.position - transform.position) * speed * Time.deltaTime);
+                    rb.AddForce((player.transform.position - 
+                        transform.position) * speed * Time.deltaTime);
                 }
                 else
                 {
@@ -53,13 +57,17 @@ public class EnemyGhostBaby : Enemy
 
 
                 //Look direction
-                if ((player.transform.position.x < transform.position.x) && (transform.localScale.x < 0))
+                if ((player.transform.position.x < transform.position.x) &&
+                    (transform.localScale.x < 0))
                 {
-                    transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
+                    transform.localScale = new Vector3(transform.localScale.x *
+                        -1, transform.localScale.y, transform.localScale.z);
                 }
-                else if ((player.transform.position.x > transform.position.x) && (transform.localScale.x > 0))
+                else if ((player.transform.position.x > transform.position.x) 
+                    && (transform.localScale.x > 0))
                 {
-                    transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
+                    transform.localScale = new Vector3(transform.localScale.x *
+                        -1, transform.localScale.y, transform.localScale.z);
                 }
 
                 if (attackTime > 0)

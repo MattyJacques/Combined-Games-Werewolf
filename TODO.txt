@@ -1,6 +1,4 @@
-Clean up Enemy.cs (Coins comments)
-Comment and format all scripts
-Remove unused variables everywhere
+Clean up Enemy.cs (Coins comments) - Lewie
 Add ground to tutorial
 Paralaxing backgroun tutorial
 Update ui to use gamesaves coins
@@ -36,6 +34,14 @@ Fix pause menu paul level 2
 Fix background paul level 2
 Fix canvas paul level 2
 
+
+Make under ground look cleaner
+
+
+Remove FollowEnemy.cs>
+Remove CameraController?
+Comment and format all scripts
+Remove unused variables everywhere
 
 Remove debug menu buttons
 Build game 

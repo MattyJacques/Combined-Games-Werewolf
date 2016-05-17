@@ -74,7 +74,8 @@ public class FollowPath : MonoBehaviour {
     }
 
     // set distance squared variable 
-    float distanceSquared = (transform.position - currentPoint.Current.position).sqrMagnitude;
+    float distanceSquared = (transform.position - 
+        currentPoint.Current.position).sqrMagnitude;
 
     // if distance squared is less than mdtg squared
     //move to the next point

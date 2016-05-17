@@ -95,8 +95,8 @@ public class PlayerController : MonoBehaviour
       if (Input.GetButtonDown("Fire1") && !isJumping && !isHide && !isClimb)
       { // If Fire1 input, and not jumping, hiding or climbing, start attack
 
-        playerAudio.clip = swipeSound;
-        playerAudio.Play();
+        playerAudio.clip = swipeSound;               //Set swipe sound
+        playerAudio.Play();                          //Play swipe sound
         isAttacking = true;                          // Set attacking to true
         anim.SetBool("IsAttacking", isAttacking);    // Set animation bool
         trigger.enabled = true;                      // Enable attack trigger
@@ -240,8 +240,8 @@ public class PlayerController : MonoBehaviour
     }
     else if (other.gameObject.tag == "Coin")
     { // If collided with coin, call to collect coin
-      playerAudio.clip = coinPickup;
-      playerAudio.Play();
+      playerAudio.clip = coinPickup;                //Set coin pickup sound
+      playerAudio.Play();                           //Play sound
       gameController.SendMessage("AddCoin", other.gameObject);
     }
     else if (other.gameObject.tag == "Climb")
