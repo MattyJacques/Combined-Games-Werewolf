@@ -24,17 +24,17 @@ Boss buttons/UI to prefab  		-Lewie
 Check lava depth on all levels
 
 Paul level 1 too difficult for curve?
-Fix gap in left wall (Paul level 1)
-No moon in Paul level 1
-Lava doesn't kill in middle Paul level 1
+Fix gap in left wall (Paul level 1)		DONE
+No moon in Paul level 1				DONE
+Lava doesn't kill in middle Paul level 1	DONE
 Enemy baba doesn't hit when you stand still?
-Fix death menu Paul level 1
-Fix Pause menu paul level 1
-Fix backgroun paul level 1
-Fix canvas paul level 1
-No moon in Paul level 2
-Fix death menu Paul level 2
-Fix pause menu paul level 2
+Fix death menu Paul level 1			DONE
+Fix Pause menu paul level 1			DONE
+Fix backgroun paul level 1	
+Fix canvas paul level 1	
+No moon in Paul level 2				DONE
+Fix death menu Paul level 2			DONE
+Fix pause menu paul level 2			DONE
 Fix background paul level 2
 Fix canvas paul level 2
 
