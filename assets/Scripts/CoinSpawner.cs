@@ -20,7 +20,7 @@ public class CoinSpawner : MonoBehaviour
     {
         for (int i = 0; i < numCoins; i++)
         {
-            Vector2 spawnOffset = new Vector2(Random.Range(-offSetRange, offSetRange), Random.Range(-offSetRange, offSetRange));
+            Vector2 spawnOffset = new Vector2(Random.Range(-offSetRange, offSetRange), Random.Range(-offSetRange/2, offSetRange/2));
             Instantiate(coinPrefab, (Vector2)transform.position + spawnOffset, Quaternion.identity);
         }
     }
