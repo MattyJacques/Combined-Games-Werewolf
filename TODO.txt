@@ -1,8 +1,11 @@
 Clean up Enemy.cs (Coins comments) - Lewie
-Add ground to tutorial
+Add ground to tutorial	-Lewie
 Paralaxing backgroun tutorial
+Add ground to Boss	-Lewie
+Fix tutorial menu
+Update pause menu on boss level	-Lewie
 Update ui to use gamesaves coins
-Update coind pickup (On player??) To set gamesaves.saves.coins
+Update coin pickup (On player??) To set gamesaves.saves.coins
 Welcome to the game blah blah in the tutorial??
 Death barrier on tutorial
 Pause menu on Tutorial
@@ -20,10 +23,12 @@ Boss health bar?
 Wall despawn on boss room
 Boss buttons/UI to prefab
 Fix gap in left wall (Paul level 1)
-Check lava depoth on all levels
+Check lava depth on all levels
 No moon in Paul level 1
 Lava doesn't kill in middle Paul level 1
 Enemy baba doesn't hit when you stand still?
+
+Paul level 1 too difficult for curve?
 Fix death menu Paul level 1
 Fix Pause menu paul level 1
 Fix backgroun paul level 1
@@ -38,7 +43,7 @@ Fix canvas paul level 2
 Make under ground look cleaner
 
 
-Remove FollowEnemy.cs>
+Remove FollowEnemy.cs?
 Remove CameraController?
 Comment and format all scripts
 Remove unused variables everywhere
