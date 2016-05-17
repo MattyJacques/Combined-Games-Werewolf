@@ -22,6 +22,7 @@ public class EndSign : MonoBehaviour
             if (!player.GetComponent<SpriteRenderer>().isVisible && 
                 player.GetComponent<PlayerController>().endLevel)
             {
+                GameSaves.saves.Save();            //GameSaves
                 SceneManager.LoadScene(levelName); //load scene
                 Debug.Log("Level ended");          // debug
             }
