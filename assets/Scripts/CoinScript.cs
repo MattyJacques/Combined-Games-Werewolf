@@ -8,13 +8,16 @@ public class CoinScript : MonoBehaviour {
 	// Use this for initialization
 	void Awake () 
     {
+      //set trigger to true 
       this.gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
+        //set spawn time
       spawnTime = 1.0f;
    //   StartCoroutine(ActivateCoin());
 	}
 
     IEnumerator ActivateCoin()
     {
+        //activate coin after period of time
         yield return new WaitForSeconds(spawnTime);
 
 

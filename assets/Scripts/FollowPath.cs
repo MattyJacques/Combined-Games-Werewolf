@@ -82,5 +82,5 @@ public class FollowPath : MonoBehaviour {
     {
       currentPoint.MoveNext();
     }
-	}
+  }
 }

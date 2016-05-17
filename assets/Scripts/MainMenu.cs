@@ -5,45 +5,43 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
 
-  public enum MenuState { Main, LevelSelect };
-  public MenuState currentState;
+  public enum MenuState { Main, LevelSelect }; //menu states
+  public MenuState currentState;               //current menu state
 
-  public GameObject StartMenu;
-  public GameObject LevelSelect;
-
-
+  public GameObject StartMenu;                 //gameobject contains main menu
+  public GameObject LevelSelect;               //gameobject contains level menu
 
   // Use this for initialization
   void Start()
   {
-    currentState = MenuState.Main;
-    StartMenu.SetActive(true);
-    LevelSelect.SetActive(false);
-  }
+    //currentState = MenuState.Main; 
+    StartMenu.SetActive(true);                //activate main menu
+    LevelSelect.SetActive(false);             //deactivate level select
+  }//Start()
 
   public void OnMainMenu()
   {
-    StartMenu.SetActive(true);
-    LevelSelect.SetActive(false);
-  }
+    StartMenu.SetActive(true);                //activate main menu
+    LevelSelect.SetActive(false);             //deactivate level select
+  }//OnMainMenu
 
   public void OnLevelSelect()
   {
-    LevelSelect.SetActive(true);
-    StartMenu.SetActive(false);
-  }
+    LevelSelect.SetActive(true);                //activate level select
+    StartMenu.SetActive(false);                 //deactivate main menu
+  }//OnLevelSelect()
 
   public void LoadLevel(string levelName)
   {
-        GameSaves.saves.Save();
-        SceneManager.LoadScene(levelName);
-  }
+    GameSaves.saves.Save();                   //save game
+    SceneManager.LoadScene(levelName);        //load level name
+  }//LoadLevel()
 
     public void QuitGame()
     {
-        GameSaves.saves.Save();
-        Application.Quit();
-    }
+        GameSaves.saves.Save(); //save game
+        Application.Quit();     //quit game
+    }//QuitGame()
 
 
 }
