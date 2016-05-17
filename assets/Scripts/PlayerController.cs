@@ -26,6 +26,12 @@ public class PlayerController : MonoBehaviour
   public GameObject gameOverMenu;          // Gamer over menu
   private GameObject gameController;       // Game Controller for coin collect
 
+  //Audio Component Setup
+  private AudioSource playerAudio;         //Audio source
+  public AudioClip coinPickup;             //Coin pickup sound
+  public AudioClip swipeSound;             //Swipe attack sound
+  public GameObject deathSound;            //Death sound
+
   // Animation bools
   private bool isWolf = true;              // Is the player a wolf
   private bool isWalking = false;          // Is the player walking
@@ -52,6 +58,8 @@ public class PlayerController : MonoBehaviour
 
     trigger.enabled = false;                // Disable attack trigger
     health = GameSaves.saves.maxHealth;     // Set max health
+
+        playerAudio = GetComponent<AudioSource>();
 
   } // Awake()
 
@@ -87,6 +95,8 @@ public class PlayerController : MonoBehaviour
       if (Input.GetButtonDown("Fire1") && !isJumping && !isHide && !isClimb)
       { // If Fire1 input, and not jumping, hiding or climbing, start attack
 
+        playerAudio.clip = swipeSound;
+        playerAudio.Play();
         isAttacking = true;                          // Set attacking to true
         anim.SetBool("IsAttacking", isAttacking);    // Set animation bool
         trigger.enabled = true;                      // Enable attack trigger
@@ -230,6 +240,8 @@ public class PlayerController : MonoBehaviour
     }
     else if (other.gameObject.tag == "Coin")
     { // If collided with coin, call to collect coin
+      playerAudio.clip = coinPickup;
+      playerAudio.Play();
       gameController.SendMessage("AddCoin", other.gameObject);
     }
     else if (other.gameObject.tag == "Climb")
@@ -348,7 +360,8 @@ public class PlayerController : MonoBehaviour
 
       if (health <= 0)
       { // If health is equal or less than 0, kill the player
-          StartCoroutine(Die());       // Call to kill player
+        StartCoroutine(Die());       // Call to kill player
+
       }
 
   } // TakeDamage()
@@ -360,11 +373,10 @@ public class PlayerController : MonoBehaviour
       rb.gravityScale = 0;              // Set graivty to 0
       rb.velocity = new Vector2(0, 0);  // Clear velocity
       anim.SetBool("IsDead", true);     // Play dead animation
-
-      // Wait until animation is finished to destroy player
-      yield return new WaitForSeconds(anim.GetCurrentAnimatorStateInfo(0).
+        // Wait until animation is finished to destroy player
+        yield return new WaitForSeconds(anim.GetCurrentAnimatorStateInfo(0).
                                       length);
-
+        Instantiate(deathSound, transform.position, Quaternion.identity);
       Camera.main.transform.parent = null;         // Disconnect camera
       Destroy(this.gameObject);                    // Destroy player
       gameOverMenu.SetActive(true);                // Show game over
