@@ -19,7 +19,6 @@ public class BossMonkey : Enemy
 
   void Awake ()
   { // Get the animation controler
-    healthBar.gameObject.SetActive(false);
     theAnimator = GetComponent<Animator>();     // Get animation controller
 
 	} // Awake()
@@ -82,7 +81,6 @@ public class BossMonkey : Enemy
   void Transform()
   { // Change the enemy from the baby monkey to the actual boss monkey.
    
-    healthBar.gameObject.SetActive(true);
     hasTransformed = true;                              // Set transform to true
     theAnimator.SetBool("IsTransform", hasTransformed); // Start transfrorm
 
