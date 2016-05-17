@@ -41,4 +41,13 @@ public class EnemyDino : Enemy
 
 	} // Update()
 
+    void OnCollisionEnter2D(Collision2D coll)
+    {
+        //If we attack and hit the player
+        if (coll.gameObject.tag == "Player")
+        {
+            //Damage the player
+            coll.gameObject.SendMessage("TakeDamage", damage);
+        }
+    }
 } // DinoController

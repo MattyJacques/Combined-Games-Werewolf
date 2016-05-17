@@ -116,7 +116,7 @@ public class EnemyLich : Enemy
         if (isAttacking && (coll.gameObject.tag == "Player"))
         {
             //Damage the player
-            coll.gameObject.SendMessage("TakeDamage", 10);
+            coll.gameObject.SendMessage("TakeDamage", damage);
         }
     }
 }
