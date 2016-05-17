@@ -12,7 +12,7 @@ public class GameControl : MonoBehaviour {
   private Image health;
   [SerializeField]
   private Text coinText;
-  private int coinNum = 0;
+  //private int coinNum = 0;
   
   private int maxHealth;
 
@@ -25,8 +25,8 @@ public class GameControl : MonoBehaviour {
     player = GameObject.FindGameObjectWithTag("Player");
     maxHealth = player.GetComponent<PlayerController>().health;
 
-    coinText.text = "x " + coinNum;
-    //coinText.text = "x " + GameSaves.saves.coins;   // Update coin tracker field
+    //coinText.text = "x " + coinNum;
+    coinText.text = "x " + GameSaves.saves.coins;   // Update coin tracker field
 
     if (pauseMenu == null)
     {
@@ -58,10 +58,10 @@ public class GameControl : MonoBehaviour {
   void AddCoin(GameObject coin)
   { // Add a coin to the coin tracker text field then destroy collected coin
 
-    //GameSaves.saves.coins++;                        // Increment coins collected
-    //coinText.text = "x " + GameSaves.saves.coins;   // Update coin tracker field
-    coinNum++;
-    coinText.text = "x " + coinNum;
+    GameSaves.saves.coins++;                        // Increment coins collected
+    coinText.text = "x " + GameSaves.saves.coins;   // Update coin tracker field
+    //coinNum++;
+    //coinText.text = "x " + coinNum;
     Destroy(coin);                                  // Destroy collected coin           
 
   } // AddCoin()

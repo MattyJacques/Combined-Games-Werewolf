@@ -1,9 +1,9 @@
-Clean up Enemy.cs (Coins comments) - Lewie
-Add ground to tutorial	-Lewie
-Paralaxing backgroun tutorial 	-Lewie
-Fix tutorial pause menu	-Lewie
-Fix tutorial death menu	-Lewie
-Update pause menu on boss level	-Lewie
+Clean up Enemy.cs (Coins comments) 	-Lewie
+Add ground to tutorial			-Lewie
+Paralaxing backgroun tutorial 		-Lewie
+Fix tutorial pause menu			-Lewie
+Fix tutorial death menu			-Lewie
+Update pause menu on boss level		-Lewie
 Update ui to use gamesaves coins
 Update coin pickup (On player??) To set gamesaves.saves.coins
 Welcome to the game blah blah in the tutorial??
@@ -38,6 +38,8 @@ Fix pause menu paul level 2
 Fix background paul level 2
 Fix canvas paul level 2
 
+Add GameSave to end of level 
+Add GameSave to ingame menu
 
 Make under ground look cleaner
 
