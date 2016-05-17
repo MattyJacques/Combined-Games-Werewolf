@@ -1,33 +1,33 @@
-Clean up Enemy.cs (Coins comments) - Lewie
-Add ground to tutorial	-Lewie
-Paralaxing backgroun tutorial 	-Lewie
-Fix tutorial pause menu	-Lewie
-Fix tutorial death menu	-Lewie
-Update pause menu on boss level	-Lewie
-Update ui to use gamesaves coins
-Update coin pickup (On player??) To set gamesaves.saves.coins
+Clean up Enemy.cs (Coins comments) 	-Lewie
+Add ground to tutorial			-Lewie
+Paralaxing backgroun tutorial 		-Lewie
+Fix tutorial pause menu			-Lewie
+Fix tutorial death menu			-Lewie
+Update pause menu on boss level		-Lewie
+Update ui to use gamesaves coins	-Lewie
+Update coin pickup (On player??) To set gamesaves.saves.coins -Lewie
 Welcome to the game blah blah in the tutorial??
-Death barrier on tutorial
-Add levels to level select
+Death barrier on tutorial		-Lewie
+Add levels to level select		-Lewie
 Player damage scaling
-Enemy damage scaling
-Add more hiding to levels
+Enemy damage scaling			-Lewie
+Add more hiding to levels		-Lewie
 Load next level on end of level
-Fix moon in all levels
+Fix moon in all levels			-Lewie (Not Pauls yet)
 Check all enemies doing damage
-Check enemies die correctly
+Check enemies die correctly		-Lewie
 Scale human attack trigger (Make smaller)
 Add ground to Boss	-Lewie
 Boss health bar?
 Wall despawn on boss room
-Boss buttons/UI to prefab  -Lewie
-Fix gap in left wall (Paul level 1)
+Boss buttons/UI to prefab  		-Lewie
 Check lava depth on all levels
+
+Paul level 1 too difficult for curve?
+Fix gap in left wall (Paul level 1)
 No moon in Paul level 1
 Lava doesn't kill in middle Paul level 1
 Enemy baba doesn't hit when you stand still?
-
-Paul level 1 too difficult for curve?
 Fix death menu Paul level 1
 Fix Pause menu paul level 1
 Fix backgroun paul level 1
@@ -38,6 +38,8 @@ Fix pause menu paul level 2
 Fix background paul level 2
 Fix canvas paul level 2
 
+Add GameSave to end of level 
+Add GameSave to ingame menu	-Lewie
 
 Make under ground look cleaner
 

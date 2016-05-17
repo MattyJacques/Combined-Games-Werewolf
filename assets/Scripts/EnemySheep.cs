@@ -136,7 +136,7 @@ public class EnemySheep : Enemy {
             anim.SetBool("IsCharging", currentlyCharging);
             anim.SetBool("IsHit", true);
             //Damage the player
-            coll.gameObject.SendMessage("TakeDamage", 10);
+            coll.gameObject.SendMessage("TakeDamage", damage);
         }
     }
 }

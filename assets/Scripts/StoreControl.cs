@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class StoreControl : MonoBehaviour
@@ -8,11 +9,19 @@ public class StoreControl : MonoBehaviour
     public AudioClip posClip;
     public AudioClip negClip;
 
+    [SerializeField]
+    private Text coinText;
+
     void Awake()
     {
         shopAudio = GetComponent<AudioSource>();
+        coinText.text = "x " + GameSaves.saves.coins;   // Update coin tracker field
     }
 
+    void Update()
+    {
+        coinText.text = "x " + GameSaves.saves.coins;   // Update coin tracker field
+    }
     public void IncreaseHealth()
     {
         //If enough coins are available
