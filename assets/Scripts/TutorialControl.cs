@@ -29,13 +29,16 @@ public class TutorialControl : MonoBehaviour
 
 	void Update ()
   { // Updates moon position to the players unless over limit
-
-    if (player.transform.position.x < 28)
-    { // If player x is less than 28, update moon position
-      moon.transform.position = new Vector3(player.transform.position.x - 4,
-                                             player.transform.position.y + 4,
-                                             player.transform.position.z);
-    }
+      if (player != null)
+      { //Check player is alive
+          if (player.transform.position.x < 28)
+          { // If player x is less than 28, update moon position
+              moon.transform.position = 
+                  new Vector3(player.transform.position.x - 4,
+                              player.transform.position.y + 4,
+                              player.transform.position.z);
+          }
+      }
 
 	} // Update()
 
