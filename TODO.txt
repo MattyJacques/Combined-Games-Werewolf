@@ -4,11 +4,11 @@ Paralaxing backgroun tutorial 		-Lewie
 Fix tutorial pause menu			-Lewie
 Fix tutorial death menu			-Lewie
 Update pause menu on boss level		-Lewie
-Update ui to use gamesaves coins
-Update coin pickup (On player??) To set gamesaves.saves.coins
+Update ui to use gamesaves coins	-Lewie
+Update coin pickup (On player??) To set gamesaves.saves.coins -Lewie
 Welcome to the game blah blah in the tutorial??
 Death barrier on tutorial
-Add levels to level select
+Add levels to level select		-Lewie
 Player damage scaling
 Enemy damage scaling
 Add more hiding to levels
