@@ -5,24 +5,25 @@ using UnityEngine.SceneManagement;
 public class EndSign : MonoBehaviour
 {
   public string levelName = ""; //Name to be passed into script, 
-                                //cleaner way of doing this but just for now.
+                                //cleaner way of doing this but just for now
 
-  private GameObject player;
+  private GameObject player;    //gameobject player
 
   void Start()
   {
-    player = GameObject.FindGameObjectWithTag("Player");
+    player = GameObject.FindGameObjectWithTag("Player"); //find player inscene
   }
 
   void FixedUpdate ()
   {
-        if (player != null)
+        if (player != null) //if player is not null
         {
+            //if player is not visble and level is ended
             if (!player.GetComponent<SpriteRenderer>().isVisible && 
                 player.GetComponent<PlayerController>().endLevel)
             {
-                //SceneManager.LoadScene(levelName);
-                Debug.Log("Level ended");
+                SceneManager.LoadScene(levelName); //load scene
+                Debug.Log("Level ended");          // debug
             }
         }
   }
@@ -33,6 +34,7 @@ public class EndSign : MonoBehaviour
   {
     if(other.gameObject.tag == "Player")
     {
+        //camera
       Camera.main.transform.parent = null;
       other.SendMessage("EndLevel");
 
