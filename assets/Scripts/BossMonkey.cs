@@ -156,9 +156,11 @@ public class BossMonkey : Enemy
   void SetStompPosition()
   { // Store the players current position so the stomp attack will be created
     // where the player was located when animation starts
-
-    stompPos =  player.transform.position;       // Store player position
-    stompPos.y -= 0.8f;                          // Move position down
+      if (player != null)
+      {
+          stompPos = player.transform.position;       // Store player position
+          stompPos.y -= 0.8f;                          // Move position down
+      }
 
   } // SetStompPosition()
 
